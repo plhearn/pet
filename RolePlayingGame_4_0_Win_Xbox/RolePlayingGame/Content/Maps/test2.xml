@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent>
+  <Asset Type="RolePlayingGameData.Map">
+    <Name>test2</Name>
+    <MapDimensions>20 20</MapDimensions>
+    <TileSize>64 64</TileSize>
+    <SpawnMapPosition>10 10</SpawnMapPosition>
+    <TextureName>testSet64</TextureName>
+    <CombatTextureName>CombatBkgdVillage</CombatTextureName>
+    <MusicCueName />
+    <CombatMusicCueName>BattleTheme</CombatMusicCueName>
+    <BaseLayer>
+      34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34
+      34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34
+      34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34
+      34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34
+      34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34
+      34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34
+      34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34
+      34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34
+      34 42 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34
+      34 42 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34
+      34 42 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34
+      34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34
+      34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34
+      34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34
+      34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34
+      34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34
+      34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34
+      34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34
+      34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34
+      34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34
+    </BaseLayer>
+    <FringeLayer>
+      4 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5
+      36 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+      36 37 166 69 69 69 69 69 69 69 69 69 69 69 69 69 69 165 -1 -1
+      36 37 38 101 101 101 101 101 101 101 101 101 101 101 101 101 101 36 -1 -1
+      36 37 38 133 133 133 133 133 133 133 133 133 133 133 133 133 133 36 -1 -1
+      68 69 70 -1 -1 136 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 36 -1 -1
+      100 101 102 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 36 -1 -1
+      132 133 134 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 136 -1 -1 -1 36 -1 -1
+      110 111 42 -1 -1 -1 -1 42 -1 -1 -1 -1 -1 -1 -1 -1 -1 36 -1 -1
+      142 143 42 -1 -1 -1 -1 -1 -1 -1 -1 10 -1 -1 -1 -1 -1 36 -1 -1
+      174 175 42 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 36 -1 -1
+      4 5 6 -1 -1 -1 -1 -1 -1 10 -1 -1 -1 -1 -1 -1 -1 36 -1 -1
+      36 37 38 -1 -1 42 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 36 -1 -1
+      36 37 38 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 36 -1 -1
+      36 37 38 -1 -1 -1 -1 -1 -1 -1 -1 136 -1 -1 -1 -1 -1 36 -1 -1
+      36 37 164 5 5 5 5 5 5 5 5 5 5 5 5 5 5 167 -1 -1
+      36 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+      68 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69
+      100 101 101 101 101 101 101 101 101 101 101 101 101 101 101 101 101 101 101 101
+      100 101 101 101 101 101 101 101 101 101 101 101 101 101 101 101 101 101 101 101
+    </FringeLayer>
+    <ObjectLayer>
+      -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+      -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+      -1 -1 -1 -1 7 8 9 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+      -1 -1 -1 -1 39 40 41 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+      -1 -1 -1 -1 71 72 73 -1 -1 -1 -1 -1 7 8 9 -1 -1 -1 -1 -1
+      -1 -1 -1 -1 103 104 105 -1 -1 -1 -1 -1 39 40 41 -1 -1 -1 -1 -1
+      -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 71 72 73 -1 -1 -1 -1 -1
+      -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 103 104 105 -1 -1 -1 -1 -1
+      -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+      -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+      -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+      -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 7 8 9 -1 -1 -1 -1 -1 -1 -1
+      -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 39 40 41 -1 -1 -1 -1 -1 -1 -1
+      -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 71 72 73 -1 -1 -1 -1 -1 -1 -1
+      -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 103 104 105 -1 -1 -1 -1 -1 -1 -1
+      -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+      -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+      -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+      -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+      -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+    </ObjectLayer>
+    <CollisionLayer>
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0
+      0 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 0 0
+      0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0
+      0 0 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 0
+      0 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0
+      0 0 1 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 0 0
+      0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0
+      0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0
+      0 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 0 0
+      0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0
+      0 0 1 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 0 0
+      0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    </CollisionLayer>
+    <Portals>
+      <Item>
+        <Name>P0</Name>
+        <LandingMapPosition>18 9</LandingMapPosition>
+        <DestinationMapContentName>test3</DestinationMapContentName>
+        <DestinationMapPortalName>P1</DestinationMapPortalName>
+      </Item>
+      <Item>
+        <Name>P1</Name>
+        <LandingMapPosition>18 10</LandingMapPosition>
+        <DestinationMapContentName>test3</DestinationMapContentName>
+        <DestinationMapPortalName>P3</DestinationMapPortalName>
+      </Item>
+      <Item>
+        <Name>P2</Name>
+        <LandingMapPosition>18 11</LandingMapPosition>
+        <DestinationMapContentName>test3</DestinationMapContentName>
+        <DestinationMapPortalName>P4</DestinationMapPortalName>
+      </Item>
+    </Portals>
+    <PortalEntries>
+      <Item>
+        <ContentName>P0</ContentName>
+        <MapPosition>0 8</MapPosition>
+      </Item>
+      <Item>
+        <ContentName>P1</ContentName>
+        <MapPosition>0 9</MapPosition>
+      </Item>
+      <Item>
+        <ContentName>P2</ContentName>
+        <MapPosition>0 10</MapPosition>
+      </Item>
+    </PortalEntries>
+    <ChestEntries />
+    <FixedCombatEntries />
+    <RandomCombat>
+      <CombatProbability>0</CombatProbability>
+      <FleeProbability>50</FleeProbability>
+      <MonsterCountRange>
+        <Minimum>1</Minimum>
+        <Maximum>3</Maximum>
+      </MonsterCountRange>
+      <Entries>
+        <Item>
+          <ContentName>GoblinGrunt</ContentName>
+          <Count>1</Count>
+          <Weight>100</Weight>
+        </Item>
+      </Entries>
+    </RandomCombat>
+    <QuestNpcEntries />
+    <PlayerNpcEntries />
+    <InnEntries />
+    <StoreEntries />
+    <BlockEntries>
+      <Item>
+        <ContentName>Slide</ContentName>
+        <MapPosition>4 12</MapPosition>
+      </Item>
+      <Item>
+        <ContentName>Slide</ContentName>
+        <MapPosition>6 12</MapPosition>
+      </Item>
+    </BlockEntries>
+    <SwitchEntries>
+      <Item>
+        <ContentName>S1</ContentName>
+        <MapPosition>4 14</MapPosition>
+      </Item>
+      <Item>
+        <ContentName>S2</ContentName>
+        <MapPosition>6 14</MapPosition>
+      </Item>
+    </SwitchEntries>
+  </Asset>
+</XnaContent>

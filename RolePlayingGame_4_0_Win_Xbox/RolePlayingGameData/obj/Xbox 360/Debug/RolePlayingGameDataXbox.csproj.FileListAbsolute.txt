@@ -1,0 +1,6 @@
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGameData\bin\Xbox 360\Debug\RolePlayingGameDataXbox.dll
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGameData\bin\Xbox 360\Debug\RolePlayingGameDataXbox.pdb
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGameData\obj\Xbox 360\Debug\ResolveAssemblyReference.cache
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGameData\obj\Xbox 360\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGameData\obj\Xbox 360\Debug\RolePlayingGameDataXbox.dll
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGameData\obj\Xbox 360\Debug\RolePlayingGameDataXbox.pdb

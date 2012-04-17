@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <Asset Type="RolePlayingGameData.QuestNpc">
+      <Name>sara</Name>
+      <MapSprite>
+          <TextureName>Characters\sara</TextureName>
+          <FrameDimensions>64 96</FrameDimensions>
+          <FramesPerRow>4</FramesPerRow>
+          <SourceOffset>32 80</SourceOffset>
+          <Animations />
+      </MapSprite>
+      <MapIdleAnimationInterval>150</MapIdleAnimationInterval>
+      <IntroductionDialogue>Don't go east unless you are confident in your capabilities.</IntroductionDialogue>
+  </Asset>
+</XnaContent>

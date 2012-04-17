@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<XnaContent><Asset Type="RolePlayingGameData.Switch">
+  <Name>S2</Name>
+  <TextureName>default</TextureName>
+  <position>0 0</position>
+  <active>false</active>
+  <alwaysActive>false</alwaysActive>
+</Asset></XnaContent>

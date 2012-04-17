@@ -1,0 +1,2067 @@
+75b2120b5b4f48e8b7a8456e13b15777
+0
+Peter Box Slim
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\
+129396754080000000
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\GameThumbnail.png
+2010-12-08T17:57:00.0000000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\RolePlayingGame.exe
+2011-02-20T23:12:23.8242075Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\RolePlayingGameDataXbox.dll
+2011-02-16T04:30:07.9223750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\MainGameDescription.xnb
+2011-02-20T23:12:21.7460825Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Audio\RPGAudio.xgs
+2011-01-06T18:24:38.8437500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Audio\Sound Bank.xsb
+2011-01-06T18:24:53.6562500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Audio\Wave Bank.xwb
+2011-01-06T18:24:53.6562500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\CharacterClasses\Barbarian.xnb
+2011-02-16T04:26:18.9223750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\CharacterClasses\Mystic.xnb
+2011-02-16T04:26:18.9380000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\CharacterClasses\Paladin.xnb
+2011-02-16T04:26:18.9380000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\CharacterClasses\RedMage.xnb
+2011-02-16T04:26:18.9380000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\CharacterClasses\Warrior.xnb
+2011-02-16T04:26:18.9536250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\CharacterClasses\Wizard.xnb
+2011-02-16T04:26:18.9692500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Characters\Monsters\BanditGuard.xnb
+2011-02-16T04:26:19.0317500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Characters\Monsters\BanditLeader.xnb
+2011-02-16T04:26:19.2348750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Characters\Monsters\BanditMage.xnb
+2011-02-16T04:26:19.2505000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Characters\Monsters\BanditMaster.xnb
+2011-02-16T04:26:19.2505000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Characters\Monsters\BanditMinor.xnb
+2011-02-16T04:26:19.2661250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Characters\Monsters\BruteMage.xnb
+2011-02-16T04:26:19.2817500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Characters\Monsters\BruteMaster.xnb
+2011-02-16T04:26:19.2817500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Characters\Monsters\CrimsonHood.xnb
+2011-02-16T04:26:19.2973750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Characters\Monsters\GoblinGrunt.xnb
+2011-02-16T04:26:19.3130000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Characters\Monsters\GoblinMage.xnb
+2011-02-16T04:26:19.3286250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Characters\Monsters\OrcBrute.xnb
+2011-02-16T04:26:19.3442500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Characters\Monsters\OrcCaptain.xnb
+2011-02-16T04:26:19.3442500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Characters\Monsters\OrcGrunt.xnb
+2011-02-16T04:26:19.3598750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Characters\Monsters\OrcSoldier.xnb
+2011-02-16T04:26:19.3442500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Characters\Monsters\SirShire.xnb
+2011-02-16T04:26:19.3598750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Characters\Monsters\Tamar.xnb
+2011-02-16T04:26:19.3598750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Characters\Players\Kolatt.xnb
+2011-02-16T04:26:19.3911250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Characters\Players\Nykkas.xnb
+2011-02-16T04:26:19.3911250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Characters\Players\Shenidd.xnb
+2011-02-16T04:26:19.4067500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Characters\Players\Tyjavus.xnb
+2011-02-16T04:26:19.4223750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Characters\Players\Vashekk.xnb
+2011-02-16T04:26:19.4380000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Characters\QuestNPCs\Ayttas.xnb
+2011-02-16T04:26:19.4692500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Characters\QuestNPCs\Dunkum.xnb
+2011-02-16T04:26:19.4692500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Characters\QuestNPCs\Ekin.xnb
+2011-02-16T04:26:19.4692500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Characters\QuestNPCs\HealingInn.xnb
+2011-02-16T04:26:19.5161250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Characters\QuestNPCs\HealTheSoul.xnb
+2011-02-16T04:26:19.5161250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Characters\QuestNPCs\imp.xml
+2011-02-15T04:02:41.6100969Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Characters\QuestNPCs\imp.xnb
+2011-02-16T04:26:20.9692500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Characters\QuestNPCs\Itemania.xnb
+2011-02-16T04:26:19.5161250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Characters\QuestNPCs\Kneevan.xnb
+2011-02-16T04:26:19.4692500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Characters\QuestNPCs\Manny.xnb
+2011-02-16T04:26:19.4692500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Characters\QuestNPCs\mog.xml
+2011-02-15T04:08:18.5007219Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Characters\QuestNPCs\mog.xnb
+2011-02-16T04:26:20.9692500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Characters\QuestNPCs\NewAgeInn.xnb
+2011-02-16T04:26:19.5161250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Characters\QuestNPCs\relm.xml
+2011-02-15T03:42:51.9382219Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Characters\QuestNPCs\relm.xnb
+2011-02-16T04:26:20.9692500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Characters\QuestNPCs\Sheddarr.xnb
+2011-02-16T04:26:19.4692500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Characters\QuestNPCs\Shejarr.xnb
+2011-02-16T04:26:19.5005000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Characters\QuestNPCs\Theaniv.xnb
+2011-02-16T04:26:19.5005000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Characters\QuestNPCs\TheWeaponSmith.xnb
+2011-02-16T04:26:19.5161250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Characters\QuestNPCs\ThisAnInn.xnb
+2011-02-16T04:26:19.5161250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Characters\QuestNPCs\ToPlotTown.xnb
+2011-02-16T04:26:19.5161250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Characters\QuestNPCs\Vejnas.xnb
+2011-02-16T04:26:19.5161250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Characters\QuestNPCs\WhoMe.xnb
+2011-02-16T04:26:19.5161250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Fonts\ButtonNamesFont.xnb
+2011-02-16T04:26:21.5942500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Fonts\CaptionFont.xnb
+2011-02-16T04:26:21.8130000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Fonts\DamageFont.xnb
+2011-02-16T04:26:22.0161250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Fonts\DebugFont.xnb
+2011-02-16T04:26:22.1411250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Fonts\DescriptionFont.xnb
+2011-02-16T04:26:22.3755000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Fonts\GearInfoFont.xnb
+2011-02-16T04:26:22.6255000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Fonts\HeaderFont.xnb
+2011-02-16T04:26:22.9536250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Fonts\HudDetailFont.xnb
+2011-02-16T04:26:23.1411250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Fonts\PlayerNameFont.xnb
+2011-02-16T04:26:23.3755000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Fonts\PlayerStatisticsFont.xnb
+2011-02-16T04:26:23.5786250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Gear\Armor\BronzeArmor.xnb
+2011-02-16T04:26:17.7661250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Gear\Armor\BronzeBoots.xnb
+2011-02-16T04:26:17.7817500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Gear\Armor\BronzeHelmet.xnb
+2011-02-16T04:26:17.7973750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Gear\Armor\BronzeShield.xnb
+2011-02-16T04:26:17.7973750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Gear\Armor\ChainBoots.xnb
+2011-02-16T04:26:17.8130000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Gear\Armor\ChainHelmet.xnb
+2011-02-16T04:26:17.8286250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Gear\Armor\ChainMail.xnb
+2011-02-16T04:26:17.8286250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Gear\Armor\ChainShield.xnb
+2011-02-16T04:26:17.8442500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Gear\Armor\HideArmor.xnb
+2011-02-16T04:26:17.8442500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Gear\Armor\HideBoots.xnb
+2011-02-16T04:26:17.8755000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Gear\Armor\HideHelmet.xnb
+2011-02-16T04:26:17.9067500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Gear\Armor\HideShield.xnb
+2011-02-16T04:26:17.9067500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Gear\Armor\IronArmor.xnb
+2011-02-16T04:26:17.9067500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Gear\Armor\IronBoots.xnb
+2011-02-16T04:26:17.9223750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Gear\Armor\IronHelmet.xnb
+2011-02-16T04:26:17.9223750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Gear\Armor\IronShield.xnb
+2011-02-16T04:26:17.9223750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Gear\Armor\IronShieldPlus.xnb
+2011-02-16T04:26:17.9380000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Gear\Armor\LeatherArmor.xnb
+2011-02-16T04:26:17.9536250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Gear\Armor\LeatherArmorPlus.xnb
+2011-02-16T04:26:17.9536250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Gear\Armor\LeatherBoots.xnb
+2011-02-16T04:26:17.9692500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Gear\Armor\LeatherBootsPlus.xnb
+2011-02-16T04:26:17.9692500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Gear\Armor\LeatherHelmet.xnb
+2011-02-16T04:26:17.9848750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Gear\Armor\LeatherHelmetPlus.xnb
+2011-02-16T04:26:17.9848750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Gear\Armor\LeatherHide.xnb
+2011-02-16T04:26:18.0005000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Gear\Armor\LeatherShield.xnb
+2011-02-16T04:26:18.0161250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Gear\Armor\LeatherShieldPlus.xnb
+2011-02-16T04:26:18.0317500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Gear\Armor\LegendaryArmor.xnb
+2011-02-16T04:26:18.0317500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Gear\Armor\LegendaryBoots.xnb
+2011-02-16T04:26:18.0473750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Gear\Armor\LegendaryHelmet.xnb
+2011-02-16T04:26:18.0630000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Gear\Armor\LegendaryHood.xnb
+2011-02-16T04:26:18.0630000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Gear\Armor\LegendaryRobe.xnb
+2011-02-16T04:26:18.0786250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Gear\Armor\LegendaryShield.xnb
+2011-02-16T04:26:18.0786250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Gear\Armor\MageBoots.xnb
+2011-02-16T04:26:18.0942500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Gear\Armor\MageHood.xnb
+2011-02-16T04:26:18.1098750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Gear\Armor\MagicMageBoots.xnb
+2011-02-16T04:26:18.1255000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Gear\Armor\MagicMageHood.xnb
+2011-02-16T04:26:18.1255000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Gear\Armor\MagicRobe.xnb
+2011-02-16T04:26:18.1255000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Gear\Armor\Robe.xnb
+2011-02-16T04:26:18.1723750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Gear\Armor\SageBoots.xnb
+2011-02-16T04:26:18.1880000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Gear\Armor\SageHood.xnb
+2011-02-16T04:26:18.2036250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Gear\Armor\SageRobe.xnb
+2011-02-16T04:26:18.2036250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Gear\Armor\SteelArmor.xnb
+2011-02-16T04:26:18.2192500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Gear\Armor\SteelBoots.xnb
+2011-02-16T04:26:18.2348750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Gear\Armor\SteelHelmet.xnb
+2011-02-16T04:26:18.2348750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Gear\Armor\SteelShield.xnb
+2011-02-16T04:26:18.2348750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Gear\Armor\TamarArmor.xnb
+2011-02-16T04:26:18.2505000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Gear\Armor\TamarBoots.xnb
+2011-02-16T04:26:18.2505000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Gear\Armor\TamarHelmet.xnb
+2011-02-16T04:26:18.2661250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Gear\Armor\TamarShield.xnb
+2011-02-16T04:26:18.2817500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Gear\Armor\WornMageBoots.xnb
+2011-02-16T04:26:18.2817500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Gear\Armor\WornMageHood.xnb
+2011-02-16T04:26:18.2973750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Gear\Armor\WornRobe.xnb
+2011-02-16T04:26:18.2973750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Gear\Items\FireBallScroll.xnb
+2011-02-16T04:26:19.0786250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Gear\Items\FireBoltScroll.xnb
+2011-02-16T04:26:19.1098750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Gear\Items\GlimmeringRuby.xnb
+2011-02-16T04:26:19.1098750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Gear\Items\HealingPotion.xnb
+2011-02-16T04:26:19.1255000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Gear\Items\MagicPotion.xnb
+2011-02-16T04:26:19.1411250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Gear\Items\MajorHealingPotion.xnb
+2011-02-16T04:26:19.1411250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Gear\Items\MajorMagicPotion.xnb
+2011-02-16T04:26:19.1567500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Gear\Items\MDElixir.xnb
+2011-02-16T04:26:19.1723750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Gear\Items\MinorHealingPotion.xnb
+2011-02-16T04:26:19.1723750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Gear\Items\MinorMagicPotion.xnb
+2011-02-16T04:26:19.1880000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Gear\Items\MOElixir.xnb
+2011-02-16T04:26:19.1880000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Gear\Items\PDElixir.xnb
+2011-02-16T04:26:19.2036250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Gear\Items\POElixir.xnb
+2011-02-16T04:26:19.2192500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Gear\Weapons\BoStaff.xnb
+2011-02-16T04:26:18.3755000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Gear\Weapons\Claymore.xnb
+2011-02-16T04:26:18.4067500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Gear\Weapons\ClaymorePlus.xnb
+2011-02-16T04:26:18.4067500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Gear\Weapons\Club.xnb
+2011-02-16T04:26:18.4223750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Gear\Weapons\Dagger.xnb
+2011-02-16T04:26:18.4223750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Gear\Weapons\GiantClub.xnb
+2011-02-16T04:26:18.4380000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Gear\Weapons\GiantClubPlus.xnb
+2011-02-16T04:26:18.4536250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Gear\Weapons\LegendaryBlade.xnb
+2011-02-16T04:26:18.4692500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Gear\Weapons\LegendaryClub.xnb
+2011-02-16T04:26:18.4692500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Gear\Weapons\LegendaryStaff.xnb
+2011-02-16T04:26:18.4848750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Gear\Weapons\LongBlade.xnb
+2011-02-16T04:26:18.5005000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Gear\Weapons\LongSword.xnb
+2011-02-16T04:26:18.5005000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Gear\Weapons\MagicStaff.xnb
+2011-02-16T04:26:18.5005000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Gear\Weapons\MysticalStaff.xnb
+2011-02-16T04:26:18.5161250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Gear\Weapons\PersianBlade.xnb
+2011-02-16T04:26:18.5317500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Gear\Weapons\PersianSword.xnb
+2011-02-16T04:26:18.5473750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Gear\Weapons\SageStaff.xnb
+2011-02-16T04:26:18.5630000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Gear\Weapons\ShortSword.xnb
+2011-02-16T04:26:18.5630000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Gear\Weapons\ShortSwordPlus.xnb
+2011-02-16T04:26:18.5786250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Gear\Weapons\SpikedClub.xnb
+2011-02-16T04:26:18.5942500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Gear\Weapons\TamarBlade.xnb
+2011-02-16T04:26:18.5942500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Gear\Weapons\WornStaff.xnb
+2011-02-16T04:26:18.6098750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Maps\Map001.xnb
+2011-02-16T04:26:19.9848750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Maps\Map002.xnb
+2011-02-16T04:26:20.0005000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Maps\Map003.xnb
+2011-02-16T04:26:20.0473750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Maps\Map004.xnb
+2011-02-16T04:26:20.0786250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Maps\Map005.xnb
+2011-02-16T04:26:20.2973750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Maps\Map006.xnb
+2011-02-16T04:26:20.3442500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Maps\Map007.xnb
+2011-02-16T04:26:20.3755000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Maps\Map008.xnb
+2011-02-16T04:26:20.2348750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Maps\Map009.xnb
+2011-02-16T04:26:20.5317500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Maps\Map010.xnb
+2011-02-16T04:26:20.5786250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Maps\Map011.xnb
+2011-02-16T04:26:20.6411250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Maps\Map012.xnb
+2011-02-16T04:26:20.4223750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Maps\Map013.xnb
+2011-02-16T04:26:20.1411250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Maps\Map014.xnb
+2011-02-16T04:26:20.1723750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Maps\Map015.xnb
+2011-02-16T04:26:20.2036250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Maps\Map016.xnb
+2011-02-16T04:26:20.1098750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Maps\test1.xml
+2011-02-21T03:17:26.2460825Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Maps\test1.xnb
+2011-02-21T03:17:27.1523325Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Maps\Chests\BronzeGear.xnb
+2011-02-16T04:26:19.8130000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Maps\Chests\Dagger.xnb
+2011-02-16T04:26:19.8130000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Maps\Chests\Gold.xnb
+2011-02-16T04:26:19.8130000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Maps\Chests\GoldPlus.xnb
+2011-02-16T04:26:19.8286250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Maps\Chests\Healing.xnb
+2011-02-16T04:26:19.8286250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Maps\Chests\Hide.xnb
+2011-02-16T04:26:19.8286250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Maps\Chests\IronGear.xnb
+2011-02-16T04:26:19.8286250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Maps\Chests\IronHelmet.xnb
+2011-02-16T04:26:19.8286250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Maps\Chests\IronShield.xnb
+2011-02-16T04:26:19.8286250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Maps\Chests\LeatherGear.xnb
+2011-02-16T04:26:19.8598750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Maps\Chests\LeatherShieldPlus.xnb
+2011-02-16T04:26:19.8598750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Maps\Chests\LegendaryArmor.xnb
+2011-02-16T04:26:19.8598750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Maps\Chests\LegendaryBlade.xnb
+2011-02-16T04:26:19.8598750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Maps\Chests\LegendaryBoots.xnb
+2011-02-16T04:26:19.8598750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Maps\Chests\LegendaryClub.xnb
+2011-02-16T04:26:19.8598750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Maps\Chests\LegendaryHelmet.xnb
+2011-02-16T04:26:19.8598750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Maps\Chests\LegendaryHood.xnb
+2011-02-16T04:26:19.8598750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Maps\Chests\LegendaryRobe.xnb
+2011-02-16T04:26:19.8598750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Maps\Chests\LegendaryShield.xnb
+2011-02-16T04:26:19.8598750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Maps\Chests\LegendaryStaff.xnb
+2011-02-16T04:26:19.8755000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Maps\Chests\LongBlade.xnb
+2011-02-16T04:26:19.8755000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Maps\Chests\LongSword.xnb
+2011-02-16T04:26:19.8755000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Maps\Chests\Mage.xnb
+2011-02-16T04:26:19.8755000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Maps\Chests\Magic.xnb
+2011-02-16T04:26:19.8755000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Maps\Chests\MajorHealing.xnb
+2011-02-16T04:26:19.8755000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Maps\Chests\MajorMagic.xnb
+2011-02-16T04:26:19.8755000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Maps\Chests\MDElixir.xnb
+2011-02-16T04:26:19.8755000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Maps\Chests\MinorGold.xnb
+2011-02-16T04:26:19.8755000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Maps\Chests\MinorHealing.xnb
+2011-02-16T04:26:19.8755000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Maps\Chests\MinorMagic.xnb
+2011-02-16T04:26:19.8755000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Maps\Chests\MOElixir.xnb
+2011-02-16T04:26:19.8911250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Maps\Chests\MoneyBags.xnb
+2011-02-16T04:26:19.9223750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Maps\Chests\PDElixir.xnb
+2011-02-16T04:26:19.9223750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Maps\Chests\PersianBlade.xnb
+2011-02-16T04:26:19.9223750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Maps\Chests\PersianSword.xnb
+2011-02-16T04:26:19.9223750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Maps\Chests\POElixir.xnb
+2011-02-16T04:26:19.9223750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Maps\Chests\Ruby.xnb
+2011-02-16T04:26:19.9223750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Maps\Chests\SageBoots.xnb
+2011-02-16T04:26:19.9223750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Maps\Chests\SageHood.xnb
+2011-02-16T04:26:19.9223750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Maps\Chests\SageStaff.xnb
+2011-02-16T04:26:19.9380000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Maps\Chests\SteelArmor.xnb
+2011-02-16T04:26:19.9380000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Maps\Chests\SteelBoots.xnb
+2011-02-16T04:26:19.9380000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Maps\Chests\SteelHelmet.xnb
+2011-02-16T04:26:19.9380000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Maps\Chests\SteelShield.xnb
+2011-02-16T04:26:19.9380000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Maps\Cutscenes\kid.txt
+2011-02-17T05:56:00.4536250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Maps\FixedCombats\BanditLeaders5.xnb
+2011-02-16T04:26:19.7036250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Maps\FixedCombats\BanditMage2.xnb
+2011-02-16T04:26:19.7036250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Maps\FixedCombats\BanditMage3.xnb
+2011-02-16T04:26:19.7036250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Maps\FixedCombats\BanditMage5.xnb
+2011-02-16T04:26:19.7036250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Maps\FixedCombats\BanditMasters5.xnb
+2011-02-16T04:26:19.7036250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Maps\FixedCombats\BanditMinor2.xnb
+2011-02-16T04:26:19.7036250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Maps\FixedCombats\BanditMinor3.xnb
+2011-02-16T04:26:19.7192500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Maps\FixedCombats\BanditMinor5.xnb
+2011-02-16T04:26:19.7192500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Maps\FixedCombats\BanditMisc3.xnb
+2011-02-16T04:26:19.7192500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Maps\FixedCombats\BanditMisc5.xnb
+2011-02-16T04:26:19.7192500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Maps\FixedCombats\BanditMisc5a.xnb
+2011-02-16T04:26:19.7192500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Maps\FixedCombats\BanditMisc5b.xnb
+2011-02-16T04:26:19.7192500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Maps\FixedCombats\BanditMisc5c.xnb
+2011-02-16T04:26:19.7192500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Maps\FixedCombats\BruteMasters1.xnb
+2011-02-16T04:26:19.7348750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Maps\FixedCombats\Brutes1.xnb
+2011-02-16T04:26:19.7505000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Maps\FixedCombats\GoblinGrunts.xnb
+2011-02-16T04:26:19.7505000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Maps\FixedCombats\GoblinGrunts2.xnb
+2011-02-16T04:26:19.7505000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Maps\FixedCombats\GoblinGrunts3.xnb
+2011-02-16T04:26:19.7505000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Maps\FixedCombats\GoblinGrunts5.xnb
+2011-02-16T04:26:19.7505000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Maps\FixedCombats\GoblinMages3.xnb
+2011-02-16T04:26:19.7505000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Maps\FixedCombats\GoblinMages5.xnb
+2011-02-16T04:26:19.7505000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Maps\FixedCombats\Goblins.xnb
+2011-02-16T04:26:19.7505000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Maps\FixedCombats\GoblinsMisc3.xnb
+2011-02-16T04:26:19.7505000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Maps\FixedCombats\GoblinsMisc5.xnb
+2011-02-16T04:26:19.7661250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Maps\FixedCombats\GoblinsMisc5a.xnb
+2011-02-16T04:26:19.7661250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Maps\FixedCombats\GoblinSoldiers5.xnb
+2011-02-16T04:26:19.7661250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Maps\FixedCombats\Misc1.xnb
+2011-02-16T04:26:19.7661250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Maps\FixedCombats\Misc4.xnb
+2011-02-16T04:26:19.7661250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Maps\FixedCombats\Misc5.xnb
+2011-02-16T04:26:19.7661250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Maps\FixedCombats\OrcBrutes1.xnb
+2011-02-16T04:26:19.7817500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Maps\FixedCombats\OrcBrutes2.xnb
+2011-02-16T04:26:19.7817500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Maps\FixedCombats\OrcBrutes3.xnb
+2011-02-16T04:26:19.7817500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Maps\FixedCombats\OrcBrutes5.xnb
+2011-02-16T04:26:19.7817500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Maps\FixedCombats\OrcCaptains1.xnb
+2011-02-16T04:26:19.7817500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Maps\FixedCombats\OrcCaptains3.xnb
+2011-02-16T04:26:19.7817500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Maps\FixedCombats\OrcCaptains5.xnb
+2011-02-16T04:26:19.7817500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Maps\FixedCombats\OrcGrunts3.xnb
+2011-02-16T04:26:19.7817500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Maps\FixedCombats\OrcGrunts5.xnb
+2011-02-16T04:26:19.7973750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Maps\FixedCombats\OrcMisc3.xnb
+2011-02-16T04:26:19.7973750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Maps\FixedCombats\OrcMisc3a.xnb
+2011-02-16T04:26:19.7973750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Maps\FixedCombats\OrcMisc3b.xnb
+2011-02-16T04:26:19.7973750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Maps\FixedCombats\OrcMisc3c.xnb
+2011-02-16T04:26:19.7973750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Maps\FixedCombats\OrcMisc3d.xnb
+2011-02-16T04:26:19.7973750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Maps\FixedCombats\OrcMisc5.xnb
+2011-02-16T04:26:19.7973750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Maps\FixedCombats\OrcMisc5a.xnb
+2011-02-16T04:26:19.7973750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Maps\FixedCombats\OrcMisc5b.xnb
+2011-02-16T04:26:19.7973750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Maps\FixedCombats\OrcSoldiers3.xnb
+2011-02-16T04:26:19.8130000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Maps\FixedCombats\OrcSoldiers5.xnb
+2011-02-16T04:26:19.8130000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Maps\FixedCombats\SirShire.xnb
+2011-02-16T04:26:19.8130000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Maps\FixedCombats\Tamar.xnb
+2011-02-16T04:26:19.8130000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Maps\Inns\HealingInn.xnb
+2011-02-16T04:26:19.5317500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Maps\Inns\NewAgeInn.xnb
+2011-02-16T04:26:19.5317500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Maps\Inns\SanctuaryInn.xnb
+2011-02-16T04:26:19.5473750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Maps\Inns\ThisAnInn.xnb
+2011-02-16T04:26:19.5317500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Maps\Stores\GearMan.xnb
+2011-02-16T04:26:19.5942500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Maps\Stores\Gearrific.xnb
+2011-02-16T04:26:19.6567500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Maps\Stores\HealTheSoul.xnb
+2011-02-16T04:26:19.6567500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Maps\Stores\Itemania.xnb
+2011-02-16T04:26:19.6723750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Maps\Stores\PotionsGalore.xnb
+2011-02-16T04:26:19.6880000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Maps\Stores\TheWeaponsmith.xnb
+2011-02-16T04:26:19.6880000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Maps\Stores\WhoMeShop.xnb
+2011-02-16T04:26:19.6411250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Quests\DefeatTamar.xnb
+2011-02-16T04:26:20.7192500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Quests\HideArmor.xnb
+2011-02-16T04:26:20.7505000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Quests\LushVillage.xnb
+2011-02-16T04:26:20.8130000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Quests\SaveMercadia.xnb
+2011-02-16T04:26:20.8442500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Quests\ShortSword.xnb
+2011-02-16T04:26:20.8598750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Quests\TestBattle.xnb
+2011-02-16T04:26:20.8911250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Quests\TheBanditLeader.xnb
+2011-02-16T04:26:20.9536250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Quests\TheGoblinBrigade.xnb
+2011-02-16T04:26:20.7348750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Quests\TheOrcCaptain.xnb
+2011-02-16T04:26:20.8598750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Quests\QuestLines\MainQuestLine.xnb
+2011-02-16T04:26:20.9536250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Spells\FireBlast.xnb
+2011-02-16T04:26:18.7036250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Spells\FireBolt.xnb
+2011-02-16T04:26:18.7348750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Spells\FireBomb.xnb
+2011-02-16T04:26:18.7348750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Spells\Heal.xnb
+2011-02-16T04:26:18.7505000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Spells\IceBlast.xnb
+2011-02-16T04:26:18.8130000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Spells\IceBolt.xnb
+2011-02-16T04:26:18.8286250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Spells\MassFireBlast.xnb
+2011-02-16T04:26:18.8130000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Spells\MassFireBolt.xnb
+2011-02-16T04:26:18.8130000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Spells\MassHeal.xnb
+2011-02-16T04:26:18.7973750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Spells\MassMinorHeal.xnb
+2011-02-16T04:26:18.7817500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Spells\MDDown.xnb
+2011-02-16T04:26:18.8598750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Spells\MinorHeal.xnb
+2011-02-16T04:26:18.7661250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Spells\MODown.xnb
+2011-02-16T04:26:18.8755000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Spells\PDDown.xnb
+2011-02-16T04:26:18.8598750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Spells\PODown.xnb
+2011-02-16T04:26:18.8442500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Spells\SuperHeal.xnb
+2011-02-16T04:26:18.7661250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Buttons\AButton.xnb
+2011-02-16T04:26:23.6567500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Buttons\BackButton.xnb
+2011-02-16T04:26:23.7036250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Buttons\BButton.xnb
+2011-02-16T04:26:23.7661250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Buttons\CharSelectFadeLeft.xnb
+2011-02-16T04:26:23.8442500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Buttons\CharSelectFadeRight.xnb
+2011-02-16T04:26:23.9067500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Buttons\CharSelectHlLeft.xnb
+2011-02-16T04:26:23.9692500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Buttons\CharSelectHlRight.xnb
+2011-02-16T04:26:24.0786250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Buttons\LeftTriggerButton.xnb
+2011-02-16T04:26:24.1255000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Buttons\QuantityArrowLeft.xnb
+2011-02-16T04:26:24.1880000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Buttons\QuantityArrowRight.xnb
+2011-02-16T04:26:24.2036250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Buttons\RightTriggerButton.xnb
+2011-02-16T04:26:24.2348750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Buttons\StartButton.xnb
+2011-02-16T04:26:24.2505000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Buttons\XButton.xnb
+2011-02-16T04:26:24.2817500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Buttons\YButton.xnb
+2011-02-16T04:26:24.2973750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\Boss1AttackLeft.xnb
+2011-02-16T04:26:27.7348750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\Boss1IdleLeft.xnb
+2011-02-16T04:26:29.5005000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\Boss2AttackLeft.xnb
+2011-02-16T04:26:32.4223750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\Boss3AttackLeft.xnb
+2011-02-16T04:26:35.7661250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\Boss3IdleLeft.xnb
+2011-02-16T04:26:37.7348750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\BossAttackRight.xnb
+2011-02-16T04:26:40.9067500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\BossIdleRight.xnb
+2011-02-16T04:26:43.0473750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\BossWalkRight.xnb
+2011-02-16T04:26:45.0786250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\CharacterShadow.xnb
+2011-02-16T04:26:45.1255000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\Goblin1AttackLeft.xnb
+2011-02-16T04:26:46.6255000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\Goblin1IdleLeft.xnb
+2011-02-16T04:26:47.8755000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\Goblin1WalkLeft.xnb
+2011-02-16T04:26:49.0630000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\Goblin2AttackRight.xnb
+2011-02-16T04:26:50.5317500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\Goblin2IdleRight.xnb
+2011-02-16T04:26:51.5786250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\Goblin2WalkRight.xnb
+2011-02-16T04:26:52.6255000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\Goblin3AttackLeft.xnb
+2011-02-16T04:26:54.0786250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\Goblin3IdleLeft.xnb
+2011-02-16T04:26:55.1255000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\Goblin3WalkLeft.xnb
+2011-02-16T04:26:56.1411250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\GoblinAttackLeft.xnb
+2011-02-16T04:26:57.5786250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\GoblinIdleLeft.xnb
+2011-02-16T04:26:58.6880000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\GoblinWalkLeft.xnb
+2011-02-16T04:26:59.7192500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\imp.png
+2011-02-15T00:21:10.8561869Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\imp.xnb
+2011-02-16T05:10:06.7036250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\locke.png
+2011-02-06T21:29:20.4843750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\locke.xnb
+2011-02-16T05:10:06.9380000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\mog.png
+2011-02-15T03:36:11.2663469Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\mog.xnb
+2011-02-16T05:10:07.2192500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\ORC1AttackLeft.xnb
+2011-02-16T04:27:02.1723750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\ORC1IdleLeft.xnb
+2011-02-16T04:27:04.2973750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\ORC2AttackLeft.xnb
+2011-02-16T04:27:06.7817500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\ORC2IdleLeft.xnb
+2011-02-16T04:27:08.9536250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\ORC3AttackLeft.xnb
+2011-02-16T04:27:11.4067500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\ORC3IdleLeft.xnb
+2011-02-16T04:27:13.5630000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\ORCAttackLeft.xnb
+2011-02-16T04:27:16.0317500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\OrcIdle1Right.xnb
+2011-02-16T04:27:18.2036250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\OrcIdle2Right.xnb
+2011-02-16T04:27:20.4380000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\OrcIdle3Right.xnb
+2011-02-16T04:27:22.6567500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\ORCIdleLeft.xnb
+2011-02-16T04:27:24.9223750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\OrcWalk1Right.xnb
+2011-02-16T04:27:27.0005000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\OrcWalk2Right.xnb
+2011-02-16T04:27:29.0786250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\OrcWalk3Right.xnb
+2011-02-16T04:27:31.2973750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\relm.png
+2011-02-15T03:01:05.9225969Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\relm.xnb
+2011-02-16T05:10:07.5005000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\umaro.png
+2011-02-15T01:10:57.3284252Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\umaro.xnb
+2011-02-16T05:10:07.7817500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\Villager1IdleRight.xnb
+2011-02-16T04:27:34.8130000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\Villager2IdleRight.xnb
+2011-02-16T04:27:35.4692500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\Villager3IdleRight.xnb
+2011-02-16T04:27:36.1411250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\VillagerIdleRight.xnb
+2011-02-16T04:27:36.8286250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\Warrior1AttackLeft.xnb
+2011-02-16T04:27:38.8598750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\Warrior1AttackRight.xnb
+2011-02-16T04:27:41.0786250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\Warrior1IdleLeft.xnb
+2011-02-16T04:27:42.4380000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\Warrior1IdleRight.xnb
+2011-02-16T04:27:43.7505000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\Warrior1WalkLeft.xnb
+2011-02-16T04:27:45.0630000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\Warrior1WalkRight.xnb
+2011-02-16T04:27:46.3442500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\Warrior2AttackLeft.xnb
+2011-02-16T04:27:48.5786250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\Warrior2AttackRight.xnb
+2011-02-16T04:27:50.7505000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\Warrior2IdleLeft.xnb
+2011-02-16T04:27:52.1098750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\Warrior2WalkLeft.xnb
+2011-02-16T04:27:53.3911250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\Warrior3AttackLeft.xnb
+2011-02-16T04:27:55.7661250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\Warrior3IdleLeft.xnb
+2011-02-16T04:27:57.0942500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\Warrior3WalkLeft.xnb
+2011-02-16T04:27:58.2973750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\WarriorAttackRight.xnb
+2011-02-16T04:28:00.3286250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\WarriorIdleRight.xnb
+2011-02-16T04:28:01.7036250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\WarriorWalkRight.xnb
+2011-02-16T04:28:03.0630000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\Wizard1IdleRight.xnb
+2011-02-16T04:28:04.4380000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\Wizard2AttackLeft.xnb
+2011-02-16T04:28:06.5161250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\Wizard2IdleLeft.xnb
+2011-02-16T04:28:07.8130000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\Wizard3AttackLeft.xnb
+2011-02-16T04:28:09.6723750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\Wizard3IdleLeft.xnb
+2011-02-16T04:28:10.9692500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\Wizard3WalkLeft.xnb
+2011-02-16T04:28:12.2973750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\WizardAttackRight.xnb
+2011-02-16T04:28:14.3442500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\WizardIdleRight.xnb
+2011-02-16T04:28:15.8911250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\WizardWalkRight.xnb
+2011-02-16T04:28:17.3598750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\Portraits\Boss1Active.xnb
+2011-02-16T04:27:31.3598750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\Portraits\Boss1Inactive.xnb
+2011-02-16T04:27:31.3911250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\Portraits\Boss1Unselectable.xnb
+2011-02-16T04:27:31.4536250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\Portraits\Boss2Active.xnb
+2011-02-16T04:27:31.5161250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\Portraits\Boss2Inactive.xnb
+2011-02-16T04:27:31.5473750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\Portraits\Boss2Unselectable.xnb
+2011-02-16T04:27:31.5942500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\Portraits\Boss3Active.xnb
+2011-02-16T04:27:31.6255000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\Portraits\Boss3Inactive.xnb
+2011-02-16T04:27:31.6723750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\Portraits\Boss3Unselectable.xnb
+2011-02-16T04:27:31.7036250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\Portraits\BossActive.xnb
+2011-02-16T04:27:31.7348750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\Portraits\BossInactive.xnb
+2011-02-16T04:27:31.7505000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\Portraits\BossUnselectable.xnb
+2011-02-16T04:27:31.7817500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\Portraits\Goblin1Active.xnb
+2011-02-16T04:27:31.8130000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\Portraits\Goblin1Inactive.xnb
+2011-02-16T04:27:31.8442500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\Portraits\Goblin1Unselectable.xnb
+2011-02-16T04:27:31.8755000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\Portraits\Goblin2Active.xnb
+2011-02-16T04:27:31.9067500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\Portraits\Goblin2Inactive.xnb
+2011-02-16T04:27:31.9223750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\Portraits\Goblin2Unselectable.xnb
+2011-02-16T04:27:31.9692500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\Portraits\Goblin3Active.xnb
+2011-02-16T04:27:31.9848750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\Portraits\Goblin3Inactive.xnb
+2011-02-16T04:27:32.0161250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\Portraits\Goblin3Unselectable.xnb
+2011-02-16T04:27:32.0473750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\Portraits\GoblinActive.xnb
+2011-02-16T04:27:32.0630000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\Portraits\GoblinInactive.xnb
+2011-02-16T04:27:32.0942500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\Portraits\GoblinUnselectable.xnb
+2011-02-16T04:27:32.1098750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\Portraits\Orc1Active.xnb
+2011-02-16T04:27:32.1255000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\Portraits\Orc1Inactive.xnb
+2011-02-16T04:27:32.1567500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\Portraits\Orc1Unselectable.xnb
+2011-02-16T04:27:32.1723750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\Portraits\Orc2Active.xnb
+2011-02-16T04:27:32.2348750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\Portraits\Orc2Inactive.xnb
+2011-02-16T04:27:32.2661250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\Portraits\Orc2Unselectable.xnb
+2011-02-16T04:27:32.2973750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\Portraits\Orc3Active.xnb
+2011-02-16T04:27:32.3130000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\Portraits\Orc3Inactive.xnb
+2011-02-16T04:27:32.3286250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\Portraits\Orc3Unselectable.xnb
+2011-02-16T04:27:32.3598750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\Portraits\OrcActive.xnb
+2011-02-16T04:27:32.3755000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\Portraits\OrcInactive.xnb
+2011-02-16T04:27:32.3911250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\Portraits\OrcUnselectable.xnb
+2011-02-16T04:27:32.4067500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\Portraits\ShopKeeper.xnb
+2011-02-16T04:27:32.5005000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\Portraits\ShopKeeper02.xnb
+2011-02-16T04:27:32.5942500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\Portraits\ShopKeeper03.xnb
+2011-02-16T04:27:32.6880000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\Portraits\Tombstone.xnb
+2011-02-16T04:27:32.7192500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\Portraits\Villager1Active.xnb
+2011-02-16T04:27:32.7505000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\Portraits\Villager1Inactive.xnb
+2011-02-16T04:27:32.7817500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\Portraits\Villager1Unselectable.xnb
+2011-02-16T04:27:32.8130000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\Portraits\Villager2Active.xnb
+2011-02-16T04:27:32.8286250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\Portraits\Villager2Inactive.xnb
+2011-02-16T04:27:32.8598750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\Portraits\Villager2Unselectable.xnb
+2011-02-16T04:27:32.8911250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\Portraits\Villager3Active.xnb
+2011-02-16T04:27:32.9223750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\Portraits\Villager3Inactive.xnb
+2011-02-16T04:27:32.9536250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\Portraits\Villager3Unselectable.xnb
+2011-02-16T04:27:32.9848750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\Portraits\VillagerActive.xnb
+2011-02-16T04:27:33.0161250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\Portraits\VillagerInactive.xnb
+2011-02-16T04:27:33.0473750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\Portraits\VillagerUnselectable.xnb
+2011-02-16T04:27:33.0630000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\Portraits\Warrior1Active.xnb
+2011-02-16T04:27:33.0786250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\Portraits\Warrior1Inactive.xnb
+2011-02-16T04:27:33.1255000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\Portraits\Warrior1Unselectable.xnb
+2011-02-16T04:27:33.1411250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\Portraits\Warrior2Active.xnb
+2011-02-16T04:27:33.1567500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\Portraits\Warrior2Inactive.xnb
+2011-02-16T04:27:33.2036250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\Portraits\Warrior2Unselectable.xnb
+2011-02-16T04:27:33.2348750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\Portraits\Warrior3Active.xnb
+2011-02-16T04:27:33.2505000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\Portraits\Warrior3Inactive.xnb
+2011-02-16T04:27:33.2817500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\Portraits\Warrior3Unselectable.xnb
+2011-02-16T04:27:33.3130000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\Portraits\WarriorActive.xnb
+2011-02-16T04:27:33.3598750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\Portraits\WarriorInactive.xnb
+2011-02-16T04:27:33.3911250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\Portraits\WarriorUnselectable.xnb
+2011-02-16T04:27:33.4380000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\Portraits\Wizard1Active.xnb
+2011-02-16T04:27:33.4848750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\Portraits\Wizard1Inactive.xnb
+2011-02-16T04:27:33.5317500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\Portraits\Wizard1Unselectable.xnb
+2011-02-16T04:27:33.5942500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\Portraits\Wizard2Active.xnb
+2011-02-16T04:27:33.6411250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\Portraits\Wizard2Inactive.xnb
+2011-02-16T04:27:33.6880000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\Portraits\Wizard2Unselectable.xnb
+2011-02-16T04:27:33.7348750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\Portraits\Wizard3Active.xnb
+2011-02-16T04:27:33.7817500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\Portraits\Wizard3Inactive.xnb
+2011-02-16T04:27:33.8286250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\Portraits\Wizard3Unselectable.xnb
+2011-02-16T04:27:33.8755000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\Portraits\WizardActive.xnb
+2011-02-16T04:27:33.9223750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\Portraits\WizardInactive.xnb
+2011-02-16T04:27:33.9536250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Characters\Portraits\WizardUnselectable.xnb
+2011-02-16T04:27:34.0317500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Chests\Chest1a.xnb
+2011-02-16T04:28:17.4067500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Chests\Chest1b.xnb
+2011-02-16T04:28:17.4380000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Chests\Chest1c.xnb
+2011-02-16T04:28:17.4848750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Chests\Chest1d.xnb
+2011-02-16T04:28:17.5473750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Chests\Chest1e.xnb
+2011-02-16T04:28:17.5942500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Chests\Chest1f.xnb
+2011-02-16T04:28:17.6567500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Chests\Chest1g.xnb
+2011-02-16T04:28:17.7036250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Chests\Chest1h.xnb
+2011-02-16T04:28:17.7505000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Chests\Chest2a.xnb
+2011-02-16T04:28:17.8130000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Chests\Chest2b.xnb
+2011-02-16T04:28:17.8755000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Chests\Chest2c.xnb
+2011-02-16T04:28:17.9223750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Chests\Chest2d.xnb
+2011-02-16T04:28:17.9536250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Chests\Chest2e.xnb
+2011-02-16T04:28:17.9848750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Chests\Chest2f.xnb
+2011-02-16T04:28:18.0317500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Chests\Chest2g.xnb
+2011-02-16T04:28:18.0786250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Chests\Chest2h.xnb
+2011-02-16T04:28:18.1098750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Chests\Chest2i.xnb
+2011-02-16T04:28:18.1567500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Chests\Chest2j.xnb
+2011-02-16T04:28:18.1880000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Chests\Chest2k.xnb
+2011-02-16T04:28:18.2192500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Chests\Chest2l.xnb
+2011-02-16T04:28:18.2505000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Combat\CharSelectionRing.xnb
+2011-02-16T04:28:18.3286250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Combat\DamageIcon.xnb
+2011-02-16T04:28:18.3598750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Combat\HealingIcon.xnb
+2011-02-16T04:28:18.4067500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Combat\NameBkgd.xnb
+2011-02-16T04:28:18.4536250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Combat\Target1SelectionRing.xnb
+2011-02-16T04:28:18.5786250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Combat\Target2SelectionRing.xnb
+2011-02-16T04:28:18.6723750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Combat\TilesheetSprangles.xnb
+2011-02-16T04:28:18.7505000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\GameScreens\Caption.xnb
+2011-02-16T04:28:18.8286250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\GameScreens\CaptionBackGround.xnb
+2011-02-16T04:28:18.9380000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\GameScreens\CaptionBackGroundLarge.xnb
+2011-02-16T04:28:19.0786250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\GameScreens\ConversationStrip.xnb
+2011-02-16T04:28:19.5161250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\GameScreens\CountShieldWithArrow.xnb
+2011-02-16T04:28:19.5786250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\GameScreens\FadeScreen.xnb
+2011-02-16T04:28:19.5942500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\GameScreens\FadeScreen2.xnb
+2011-02-16T04:28:19.6098750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\GameScreens\GameScreenBkgd.xnb
+2011-02-16T04:28:21.3442500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\GameScreens\GearScoreBoard.xnb
+2011-02-16T04:28:21.4067500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\GameScreens\GoldIcon.xnb
+2011-02-16T04:28:21.4536250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\GameScreens\Highlight.xnb
+2011-02-16T04:28:21.5942500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\GameScreens\HighlightLarge.xnb
+2011-02-16T04:28:21.7505000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\GameScreens\InfoDisplay.xnb
+2011-02-16T04:28:22.2192500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\GameScreens\LineBorder.xnb
+2011-02-16T04:28:22.2973750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\GameScreens\PlayerSelected.xnb
+2011-02-16T04:28:22.3755000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\GameScreens\PlayerUnSelected.xnb
+2011-02-16T04:28:22.4380000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\GameScreens\PopupScreen.xnb
+2011-02-16T04:28:23.8286250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\GameScreens\ScoreBoard.xnb
+2011-02-16T04:28:23.8755000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\GameScreens\ScrollButtons.xnb
+2011-02-16T04:28:23.9223750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\GameScreens\ScrollDown.xnb
+2011-02-16T04:28:23.9536250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\GameScreens\ScrollUp.xnb
+2011-02-16T04:28:23.9692500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\GameScreens\SelectionArrow.xnb
+2011-02-16T04:28:24.0005000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\GameScreens\SeparationLine.xnb
+2011-02-16T04:28:24.0473750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\GameScreens\StatsBorderTable.xnb
+2011-02-16T04:28:24.5473750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\GameScreens\TickMark.xnb
+2011-02-16T04:28:24.5786250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\GameScreens\TitleBar.xnb
+2011-02-16T04:28:24.7192500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Boots01a.xnb
+2011-02-16T04:28:24.7505000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Boots01b.xnb
+2011-02-16T04:28:24.8130000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Boots01c.xnb
+2011-02-16T04:28:24.8598750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Boots01d.xnb
+2011-02-16T04:28:24.8911250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Boots01e.xnb
+2011-02-16T04:28:24.9380000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Boots01f.xnb
+2011-02-16T04:28:24.9848750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Boots01g.xnb
+2011-02-16T04:28:25.0161250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Boots01h.xnb
+2011-02-16T04:28:25.0630000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Boots02a.xnb
+2011-02-16T04:28:25.0942500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Boots02b.xnb
+2011-02-16T04:28:25.1255000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Boots02c.xnb
+2011-02-16T04:28:25.1567500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Boots02d.xnb
+2011-02-16T04:28:25.1880000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Boots02e.xnb
+2011-02-16T04:28:25.2192500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Boots02f.xnb
+2011-02-16T04:28:25.2661250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Boots02g.xnb
+2011-02-16T04:28:25.3130000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Boots02h.xnb
+2011-02-16T04:28:25.3442500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Boots03a.xnb
+2011-02-16T04:28:25.3911250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Boots03b.xnb
+2011-02-16T04:28:25.4223750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Boots03c.xnb
+2011-02-16T04:28:25.4848750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Boots03d.xnb
+2011-02-16T04:28:25.5473750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Boots03e.xnb
+2011-02-16T04:28:25.6255000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Boots03f.xnb
+2011-02-16T04:28:25.7036250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Boots03g.xnb
+2011-02-16T04:28:25.7661250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Boots03h.xnb
+2011-02-16T04:28:25.8286250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Boots04a.xnb
+2011-02-16T04:28:25.8911250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Boots04b.xnb
+2011-02-16T04:28:25.9692500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Boots04c.xnb
+2011-02-16T04:28:26.0161250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Boots04d.xnb
+2011-02-16T04:28:26.0942500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Boots04e.xnb
+2011-02-16T04:28:26.1567500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Boots04f.xnb
+2011-02-16T04:28:26.2192500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Boots04g.xnb
+2011-02-16T04:28:26.2817500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Boots04h.xnb
+2011-02-16T04:28:26.3442500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Boots05a.xnb
+2011-02-16T04:28:26.3598750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Boots05b.xnb
+2011-02-16T04:28:26.4067500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Boots05c.xnb
+2011-02-16T04:28:26.4848750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Boots05d.xnb
+2011-02-16T04:28:26.5317500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Boots05e.xnb
+2011-02-16T04:28:26.5942500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Boots05f.xnb
+2011-02-16T04:28:26.6567500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Boots05g.xnb
+2011-02-16T04:28:26.7192500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Boots05h.xnb
+2011-02-16T04:28:26.7661250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Boots06a.xnb
+2011-02-16T04:28:26.8286250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Boots06b.xnb
+2011-02-16T04:28:26.9067500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Boots06c.xnb
+2011-02-16T04:28:26.9223750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Boots06d.xnb
+2011-02-16T04:28:26.9380000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Boots06e.xnb
+2011-02-16T04:28:26.9692500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Boots06f.xnb
+2011-02-16T04:28:26.9848750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Boots06g.xnb
+2011-02-16T04:28:27.0161250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Boots06h.xnb
+2011-02-16T04:28:27.0630000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Boots07a.xnb
+2011-02-16T04:28:27.0786250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Boots07b.xnb
+2011-02-16T04:28:27.1411250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Boots07c.xnb
+2011-02-16T04:28:27.1880000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Boots07d.xnb
+2011-02-16T04:28:27.2505000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Boots07e.xnb
+2011-02-16T04:28:27.2973750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Boots07f.xnb
+2011-02-16T04:28:27.3598750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Boots07g.xnb
+2011-02-16T04:28:27.4223750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Boots07h.xnb
+2011-02-16T04:28:27.4848750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Club01a.xnb
+2011-02-16T04:28:27.5473750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Club01b.xnb
+2011-02-16T04:28:27.6098750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Club01c.xnb
+2011-02-16T04:28:27.6723750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Club01d.xnb
+2011-02-16T04:28:27.7192500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Club01e.xnb
+2011-02-16T04:28:27.7817500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Club01f.xnb
+2011-02-16T04:28:27.8442500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Club01g.xnb
+2011-02-16T04:28:27.9223750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Club01h.xnb
+2011-02-16T04:28:27.9848750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Club02a.xnb
+2011-02-16T04:28:28.0317500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Club02b.xnb
+2011-02-16T04:28:28.0786250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Club02c.xnb
+2011-02-16T04:28:28.0942500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Club02d.xnb
+2011-02-16T04:28:28.1098750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Club02e.xnb
+2011-02-16T04:28:28.1411250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Club02f.xnb
+2011-02-16T04:28:28.1723750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Club02g.xnb
+2011-02-16T04:28:28.1880000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Club02h.xnb
+2011-02-16T04:28:28.2505000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Club03a.xnb
+2011-02-16T04:28:28.2661250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Club03b.xnb
+2011-02-16T04:28:28.2973750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Club03c.xnb
+2011-02-16T04:28:28.3442500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Club03d.xnb
+2011-02-16T04:28:28.3598750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Club03e.xnb
+2011-02-16T04:28:28.3911250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Club03f.xnb
+2011-02-16T04:28:28.4380000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Club03g.xnb
+2011-02-16T04:28:28.4848750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Club03h.xnb
+2011-02-16T04:28:28.5005000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Coin01.xnb
+2011-02-16T04:28:28.5161250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Gems01a.xnb
+2011-02-16T04:28:28.5317500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Gems01b.xnb
+2011-02-16T04:28:28.5786250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Gems01c.xnb
+2011-02-16T04:28:28.5942500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Gems01d.xnb
+2011-02-16T04:28:28.6411250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Gems01e.xnb
+2011-02-16T04:28:28.6567500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Helmet01a.xnb
+2011-02-16T04:28:28.7036250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Helmet01b.xnb
+2011-02-16T04:28:28.7505000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Helmet01c.xnb
+2011-02-16T04:28:28.7661250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Helmet01d.xnb
+2011-02-16T04:28:28.7973750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Helmet01e.xnb
+2011-02-16T04:28:28.8442500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Helmet01f.xnb
+2011-02-16T04:28:28.8755000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Helmet01g.xnb
+2011-02-16T04:28:28.9067500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Helmet01h.xnb
+2011-02-16T04:28:28.9223750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Helmet02a.xnb
+2011-02-16T04:28:28.9536250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Helmet02b.xnb
+2011-02-16T04:28:28.9848750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Helmet02c.xnb
+2011-02-16T04:28:29.0161250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Helmet02d.xnb
+2011-02-16T04:28:29.0630000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Helmet02e.xnb
+2011-02-16T04:28:29.1098750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Helmet02f.xnb
+2011-02-16T04:28:29.1723750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Helmet02g.xnb
+2011-02-16T04:28:29.1880000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Helmet02h.xnb
+2011-02-16T04:28:29.2192500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Helmet03a.xnb
+2011-02-16T04:28:29.2661250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Helmet03b.xnb
+2011-02-16T04:28:29.2973750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Helmet03c.xnb
+2011-02-16T04:28:29.3130000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Helmet03d.xnb
+2011-02-16T04:28:29.3442500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Helmet03e.xnb
+2011-02-16T04:28:29.3598750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Helmet03f.xnb
+2011-02-16T04:28:29.3911250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Helmet03g.xnb
+2011-02-16T04:28:29.4223750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Helmet03h.xnb
+2011-02-16T04:28:29.4692500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Helmet04a.xnb
+2011-02-16T04:28:29.5005000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Helmet04b.xnb
+2011-02-16T04:28:29.5317500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Helmet04c.xnb
+2011-02-16T04:28:29.5473750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Helmet04d.xnb
+2011-02-16T04:28:29.6098750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Helmet04e.xnb
+2011-02-16T04:28:29.6411250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Helmet04f.xnb
+2011-02-16T04:28:29.6567500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Helmet04g.xnb
+2011-02-16T04:28:29.6880000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Helmet04h.xnb
+2011-02-16T04:28:29.7192500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Helmet05a.xnb
+2011-02-16T04:28:29.7348750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Helmet05b.xnb
+2011-02-16T04:28:29.7505000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Helmet05c.xnb
+2011-02-16T04:28:29.7661250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Helmet05d.xnb
+2011-02-16T04:28:29.7817500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Helmet05e.xnb
+2011-02-16T04:28:29.8286250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Helmet05f.xnb
+2011-02-16T04:28:29.8442500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Helmet05g.xnb
+2011-02-16T04:28:29.8598750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Helmet05h.xnb
+2011-02-16T04:28:29.8911250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Helmet06a.xnb
+2011-02-16T04:28:29.9223750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Helmet06b.xnb
+2011-02-16T04:28:29.9536250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Helmet06c.xnb
+2011-02-16T04:28:30.0161250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Helmet06d.xnb
+2011-02-16T04:28:30.0942500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Helmet06e.xnb
+2011-02-16T04:28:30.1411250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Helmet06f.xnb
+2011-02-16T04:28:30.1880000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Helmet06g.xnb
+2011-02-16T04:28:30.2192500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Helmet06h.xnb
+2011-02-16T04:28:30.2661250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Helmet07a.xnb
+2011-02-16T04:28:30.3130000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Helmet07b.xnb
+2011-02-16T04:28:30.3442500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Helmet07c.xnb
+2011-02-16T04:28:30.3755000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Helmet07d.xnb
+2011-02-16T04:28:30.3911250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Helmet07e.xnb
+2011-02-16T04:28:30.4223750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Helmet07f.xnb
+2011-02-16T04:28:30.4380000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Helmet07g.xnb
+2011-02-16T04:28:30.4848750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Helmet07h.xnb
+2011-02-16T04:28:30.5473750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Hood01a.xnb
+2011-02-16T04:28:30.5630000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Hood01b.xnb
+2011-02-16T04:28:30.6255000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Hood01c.xnb
+2011-02-16T04:28:30.6411250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Hood01d.xnb
+2011-02-16T04:28:30.6567500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Hood01e.xnb
+2011-02-16T04:28:30.6723750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Hood01f.xnb
+2011-02-16T04:28:30.7192500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Hood01g.xnb
+2011-02-16T04:28:30.7348750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Hood01h.xnb
+2011-02-16T04:28:30.7817500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Hood02a.xnb
+2011-02-16T04:28:30.8130000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Hood02b.xnb
+2011-02-16T04:28:30.8286250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Hood02c.xnb
+2011-02-16T04:28:30.8755000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Hood02d.xnb
+2011-02-16T04:28:30.8911250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Hood02e.xnb
+2011-02-16T04:28:30.9380000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Hood02f.xnb
+2011-02-16T04:28:30.9536250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Hood02g.xnb
+2011-02-16T04:28:30.9848750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Hood02h.xnb
+2011-02-16T04:28:31.0630000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Key01.xnb
+2011-02-16T04:28:31.0786250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Key02.xnb
+2011-02-16T04:28:31.1098750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Potion01a.xnb
+2011-02-16T04:28:31.1255000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Potion01b.xnb
+2011-02-16T04:28:31.1411250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Potion01c.xnb
+2011-02-16T04:28:31.1723750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Potion01d.xnb
+2011-02-16T04:28:31.1880000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Potion01e.xnb
+2011-02-16T04:28:31.2192500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Potion01f.xnb
+2011-02-16T04:28:31.2348750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Potion01g.xnb
+2011-02-16T04:28:31.2505000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Potion01h.xnb
+2011-02-16T04:28:31.2817500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Potion02a.xnb
+2011-02-16T04:28:31.2973750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Potion02b.xnb
+2011-02-16T04:28:31.3130000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Potion02c.xnb
+2011-02-16T04:28:31.3442500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Potion02d.xnb
+2011-02-16T04:28:31.3598750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Potion02e.xnb
+2011-02-16T04:28:31.3755000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Potion02f.xnb
+2011-02-16T04:28:31.3911250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Potion02g.xnb
+2011-02-16T04:28:31.4223750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Potion02h.xnb
+2011-02-16T04:28:31.4536250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Potion03a.xnb
+2011-02-16T04:28:31.5005000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Potion03b.xnb
+2011-02-16T04:28:31.5786250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Potion03c.xnb
+2011-02-16T04:28:31.5942500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Potion03d.xnb
+2011-02-16T04:28:31.6098750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Potion03e.xnb
+2011-02-16T04:28:31.6255000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Potion03f.xnb
+2011-02-16T04:28:31.6411250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Potion03g.xnb
+2011-02-16T04:28:31.6880000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Potion03h.xnb
+2011-02-16T04:28:31.7348750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Scroll01a.xnb
+2011-02-16T04:28:31.7817500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Scroll01b.xnb
+2011-02-16T04:28:31.7973750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Scroll01c.xnb
+2011-02-16T04:28:31.8286250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Scroll01d.xnb
+2011-02-16T04:28:31.8442500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Scroll01e.xnb
+2011-02-16T04:28:31.9067500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Scroll01f.xnb
+2011-02-16T04:28:31.9536250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Scroll01g.xnb
+2011-02-16T04:28:31.9692500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Scroll01h.xnb
+2011-02-16T04:28:32.0161250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Shield01a.xnb
+2011-02-16T04:28:32.0317500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Shield01b.xnb
+2011-02-16T04:28:32.0786250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Shield01c.xnb
+2011-02-16T04:28:32.0942500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Shield01d.xnb
+2011-02-16T04:28:32.1255000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Shield01e.xnb
+2011-02-16T04:28:32.1411250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Shield01f.xnb
+2011-02-16T04:28:32.1723750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Shield01g.xnb
+2011-02-16T04:28:32.1880000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Shield01h.xnb
+2011-02-16T04:28:32.2192500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Shield02a.xnb
+2011-02-16T04:28:32.2348750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Shield02b.xnb
+2011-02-16T04:28:32.2661250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Shield02c.xnb
+2011-02-16T04:28:32.2973750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Shield02d.xnb
+2011-02-16T04:28:32.3286250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Shield02e.xnb
+2011-02-16T04:28:32.3598750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Shield02f.xnb
+2011-02-16T04:28:32.4223750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Shield02g.xnb
+2011-02-16T04:28:32.4536250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Shield02h.xnb
+2011-02-16T04:28:32.4692500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Shield03a.xnb
+2011-02-16T04:28:32.5161250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Shield03b.xnb
+2011-02-16T04:28:32.5630000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Shield03c.xnb
+2011-02-16T04:28:32.6098750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Shield03d.xnb
+2011-02-16T04:28:32.6567500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Shield03e.xnb
+2011-02-16T04:28:32.7036250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Shield03f.xnb
+2011-02-16T04:28:32.7505000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Shield03g.xnb
+2011-02-16T04:28:32.7973750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Shield03h.xnb
+2011-02-16T04:28:32.8598750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Shield04a.xnb
+2011-02-16T04:28:32.9067500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Shield04b.xnb
+2011-02-16T04:28:32.9692500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Shield04c.xnb
+2011-02-16T04:28:33.0161250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Shield04d.xnb
+2011-02-16T04:28:33.0473750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Shield04e.xnb
+2011-02-16T04:28:33.1098750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Shield04f.xnb
+2011-02-16T04:28:33.1723750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Shield04g.xnb
+2011-02-16T04:28:33.2036250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Shield04h.xnb
+2011-02-16T04:28:33.2661250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Shield05a.xnb
+2011-02-16T04:28:33.3286250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Shield05b.xnb
+2011-02-16T04:28:33.3755000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Shield05c.xnb
+2011-02-16T04:28:33.4380000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Shield05d.xnb
+2011-02-16T04:28:33.5473750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Shield05e.xnb
+2011-02-16T04:28:33.6098750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Shield05f.xnb
+2011-02-16T04:28:33.6255000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Shield05g.xnb
+2011-02-16T04:28:33.6880000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Shield05h.xnb
+2011-02-16T04:28:33.7348750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Shield06a.xnb
+2011-02-16T04:28:33.7973750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Shield06b.xnb
+2011-02-16T04:28:33.8598750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Shield06c.xnb
+2011-02-16T04:28:33.9223750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Shield06d.xnb
+2011-02-16T04:28:33.9848750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Shield06e.xnb
+2011-02-16T04:28:34.0005000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Shield06f.xnb
+2011-02-16T04:28:34.0786250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Shield06g.xnb
+2011-02-16T04:28:34.0942500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Shield06h.xnb
+2011-02-16T04:28:34.1411250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Shield07a.xnb
+2011-02-16T04:28:34.2192500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Shield07b.xnb
+2011-02-16T04:28:34.2817500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Shield07c.xnb
+2011-02-16T04:28:34.3442500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Shield07d.xnb
+2011-02-16T04:28:34.4067500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Shield07e.xnb
+2011-02-16T04:28:34.4692500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Shield07f.xnb
+2011-02-16T04:28:34.5161250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Shield07g.xnb
+2011-02-16T04:28:34.5317500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Shield07h.xnb
+2011-02-16T04:28:34.5786250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Staff01a.xnb
+2011-02-16T04:28:34.6411250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Staff01b.xnb
+2011-02-16T04:28:34.6567500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Staff01c.xnb
+2011-02-16T04:28:34.6723750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Staff01d.xnb
+2011-02-16T04:28:34.7192500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Staff01e.xnb
+2011-02-16T04:28:34.7348750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Staff01f.xnb
+2011-02-16T04:28:34.7505000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Staff01g.xnb
+2011-02-16T04:28:34.7973750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Staff01h.xnb
+2011-02-16T04:28:34.8130000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Staff02a.xnb
+2011-02-16T04:28:34.8286250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Staff02b.xnb
+2011-02-16T04:28:34.8442500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Staff02c.xnb
+2011-02-16T04:28:34.8598750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Staff02d.xnb
+2011-02-16T04:28:34.9067500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Staff02e.xnb
+2011-02-16T04:28:34.9223750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Staff02f.xnb
+2011-02-16T04:28:34.9380000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Staff02g.xnb
+2011-02-16T04:28:34.9536250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Staff02h.xnb
+2011-02-16T04:28:34.9692500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Staff03a.xnb
+2011-02-16T04:28:35.0005000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Staff03b.xnb
+2011-02-16T04:28:35.0161250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Staff03c.xnb
+2011-02-16T04:28:35.0317500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Staff03d.xnb
+2011-02-16T04:28:35.0473750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Staff03e.xnb
+2011-02-16T04:28:35.1098750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Staff03f.xnb
+2011-02-16T04:28:35.1567500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Staff03g.xnb
+2011-02-16T04:28:35.1723750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Staff03h.xnb
+2011-02-16T04:28:35.2348750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Staff04a.xnb
+2011-02-16T04:28:35.2505000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Staff04b.xnb
+2011-02-16T04:28:35.2973750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Staff04c.xnb
+2011-02-16T04:28:35.3130000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Staff04d.xnb
+2011-02-16T04:28:35.3286250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Staff04e.xnb
+2011-02-16T04:28:35.3911250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Staff04f.xnb
+2011-02-16T04:28:35.4067500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Staff04g.xnb
+2011-02-16T04:28:35.4223750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Staff04h.xnb
+2011-02-16T04:28:35.5005000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Staff05a.xnb
+2011-02-16T04:28:35.5161250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Staff05b.xnb
+2011-02-16T04:28:35.5317500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Staff05c.xnb
+2011-02-16T04:28:35.5630000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Staff05d.xnb
+2011-02-16T04:28:35.5786250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Staff05e.xnb
+2011-02-16T04:28:35.5942500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Staff05f.xnb
+2011-02-16T04:28:35.6098750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Staff05g.xnb
+2011-02-16T04:28:35.6255000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Staff05h.xnb
+2011-02-16T04:28:35.6411250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Sword01a.xnb
+2011-02-16T04:28:35.7036250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Sword01b.xnb
+2011-02-16T04:28:35.7192500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Sword01c.xnb
+2011-02-16T04:28:35.7661250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Sword01d.xnb
+2011-02-16T04:28:35.7817500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Sword01e.xnb
+2011-02-16T04:28:35.7973750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Sword01f.xnb
+2011-02-16T04:28:35.8442500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Sword01g.xnb
+2011-02-16T04:28:35.8598750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Sword01h.xnb
+2011-02-16T04:28:35.8755000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Sword02a.xnb
+2011-02-16T04:28:35.9223750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Sword02b.xnb
+2011-02-16T04:28:35.9380000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Sword02c.xnb
+2011-02-16T04:28:35.9536250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Sword02d.xnb
+2011-02-16T04:28:35.9848750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Sword02e.xnb
+2011-02-16T04:28:36.0005000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Sword02f.xnb
+2011-02-16T04:28:36.0161250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Sword02g.xnb
+2011-02-16T04:28:36.0473750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Sword02h.xnb
+2011-02-16T04:28:36.0630000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Sword03a.xnb
+2011-02-16T04:28:36.1098750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Sword03b.xnb
+2011-02-16T04:28:36.1411250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Sword03c.xnb
+2011-02-16T04:28:36.1723750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Sword03d.xnb
+2011-02-16T04:28:36.1880000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Sword03e.xnb
+2011-02-16T04:28:36.2192500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Sword03f.xnb
+2011-02-16T04:28:36.2348750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Sword03g.xnb
+2011-02-16T04:28:36.2505000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Sword03h.xnb
+2011-02-16T04:28:36.2661250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Sword04a.xnb
+2011-02-16T04:28:36.2817500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Sword04b.xnb
+2011-02-16T04:28:36.3286250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Sword04c.xnb
+2011-02-16T04:28:36.3442500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Sword04d.xnb
+2011-02-16T04:28:36.3755000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Sword04e.xnb
+2011-02-16T04:28:36.3911250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Sword04f.xnb
+2011-02-16T04:28:36.4223750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Sword04g.xnb
+2011-02-16T04:28:36.4380000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Sword04h.xnb
+2011-02-16T04:28:36.4692500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Sword05a.xnb
+2011-02-16T04:28:36.5005000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Sword05b.xnb
+2011-02-16T04:28:36.5161250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Sword05c.xnb
+2011-02-16T04:28:36.5317500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Sword05d.xnb
+2011-02-16T04:28:36.5473750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Sword05e.xnb
+2011-02-16T04:28:36.5630000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Sword05f.xnb
+2011-02-16T04:28:36.5942500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Sword05g.xnb
+2011-02-16T04:28:36.6255000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Sword05h.xnb
+2011-02-16T04:28:36.6411250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Sword06a.xnb
+2011-02-16T04:28:36.6567500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Sword06b.xnb
+2011-02-16T04:28:36.6723750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Sword06c.xnb
+2011-02-16T04:28:36.7036250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Sword06d.xnb
+2011-02-16T04:28:36.7192500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Sword06e.xnb
+2011-02-16T04:28:36.7348750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Sword06f.xnb
+2011-02-16T04:28:36.7505000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Sword06g.xnb
+2011-02-16T04:28:36.7661250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Sword06h.xnb
+2011-02-16T04:28:36.7817500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Sword07a.xnb
+2011-02-16T04:28:36.7973750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Sword07b.xnb
+2011-02-16T04:28:36.8130000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Sword07c.xnb
+2011-02-16T04:28:36.8286250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Sword07d.xnb
+2011-02-16T04:28:36.8598750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Sword07e.xnb
+2011-02-16T04:28:36.8755000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Sword07f.xnb
+2011-02-16T04:28:36.8911250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Sword07g.xnb
+2011-02-16T04:28:36.9067500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Sword07h.xnb
+2011-02-16T04:28:36.9223750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Sword08a.xnb
+2011-02-16T04:28:36.9380000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Sword08b.xnb
+2011-02-16T04:28:36.9692500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Sword08c.xnb
+2011-02-16T04:28:36.9848750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Sword08d.xnb
+2011-02-16T04:28:37.0005000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Sword08e.xnb
+2011-02-16T04:28:37.0161250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Sword08f.xnb
+2011-02-16T04:28:37.0473750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Sword08g.xnb
+2011-02-16T04:28:37.0630000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Sword08h.xnb
+2011-02-16T04:28:37.0786250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\torso01a.xnb
+2011-02-16T04:28:37.1098750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\torso01b.xnb
+2011-02-16T04:28:37.1411250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\torso01c.xnb
+2011-02-16T04:28:37.1567500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\torso01d.xnb
+2011-02-16T04:28:37.1880000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\torso01e.xnb
+2011-02-16T04:28:37.2036250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\torso01f.xnb
+2011-02-16T04:28:37.2348750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\torso01g.xnb
+2011-02-16T04:28:37.2505000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\torso01h.xnb
+2011-02-16T04:28:37.2817500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\torso02a.xnb
+2011-02-16T04:28:37.3130000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\torso02b.xnb
+2011-02-16T04:28:37.3442500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\torso02c.xnb
+2011-02-16T04:28:37.3598750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\torso02d.xnb
+2011-02-16T04:28:37.4067500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\torso02e.xnb
+2011-02-16T04:28:37.4536250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\torso02f.xnb
+2011-02-16T04:28:37.5005000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\torso02g.xnb
+2011-02-16T04:28:37.5161250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\torso02h.xnb
+2011-02-16T04:28:37.5630000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\torso03a.xnb
+2011-02-16T04:28:37.6098750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\torso03b.xnb
+2011-02-16T04:28:37.6411250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\torso03c.xnb
+2011-02-16T04:28:37.6880000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\torso03d.xnb
+2011-02-16T04:28:37.7036250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\torso03e.xnb
+2011-02-16T04:28:37.7505000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\torso03f.xnb
+2011-02-16T04:28:37.7973750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\torso03g.xnb
+2011-02-16T04:28:37.8442500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\torso03h.xnb
+2011-02-16T04:28:37.8911250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\torso04a.xnb
+2011-02-16T04:28:37.9380000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\torso04b.xnb
+2011-02-16T04:28:37.9692500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\torso04c.xnb
+2011-02-16T04:28:37.9848750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\torso04d.xnb
+2011-02-16T04:28:38.0161250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\torso04e.xnb
+2011-02-16T04:28:38.0317500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\torso04f.xnb
+2011-02-16T04:28:38.0473750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\torso04g.xnb
+2011-02-16T04:28:38.0630000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\torso04h.xnb
+2011-02-16T04:28:38.0942500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\torso05a.xnb
+2011-02-16T04:28:38.1567500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\torso05b.xnb
+2011-02-16T04:28:38.1880000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\torso05c.xnb
+2011-02-16T04:28:38.2192500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\torso05d.xnb
+2011-02-16T04:28:38.2348750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\torso05e.xnb
+2011-02-16T04:28:38.2661250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\torso05f.xnb
+2011-02-16T04:28:38.2817500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\torso05g.xnb
+2011-02-16T04:28:38.3130000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\torso05h.xnb
+2011-02-16T04:28:38.3286250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\torso06a.xnb
+2011-02-16T04:28:38.3442500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\torso06b.xnb
+2011-02-16T04:28:38.3755000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\torso06c.xnb
+2011-02-16T04:28:38.3911250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\torso06d.xnb
+2011-02-16T04:28:38.4067500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\torso06e.xnb
+2011-02-16T04:28:38.4223750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\torso06f.xnb
+2011-02-16T04:28:38.4848750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\torso06g.xnb
+2011-02-16T04:28:38.5161250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\torso06h.xnb
+2011-02-16T04:28:38.5317500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\torso07a.xnb
+2011-02-16T04:28:38.5786250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\torso07b.xnb
+2011-02-16T04:28:38.5942500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\torso07c.xnb
+2011-02-16T04:28:38.6411250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\torso07d.xnb
+2011-02-16T04:28:38.6880000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\torso07e.xnb
+2011-02-16T04:28:38.7505000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\torso07f.xnb
+2011-02-16T04:28:38.7817500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\torso07g.xnb
+2011-02-16T04:28:38.8598750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\torso07h.xnb
+2011-02-16T04:28:38.9067500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\torso08a.xnb
+2011-02-16T04:28:38.9223750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\torso08b.xnb
+2011-02-16T04:28:38.9692500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\torso08c.xnb
+2011-02-16T04:28:38.9848750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\torso08d.xnb
+2011-02-16T04:28:39.0317500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\torso08e.xnb
+2011-02-16T04:28:39.0630000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\torso08f.xnb
+2011-02-16T04:28:39.1098750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\torso08g.xnb
+2011-02-16T04:28:39.1723750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\torso08h.xnb
+2011-02-16T04:28:39.2036250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\torso09a.xnb
+2011-02-16T04:28:39.2505000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\torso09b.xnb
+2011-02-16T04:28:39.2973750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\torso09c.xnb
+2011-02-16T04:28:39.3286250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\torso09d.xnb
+2011-02-16T04:28:39.3598750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\torso09e.xnb
+2011-02-16T04:28:39.3755000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\torso09f.xnb
+2011-02-16T04:28:39.4067500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\torso09g.xnb
+2011-02-16T04:28:39.4223750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\torso09h.xnb
+2011-02-16T04:28:39.4380000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Torso10a.xnb
+2011-02-16T04:28:39.4536250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Wand01a.xnb
+2011-02-16T04:28:39.5005000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Wand01b.xnb
+2011-02-16T04:28:39.5161250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Wand01c.xnb
+2011-02-16T04:28:39.5317500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Wand01d.xnb
+2011-02-16T04:28:39.5473750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Wand01e.xnb
+2011-02-16T04:28:39.5630000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Wand01f.xnb
+2011-02-16T04:28:39.5786250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Gear\Wand01g.xnb
+2011-02-16T04:28:39.6255000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\HUD\CombatPopup.xnb
+2011-02-16T04:28:39.7192500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\HUD\CombatStateInfoStrip.xnb
+2011-02-16T04:28:39.8911250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\HUD\HudBkgd.xnb
+2011-02-16T04:28:40.5786250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\HUD\HudSelectButton.xnb
+2011-02-16T04:28:40.6255000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\HUD\Menu.xnb
+2011-02-16T04:28:40.6880000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\HUD\PlankActive.xnb
+2011-02-16T04:28:40.8286250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\HUD\PlankCantUse.xnb
+2011-02-16T04:28:40.9692500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\HUD\PlankInActive.xnb
+2011-02-16T04:28:41.0786250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\HUD\SelectionBrackets.xnb
+2011-02-16T04:28:41.1255000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\HUD\Stats.xnb
+2011-02-16T04:28:41.1567500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\MainMenu\Confirm.xnb
+2011-02-16T04:28:41.6411250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\MainMenu\ControlJoystick.xnb
+2011-02-16T04:28:41.9692500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\MainMenu\GameLogo.xnb
+2011-02-16T04:28:42.2661250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\MainMenu\KeyboardBkgd.xnb
+2011-02-16T04:28:42.6411250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\MainMenu\LoadingPause.xnb
+2011-02-16T04:28:44.0161250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\MainMenu\LoadingScreenStrip.xnb
+2011-02-16T04:28:44.1880000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\MainMenu\MainMenu.xnb
+2011-02-16T04:28:46.1880000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\MainMenu\MainMenuInfoSpace.xnb
+2011-02-16T04:28:46.8755000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\MainMenu\MainMenuPlank.xnb
+2011-02-16T04:28:46.9692500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\MainMenu\MainMenuPlank01.xnb
+2011-02-16T04:28:47.0942500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\MainMenu\MainMenuPlank02.xnb
+2011-02-16T04:28:47.1880000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\MainMenu\MainMenuPlank03.xnb
+2011-02-16T04:28:47.2661250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Maps\Combat\CombatBkgdDungeon.xnb
+2011-02-16T04:28:49.1255000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Maps\Combat\CombatBkgdVillage.xnb
+2011-02-16T04:28:50.0317500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Maps\NonCombat\DungeonTiles.xnb
+2011-02-16T04:28:51.6567500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Maps\NonCombat\forestBeta_64.xnb
+2011-02-16T04:29:04.6098750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Maps\NonCombat\ForestTiles.xnb
+2011-02-16T04:28:53.4380000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Maps\NonCombat\NonCombatBackground.xnb
+2011-02-16T04:28:55.3755000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Maps\NonCombat\road01_a_64.png
+2011-01-16T16:46:50.6875000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Maps\NonCombat\road01_a_64.xnb
+2011-02-16T04:29:04.4692500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Maps\NonCombat\testSet64.xnb
+2011-02-21T04:57:39.2929575Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Spells\Effect1.xnb
+2011-02-16T04:28:55.7036250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Spells\Effect2.xnb
+2011-02-16T04:28:56.0473750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Spells\Effect3.xnb
+2011-02-16T04:28:56.2973750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Spells\EffectSmall.xnb
+2011-02-16T04:28:56.5473750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Spells\FireBallLargeIcon.xnb
+2011-02-16T04:28:56.6098750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Spells\FireBallLargeSpell.xnb
+2011-02-16T04:28:57.1098750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Spells\FireBallSmallIcon.xnb
+2011-02-16T04:28:57.1567500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Spells\FireBallSmallSpell.xnb
+2011-02-16T04:28:57.5161250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Spells\HealLargeIcon.xnb
+2011-02-16T04:28:57.5317500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Spells\HealLargeSpell.xnb
+2011-02-16T04:28:57.9848750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Spells\HealSmallIcon.xnb
+2011-02-16T04:28:58.0317500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Spells\HealSmallSpell.xnb
+2011-02-16T04:28:58.3130000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Spells\IceLargeIcon.xnb
+2011-02-16T04:28:58.3598750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Spells\IceLargeSpell.xnb
+2011-02-16T04:28:58.8286250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Spells\IceSmall.xnb
+2011-02-16T04:28:58.8442500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Spells\IceSmallSpell.xnb
+2011-02-16T04:28:59.2192500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Spells\Icon1.xnb
+2011-02-16T04:28:59.2505000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Spells\Overlay.xnb
+2011-02-16T04:28:59.5786250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Spells\Overlay1.xnb
+2011-02-16T04:29:00.2505000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Spells\Overlay2.xnb
+2011-02-16T04:29:00.5473750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Spells\OverlayMelee.xnb
+2011-02-16T04:29:00.6098750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Spells\Potion1a.xnb
+2011-02-16T04:29:00.6567500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Spells\Potion1b.xnb
+2011-02-16T04:29:00.6880000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Spells\Potion1c.xnb
+2011-02-16T04:29:00.7036250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Spells\Potion1d.xnb
+2011-02-16T04:29:00.7505000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Spells\Potion1e.xnb
+2011-02-16T04:29:00.7661250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Spells\Potion1f.xnb
+2011-02-16T04:29:00.7817500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Spells\Potion1g.xnb
+2011-02-16T04:29:00.8130000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Spells\Potion1h.xnb
+2011-02-16T04:29:00.8286250Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Spells\Potion2a.xnb
+2011-02-16T04:29:00.8598750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Spells\Potion2b.xnb
+2011-02-16T04:29:00.8755000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Spells\Potion2c.xnb
+2011-02-16T04:29:00.9223750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Spells\Potion2d.xnb
+2011-02-16T04:29:00.9380000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Spells\Potion2e.xnb
+2011-02-16T04:29:00.9692500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Spells\Potion2f.xnb
+2011-02-16T04:29:01.0005000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Spells\Potion2g.xnb
+2011-02-16T04:29:01.0317500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Spells\Potion2h.xnb
+2011-02-16T04:29:01.0473750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Spells\Potion3a.xnb
+2011-02-16T04:29:01.0630000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Spells\Potion3b.xnb
+2011-02-16T04:29:01.0942500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Spells\Potion3c.xnb
+2011-02-16T04:29:01.1255000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Spells\Potion3d.xnb
+2011-02-16T04:29:01.1567500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Spells\Potion3e.xnb
+2011-02-16T04:29:01.2192500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Spells\Potion3f.xnb
+2011-02-16T04:29:01.2348750Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Spells\Potion3g.xnb
+2011-02-16T04:29:01.2505000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Spells\Potion3h.xnb
+2011-02-16T04:29:01.2817500Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Spells\Scroll.xnb
+2011-02-16T04:29:01.3130000Z
+C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\Xbox 360\Debug\Content\Textures\Spells\SmallIcon.xnb
+2011-02-16T04:29:01.3598750Z

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <Asset Type="RolePlayingGameData.QuestNpc">
+      <Name>kid</Name>
+      <MapSprite>
+        <TextureName>Characters\relm</TextureName>
+        <FrameDimensions>64 92</FrameDimensions>
+        <FramesPerRow>4</FramesPerRow>
+        <SourceOffset>32 80</SourceOffset>
+        <Animations>
+          <Item>
+            <Name>Walk</Name>
+            <StartingFrame>25</StartingFrame>
+            <EndingFrame>30</EndingFrame>
+            <Interval>80</Interval>
+            <IsLoop>true</IsLoop>
+          </Item>
+        </Animations>
+      </MapSprite>
+      <MapIdleAnimationInterval>150</MapIdleAnimationInterval>
+      <IntroductionDialogue>You've gotta love the breeze!</IntroductionDialogue>
+  </Asset>
+</XnaContent>

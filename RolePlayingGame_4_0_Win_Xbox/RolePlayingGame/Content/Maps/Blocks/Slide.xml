@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<XnaContent><Asset Type="RolePlayingGameData.Block">
+  <Name>Slide</Name>
+  <MoveType>Slide</MoveType>
+  <TextureName>default</TextureName>
+  <position>0 0</position>
+</Asset></XnaContent>
