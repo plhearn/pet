@@ -167,7 +167,7 @@ namespace RolePlaying
         /// <remarks>
         /// The movementCollisionTolerance constant should be a multiple of this number.
         /// </remarks>
-        private const float partyLeaderMovementSpeed = 3f;
+        private const float partyLeaderMovementSpeed = 6f;
 
 
         /// <summary>

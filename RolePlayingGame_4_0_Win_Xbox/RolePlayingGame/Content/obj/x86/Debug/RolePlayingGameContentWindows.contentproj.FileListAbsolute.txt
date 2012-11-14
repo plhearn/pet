@@ -1,2 +1,4 @@
 C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\Content\obj\x86\Debug\ResolveAssemblyReference.cache
 C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\Content\obj\x86\Debug\Audio\RpgAudio.xml
+C:\Users\Peter\Documents\GitHub\pet\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\Content\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Peter\Documents\GitHub\pet\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\Content\obj\x86\Debug\Audio\RpgAudio.xml
