@@ -230,6 +230,18 @@ namespace RolePlayingGameData
         #endregion
 
 
+        #region Map Effects
+
+        private string effect;
+
+        public string Effect
+        {
+            get { return effect; }
+            set { effect = value; }
+        }
+
+        #endregion
+
         #region Map Layers
 
 
@@ -607,6 +619,10 @@ namespace RolePlayingGameData
 
         #region Map Contents
 
+        /// <summary>
+        /// The map effects
+        /// </summary>
+        /// 
 
         /// <summary>
         /// The content names and positions of the portals on this map.
@@ -814,6 +830,7 @@ namespace RolePlayingGameData
             map.combatMusicCueName = CombatMusicCueName;
             map.combatTexture = CombatTexture;
             map.combatTextureName = CombatTextureName;
+            map.effect = effect;
             map.fixedCombatEntries.AddRange(FixedCombatEntries);
             map.fringeLayer = FringeLayer.Clone() as int[];
             map.innEntries.AddRange(InnEntries);
@@ -883,6 +900,8 @@ namespace RolePlayingGameData
 
                 map.MusicCueName = input.ReadString();
                 map.CombatMusicCueName = input.ReadString();
+
+                map.Effect = input.ReadString();
 
                 map.BaseLayer = input.ReadObject<int[]>();
                 map.FringeLayer = input.ReadObject<int[]>();
@@ -994,9 +1013,6 @@ namespace RolePlayingGameData
                         System.IO.Path.Combine(@"Maps\Switches",
                         switchEntry.ContentName)).Clone() as Switch;
                 }
-
-
-
 
                 return map;
             }

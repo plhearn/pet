@@ -9,6 +9,7 @@
     <CombatTextureName>CombatBkgdVillage</CombatTextureName>
     <MusicCueName />
     <CombatMusicCueName>BattleTheme</CombatMusicCueName>
+    <Effect/>
     <BaseLayer>
       671 671 671 412 412 413 702 672 1006 670 702 670 411 702 367 702 367 367 367 367
       367 367 702 672 412 413 367 412 702 1007 672 367 411 367 367 671 367 367 367 671

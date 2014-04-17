@@ -2348,7 +2348,7 @@
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Peter\Documents\GitHub\pet\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\x86\Debug\Content\MainGameDescription.xnb</Output>
-      <Time>2012-09-02T15:53:36.8927425-04:00</Time>
+      <Time>2014-02-16T19:00:36.7625753-05:00</Time>
     </Item>
     <Item>
       <Source>Characters\QuestNPCs\imp.xml</Source>
@@ -2366,7 +2366,7 @@
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Peter\Documents\GitHub\pet\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\x86\Debug\Content\Maps\test1.xnb</Output>
-      <Time>2012-09-02T15:47:52.3470356-04:00</Time>
+      <Time>2013-10-31T19:02:37.8259438-04:00</Time>
     </Item>
     <Item>
       <Source>Maps\test2.xml</Source>
@@ -2375,7 +2375,7 @@
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Peter\Documents\GitHub\pet\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\x86\Debug\Content\Maps\test2.xnb</Output>
-      <Time>2012-09-02T15:47:52.3470356-04:00</Time>
+      <Time>2013-10-31T19:02:05.1602492-04:00</Time>
     </Item>
     <Item>
       <Source>Maps\test3.xml</Source>
@@ -2384,7 +2384,7 @@
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Peter\Documents\GitHub\pet\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\x86\Debug\Content\Maps\test3.xnb</Output>
-      <Time>2012-09-02T15:47:52.3480357-04:00</Time>
+      <Time>2013-10-31T19:02:29.826923-04:00</Time>
     </Item>
     <Item>
       <Source>Maps\Blocks\AlwaysPush.xml</Source>
@@ -2438,7 +2438,7 @@
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Peter\Documents\GitHub\pet\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\x86\Debug\Content\Maps\blockTest.xnb</Output>
-      <Time>2012-09-02T15:47:52.3460356-04:00</Time>
+      <Time>2013-10-31T19:03:04.1130635-04:00</Time>
     </Item>
     <Item>
       <Source>Maps\treeTest.xml</Source>
@@ -2447,7 +2447,7 @@
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Peter\Documents\GitHub\pet\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\x86\Debug\Content\Maps\treeTest.xnb</Output>
-      <Time>2012-09-02T15:47:52.3480357-04:00</Time>
+      <Time>2013-10-31T19:02:26.0183006-04:00</Time>
     </Item>
     <Item>
       <Source>Maps\outside1.xml</Source>
@@ -2456,7 +2456,7 @@
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Peter\Documents\GitHub\pet\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\x86\Debug\Content\Maps\outside1.xnb</Output>
-      <Time>2012-09-02T15:47:52.3470356-04:00</Time>
+      <Time>2013-10-31T19:02:57.3440396-04:00</Time>
     </Item>
     <Item>
       <Source>Maps\outside2.xml</Source>
@@ -2465,7 +2465,7 @@
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Peter\Documents\GitHub\pet\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\x86\Debug\Content\Maps\outside2.xnb</Output>
-      <Time>2012-09-02T15:47:52.3470356-04:00</Time>
+      <Time>2013-10-31T19:02:53.7624042-04:00</Time>
     </Item>
     <Item>
       <Source>Characters\QuestNPCs\sara.xml</Source>
@@ -2493,6 +2493,42 @@
       <Options>None</Options>
       <Output>C:\Users\Peter\Documents\GitHub\pet\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\x86\Debug\Content\Characters\Players\jen.xnb</Output>
       <Time>2012-09-02T15:47:52.1830263-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Maps\forest1.xml</Source>
+      <Name>Maps\forest1</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Peter\Documents\GitHub\pet\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\x86\Debug\Content\Maps\forest1.xnb</Output>
+      <Time>2013-10-31T19:03:00.8214577-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Maps\frontyard.xml</Source>
+      <Name>Maps\frontyard</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Peter\Documents\GitHub\pet\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\x86\Debug\Content\Maps\frontyard.xnb</Output>
+      <Time>2013-10-31T19:03:16.0679436-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Maps\indoors1.xml</Source>
+      <Name>Maps\indoors1</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Peter\Documents\GitHub\pet\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\x86\Debug\Content\Maps\indoors1.xnb</Output>
+      <Time>2014-02-09T23:55:56.8159462-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Maps\test4.xml</Source>
+      <Name>Maps\test4</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Peter\Documents\GitHub\pet\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\x86\Debug\Content\Maps\test4.xnb</Output>
+      <Time>2013-12-18T10:35:46.3402775-05:00</Time>
     </Item>
     <Item>
       <Source>Fonts\ButtonNamesFont.bmp</Source>
@@ -9053,16 +9089,52 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Peter\Documents\GitHub\pet\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\x86\Debug\Content\Textures\Maps\NonCombat\frontyard64.xnb</Output>
-      <Time>2012-09-02T15:47:53.1300804-04:00</Time>
+      <Time>2013-10-28T10:13:21.0489937-04:00</Time>
     </Item>
     <Item>
-      <Source>Maps\forest1.xml</Source>
-      <Name>Maps\forest1</Name>
-      <Importer>XmlImporter</Importer>
-      <Processor>PassThroughProcessor</Processor>
+      <Source>Textures\Maps\NonCombat\frontyard.png</Source>
+      <Name>Textures\Maps\NonCombat\frontyard</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Peter\Documents\GitHub\pet\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\x86\Debug\Content\Maps\forest1.xnb</Output>
-      <Time>2012-11-13T19:35:12.3344484-05:00</Time>
+      <Output>C:\Users\Peter\Documents\GitHub\pet\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\x86\Debug\Content\Textures\Maps\NonCombat\frontyard.xnb</Output>
+      <Time>2013-10-28T10:12:32.1751983-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Maps\NonCombat\rain.png</Source>
+      <Name>Textures\Maps\NonCombat\rain</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Peter\Documents\GitHub\pet\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\x86\Debug\Content\Textures\Maps\NonCombat\rain.xnb</Output>
+      <Time>2013-10-31T14:00:57.2384751-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Maps\NonCombat\rain64.png</Source>
+      <Name>Textures\Maps\NonCombat\rain64</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Peter\Documents\GitHub\pet\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\x86\Debug\Content\Textures\Maps\NonCombat\rain64.xnb</Output>
+      <Time>2013-10-31T14:01:39.5388945-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Maps\NonCombat\indoors164.png</Source>
+      <Name>Textures\Maps\NonCombat\indoors164</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Peter\Documents\GitHub\pet\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\x86\Debug\Content\Textures\Maps\NonCombat\indoors164.xnb</Output>
+      <Time>2014-02-09T23:57:08.8670673-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Maps\NonCombat\test464.png</Source>
+      <Name>Textures\Maps\NonCombat\test464</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Peter\Documents\GitHub\pet\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\x86\Debug\Content\Textures\Maps\NonCombat\test464.xnb</Output>
+      <Time>2013-11-26T19:14:18.4049733-05:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
@@ -9078,7 +9150,7 @@
     <Assemblies>
       <Assembly>
         <Key>C:\Users\Peter\Documents\GitHub\pet\RolePlayingGame_4_0_Win_Xbox\RolePlayingGameProcessors\bin\x86\Debug\RolePlayingGameProcessors.dll</Key>
-        <Value>2012-09-02T15:49:12.8846421-04:00</Value>
+        <Value>2014-04-16T16:02:32.5371352-04:00</Value>
       </Assembly>
       <Assembly>
         <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>

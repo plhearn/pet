@@ -9,8 +9,8 @@ namespace RolePlayingGameData
     public class CutsceneFrame : ContentObject
     {
         public int frame;
+        public string actorName;
         public string animationName;
-        public int animationIndex;
         public float x;
         public float y;
 
@@ -19,11 +19,11 @@ namespace RolePlayingGameData
 
         }
 
-        public CutsceneFrame(int frame, string animationName, int animationIndex, float x, float y)
+        public CutsceneFrame(int frame, string actorName, string animationName, float x, float y)
         {
             this.frame = frame;
+            this.actorName = actorName;
             this.animationName = animationName;
-            this.animationIndex = animationIndex;
             this.x = x;
             this.y = y;
         }

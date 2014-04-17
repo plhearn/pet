@@ -275,6 +275,10 @@ Content\Maps\outside2.xnb
 Content\Characters\QuestNPCs\sara.xnb
 Content\Characters\QuestNPCs\matt.xnb
 Content\Characters\Players\jen.xnb
+Content\Maps\forest1.xnb
+Content\Maps\frontyard.xnb
+Content\Maps\indoors1.xnb
+Content\Maps\test4.xnb
 Content\Fonts\ButtonNamesFont.xnb
 Content\Fonts\CaptionFont.xnb
 Content\Fonts\DamageFont.xnb
@@ -1004,7 +1008,11 @@ Content\Textures\Switches\SwitchOn.xnb
 Content\Textures\Characters\sara.xnb
 Content\Textures\Characters\matt.xnb
 Content\Textures\Maps\NonCombat\frontyard64.xnb
-Content\Maps\forest1.xnb
+Content\Textures\Maps\NonCombat\frontyard.xnb
+Content\Textures\Maps\NonCombat\rain.xnb
+Content\Textures\Maps\NonCombat\rain64.xnb
+Content\Textures\Maps\NonCombat\indoors164.xnb
+Content\Textures\Maps\NonCombat\test464.xnb
 Content\Audio\RPGAudio.xgs
 Content\Audio\Wave Bank.xwb
 Content\Audio\Sound Bank.xsb
@@ -1013,7 +1021,5 @@ Content\Textures\Characters\umaro.png
 Content\Textures\Characters\imp.png
 Content\Textures\Maps\NonCombat\testSet64.png
 Content\Textures\Blocks\default.png
-Content\Maps\Cutscenes\kid.txt
 Content\Maps\Triggers\test2.txt
-Content\Maps\Cutscenes\trees1.txt
 Content\Maps\Cutscenes\outside1.txt

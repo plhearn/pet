@@ -15,8 +15,9 @@ using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework.Storage;
+using System.IO;
 using RolePlayingGameData;
-using Microsoft.Xna.Framework.GamerServices;
+//using Microsoft.Xna.Framework.GamerServices;
 #endregion
 
 namespace RolePlaying
@@ -28,7 +29,7 @@ namespace RolePlaying
     {
         GraphicsDeviceManager graphics;
         ScreenManager screenManager;
-
+        
         /// <summary>
         /// Create a new RolePlayingGame object.
         /// </summary>
@@ -36,14 +37,19 @@ namespace RolePlaying
         {
             // initialize the graphics system
             graphics = new GraphicsDeviceManager(this);
-            graphics.PreferredBackBufferWidth = 1280;
-            graphics.PreferredBackBufferHeight = 720;
-            
+            //graphics.PreferredBackBufferWidth = 1280;
+            //graphics.PreferredBackBufferHeight = 720;
+
+            graphics.PreferredBackBufferWidth = 1024;
+            graphics.PreferredBackBufferHeight = 768;
+
+            graphics.IsFullScreen = false;
+
             // configure the content manager
             Content.RootDirectory = "Content";
 
             // add a gamer-services component, which is required for the storage APIs
-            Components.Add(new GamerServicesComponent(this));
+            //Components.Add(new GamerServicesComponent(this));
 
             // add the audio manager
             AudioManager.Initialize(this, @"Content\Audio\RpgAudio.xgs", 
@@ -68,6 +74,7 @@ namespace RolePlaying
             base.Initialize();
 
             TileEngine.Viewport = graphics.GraphicsDevice.Viewport;
+
 
             screenManager.AddScreen(new MainMenuScreen());
         }
@@ -113,6 +120,8 @@ namespace RolePlaying
         #region Drawing
 
 
+        public static bool ss = true;
+        public static int i = 0;
         /// <summary>
         /// This is called when the game should draw itself.
         /// </summary>
@@ -121,9 +130,56 @@ namespace RolePlaying
         {
             graphics.GraphicsDevice.Clear(Color.Transparent);
 
+            /*
+            SamplerState samst = new SamplerState();
+            samst.Filter = TextureFilter.Point;
+
+            graphics.GraphicsDevice.SamplerStates[0] = samst;
+            */
+
             base.Draw(gameTime);
+
+            /*
+            i++;
+            if (i > 100000)
+                i = 0;
+            if (ss == true && i > 300)
+            {
+                Screenshot(graphics.GraphicsDevice);
+                ss = false;
+            }
+             */
         }
 
+        public static void Screenshot(GraphicsDevice device)
+        {
+            byte[] screenData;
+
+            screenData = new byte[device.PresentationParameters.BackBufferWidth * device.PresentationParameters.BackBufferHeight * 4];
+
+            device.GetBackBufferData<byte>(screenData);
+
+            Texture2D t2d = new Texture2D(device, device.PresentationParameters.BackBufferWidth, device.PresentationParameters.BackBufferHeight, false, device.PresentationParameters.BackBufferFormat);
+
+            t2d.SetData<byte>(screenData);
+
+            int i = 0;
+            string name = "ScreenShot" + i.ToString() + ".png";
+            while (File.Exists(name))
+            {
+                i += 1;
+                name = "ScreenShot" + i.ToString() + ".png";
+
+            }
+
+            Stream st = new FileStream(name, FileMode.Create);
+
+            t2d.SaveAsPng(st, t2d.Width, t2d.Height);
+
+            st.Close();
+
+            t2d.Dispose();
+        } 
 
         #endregion
 

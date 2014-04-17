@@ -45,6 +45,7 @@ namespace RolePlaying
     {
         #region Map
 
+        public static Vector2 scrollMovement;
 
         /// <summary>
         /// The map being used by the tile engine.
@@ -167,7 +168,7 @@ namespace RolePlaying
         /// <remarks>
         /// The movementCollisionTolerance constant should be a multiple of this number.
         /// </remarks>
-        private const float partyLeaderMovementSpeed = 6f;
+        private const float partyLeaderMovementSpeed = 3f;
 
 
         /// <summary>
@@ -578,6 +579,7 @@ namespace RolePlaying
             //move blocks
             userMovement = updateBlocks(userMovement, playerPosition);
 
+
             //active or deactivate switches
             updateSwitches(playerPosition);
 
@@ -586,7 +588,14 @@ namespace RolePlaying
 
             // move the party
             Point oldPartyLeaderTilePosition = partyLeaderPosition.TilePosition;
+
+            //if(Session.holdButton == false)
             partyLeaderPosition.Move(autoMovement + userMovement);
+
+            if(userMovement == Vector2.Zero)
+                Session.holdButton = false;
+            else
+                Session.holdButton = true;
 
             // if the tile position has changed, check for random combat
             if ((autoMovement == Vector2.Zero) &&
@@ -594,6 +603,8 @@ namespace RolePlaying
             {
                 Session.CheckForRandomCombat(Map.RandomCombat);
             }
+
+            Vector2 oldmap = mapOriginPosition;
 
             // adjust the map origin so that the party is at the center of the viewport
             mapOriginPosition += viewportCenter - (partyLeaderPosition.ScreenPosition + 
@@ -608,6 +619,11 @@ namespace RolePlaying
             mapOriginPosition.Y += MathHelper.Max(
                 (viewport.Y + viewport.Height) - 
                 (mapOriginPosition.Y + map.MapDimensions.Y * map.TileSize.Y), 0f);
+
+
+            scrollMovement = mapOriginPosition - oldmap;
+
+
         }
 
         private static Vector2 updateBlocks(Vector2 userMovement, Vector2 playerPosition)
@@ -1041,6 +1057,10 @@ namespace RolePlaying
                     destinationRectangle.Y = 
                         (int)mapOriginPosition.Y + y * map.TileSize.Y;
 
+                    //destinationRectangle.X -= destinationRectangle.X % 2;
+                    //destinationRectangle.Y -= destinationRectangle.Y % 2;
+
+
                     bool overrideSkip = false;
 
                     foreach (Trigger trigger in Session.triggers)
@@ -1169,7 +1189,8 @@ namespace RolePlaying
                         }
                     }
                 }
-            }
+            } 
+
         }
 
 

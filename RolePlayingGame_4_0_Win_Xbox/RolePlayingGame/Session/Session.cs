@@ -38,6 +38,7 @@ namespace RolePlaying
 
         #endregion
 
+        public static bool holdButton = false;
 
         #region Party
 
@@ -55,6 +56,12 @@ namespace RolePlaying
             get { return (singleton == null ? null : singleton.party); }
         }
 
+
+        #endregion
+
+        #region Map Effects
+
+        public static List<Raindrop> raindrops = new List<Raindrop>();
 
         #endregion
 
@@ -118,6 +125,33 @@ namespace RolePlaying
             {
                 if (cutscene.name == TileEngine.Map.Name)
                     singleton.currentCutscene = cutscene;
+            }
+
+
+            if (TileEngine.Map.Effect == "rain")
+            {
+                raindrops = new List<Raindrop>();
+
+                Raindrop rain;
+
+                Texture2D rainTex = content.Load<Texture2D>(@"Textures\Maps\NonCombat\rain64");
+
+                for (int i = 0; i < 200; i++)
+                {
+                    rain = new Raindrop();
+                    rain.TextureName = "rain";
+                    rain.FramesPerRow = rain.width;
+                    rain.FrameDimensions = new Point(rain.width, rain.width * 2);
+                    rain.AddAnimation(new Animation("rain", 1, 4, 1, false));
+                    rain.Texture = rainTex;
+                    rain.position = new Vector2(ScreenManager.GraphicsDevice.Viewport.Width/4 + random.Next(ScreenManager.GraphicsDevice.Viewport.Width), -(rain.width * 2) - random.Next(ScreenManager.GraphicsDevice.Viewport.Height));
+                    rain.lifeTimer = random.Next(100);
+                    raindrops.Add(rain);
+                }
+            }
+            else
+            {
+                raindrops.Clear();
             }
         }
 
@@ -1178,6 +1212,11 @@ namespace RolePlaying
             get { return singleton.currentCutscene; }
         }
 
+
+        //Add name + frame number together as a string for the unique key between the two data sets
+        
+        //add custscene first pass then just update it
+        
         public static List<Trigger> triggers = new List<Trigger>();
 
 
@@ -1222,32 +1261,73 @@ namespace RolePlaying
             List<string> lines;
             string line;
 
+            List<int> frames = new List<int>();
+            List<string> actorNames = new List<string>();
+            List<string> animationNames = new List<string>();
+            List<float> xs = new List<float>();
+            List<float> ys = new List<float>();
+
             foreach (FileInfo fi in rgFiles)
             {
                 Cutscene cutscene = new Cutscene(fi.Name.Replace(".txt", ""));
 
-
+                bool cutoff = false;
                 lines = new List<string>();
                 string[] fields;
+                
                 using (StreamReader reader = new StreamReader(CutscenePath + "/" + fi.Name))
                 {
+                    cutoff = false;
+
                     line = reader.ReadLine();
                     width = line.Length;
+
                     while (line != null)
                     {
-                        fields = line.Split(',');
+                        if (line.Substring(1, 3) == "---")
+                        {
+                            cutoff = true;
+                            line = reader.ReadLine();
+                            width = line.Length;
+                        }
 
-                        int frame = int.Parse(fields[0]);
-                        string spriteName = fields[1];
-                        int animationIndex = int.Parse(fields[2]);
-                        float x = float.Parse(fields[3]);
-                        float y = float.Parse(fields[4]);
+                        if (cutoff)
+                        {
+                            fields = line.Split(',');
 
-                        CutsceneFrame cutsceneFrame = new CutsceneFrame(frame, spriteName, animationIndex, x, y);
-                        cutscene.frames.Add(cutsceneFrame);
+                            int frame = int.Parse(fields[0]);
+                            string actorName = fields[1];
+                            string animationName = fields[2];
+
+                            for (int i = 0; i < frames.Count; i++)
+                                if (frames[i] == frame && actorNames[i].Trim() == actorName.Trim())
+                                    animationNames[i] = animationName;
+                        }
+                        else
+                        {
+                            fields = line.Split(',');
+
+                            int frame = int.Parse(fields[0]);
+                            string actorName = fields[1];
+                            float x = float.Parse(fields[2]);
+                            float y = float.Parse(fields[3]);
+
+                            frames.Add(frame);
+                            actorNames.Add(actorName);
+                            animationNames.Add("");
+                            xs.Add(x);
+                            ys.Add(y);
+                        }
 
                         line = reader.ReadLine();
                     }
+
+                    for (int i = 0; i < frames.Count; i++)
+                    {
+                        CutsceneFrame cutsceneFrame = new CutsceneFrame(frames[i], actorNames[i], animationNames[i], xs[i], ys[i]);
+                        cutscene.frames.Add(cutsceneFrame);
+                    }
+
                 }
 
                 cutscenes.Add(cutscene);
@@ -1354,6 +1434,7 @@ namespace RolePlaying
                 TileEngine.Update(gameTime);
 
                 singleton.UpdateCutscene();
+                singleton.UpdateMapEffects(gameTime, TileEngine.scrollMovement);
             }
         }
 
@@ -1387,6 +1468,17 @@ namespace RolePlaying
             }
         }
 
+        public void UpdateMapEffects(GameTime gameTime, Vector2 movement)
+        {
+            if (raindrops.Count > 0)
+            {
+                foreach (Raindrop rain in raindrops)
+                {
+                    rain.UpdateRainAnimation((float)gameTime.ElapsedGameTime.TotalSeconds, ScreenManager.GraphicsDevice.Viewport.Width, ScreenManager.GraphicsDevice.Viewport.Height, movement);
+                    
+                }
+            }
+        }
 
         #endregion
 
@@ -1435,7 +1527,17 @@ namespace RolePlaying
             SpriteBatch spriteBatch = screenManager.SpriteBatch;
 
             // draw the background
+            //spriteBatch.Begin();
+
+           // spriteBatch.Begin(SpriteSortMode.Immediate, BlendState.AlphaBlend, SamplerState.PointWrap, DepthStencilState.None, RasterizerState.CullCounterClockwise);
             spriteBatch.Begin();
+            /*
+            SamplerState samst = new SamplerState();
+            samst.Filter = TextureFilter.Point;
+
+            spriteBatch.GraphicsDevice.SamplerStates[0] = samst;
+            */
+
             if (TileEngine.Map.Texture != null)
             {
                 // draw the ground layer
@@ -1464,40 +1566,48 @@ namespace RolePlaying
                 {
                     foreach (CutsceneFrame frame in currentCutscene.frames)
                     {
-                        if (frame.frame == currentCutscene.currentFrame && player.Name == frame.animationName)
+                        if (frame.frame == currentCutscene.currentFrame && player.Name == frame.actorName)
                         {
                             position = new Vector2(frame.x, frame.y);
+
+                            player.MapSprite.PlayAnimationByName(getCutsceneAnimation(frame.animationName));
+
+                            player.MapSprite.UpdateAnimation(elapsedSeconds);
+                            player.MapSprite.Draw(spriteBatch, position,
+                                1f - position.Y / (float)TileEngine.Viewport.Height);
                         }
                     }
                 }
-
-
-                player.ResetAnimation(TileEngine.PartyLeaderPosition.IsMoving);
-                switch (player.State)
+                else
                 {
-                    case Character.CharacterState.Idle:
-                        if (player.MapSprite != null)
-                        {
-                            player.MapSprite.UpdateAnimation(elapsedSeconds);
-                            player.MapSprite.Draw(spriteBatch, position,
-                                1f - position.Y / (float)TileEngine.Viewport.Height);
-                        }
-                        break;
 
-                    case Character.CharacterState.Walking:
-                        if (player.WalkingSprite != null)
-                        {
-                            player.WalkingSprite.UpdateAnimation(elapsedSeconds);
-                            player.WalkingSprite.Draw(spriteBatch, position,
-                                1f - position.Y / (float)TileEngine.Viewport.Height);
-                        }
-                        else if (player.MapSprite != null)
-                        {
-                            player.MapSprite.UpdateAnimation(elapsedSeconds);
-                            player.MapSprite.Draw(spriteBatch, position,
-                                1f - position.Y / (float)TileEngine.Viewport.Height);
-                        }
-                        break;
+                    player.ResetAnimation(TileEngine.PartyLeaderPosition.IsMoving);
+                    switch (player.State)
+                    {
+                        case Character.CharacterState.Idle:
+                            if (player.MapSprite != null)
+                            {
+                                player.MapSprite.UpdateAnimation(elapsedSeconds);
+                                player.MapSprite.Draw(spriteBatch, position,
+                                    1f - position.Y / (float)TileEngine.Viewport.Height);
+                            }
+                            break;
+
+                        case Character.CharacterState.Walking:
+                            if (player.WalkingSprite != null)
+                            {
+                                player.WalkingSprite.UpdateAnimation(elapsedSeconds);
+                                player.WalkingSprite.Draw(spriteBatch, position,
+                                    1f - position.Y / (float)TileEngine.Viewport.Height);
+                            }
+                            else if (player.MapSprite != null)
+                            {
+                                player.MapSprite.UpdateAnimation(elapsedSeconds);
+                                player.MapSprite.Draw(spriteBatch, position,
+                                    1f - position.Y / (float)TileEngine.Viewport.Height);
+                            }
+                            break;
+                    }
                 }
             }
 
@@ -1559,19 +1669,18 @@ namespace RolePlaying
 
 
 
-                // apply cutscene position
-
                 if (currentCutscene != null)
                 {
                     foreach (CutsceneFrame frame in currentCutscene.frames)
                     {
-                        if (frame.frame == currentCutscene.currentFrame && questNpcEntry.Content.Name == frame.animationName)
+                        if (frame.frame == currentCutscene.currentFrame && questNpcEntry.Content.Name == frame.actorName)
                         {
                             position = new Vector2(frame.x, frame.y);
+
+                            questNpcEntry.Content.MapSprite.PlayAnimationByName(getCutsceneAnimation(frame.animationName));
                         }
                     }
                 }
-
 
 
                 questNpcEntry.Content.ResetAnimation(false);
@@ -1744,9 +1853,55 @@ namespace RolePlaying
             {
                 TileEngine.DrawLayers(spriteBatch, false, false, true);
             }
+
+            // draw map effects
+            DrawMapEffects(spriteBatch);
+
+
             spriteBatch.End();
         }
 
+        private Animation getCutsceneAnimation(string animationName)
+        {
+            Animation result = new Animation();
+
+            if (animationName.Substring(animationName.Length - 2, 2) == "Dw")
+                result = new Animation("WalkSouth", 1, 4, 160, true);
+            if (animationName.Substring(animationName.Length - 2, 2) == "Uw")
+                result = new Animation("WalkNorth", 5, 8, 160, true);
+            if (animationName.Substring(animationName.Length - 2, 2) == "Lw")
+                result = new Animation("WalkWest", 9, 12, 160, true);
+            if (animationName.Substring(animationName.Length - 2, 2) == "Rw")
+                result = new Animation("WalkEast", 13, 16, 160, true);
+
+            if (animationName.Substring(animationName.Length - 1, 1) == "D")
+                result = new Animation("IdleSouth", 2, 2, 200, true);
+            if (animationName.Substring(animationName.Length - 1, 1) == "U")
+                result = new Animation("IdleNorth", 6, 6, 200, true);
+            if (animationName.Substring(animationName.Length - 1, 1) == "L")
+                result = new Animation("IdleWest", 10, 10, 200, true);
+            if (animationName.Substring(animationName.Length - 1, 1) == "R")
+                result = new Animation("IdleEast", 14, 14, 200, true);
+
+            return result;
+
+        }
+
+        private void DrawMapEffects(SpriteBatch spriteBatch)
+        {
+            // draw the rain
+
+            if (raindrops.Count > 0)
+            {
+                foreach (Raindrop rain in raindrops)
+                {
+                    Rectangle srcRect = new Rectangle(rain.rowOffset, 0, rain.width, rain.width * 2);
+
+                    spriteBatch.Draw(rain.Texture, rain.position, srcRect, Color.White);
+                }
+            }
+
+        }
 
         /// <summary>
         /// Draw the shadows that appear under all characters.
@@ -1835,6 +1990,9 @@ namespace RolePlaying
                         1f, SpriteEffects.None, 1f);
                 }
             }
+
+
+
         }
 
 

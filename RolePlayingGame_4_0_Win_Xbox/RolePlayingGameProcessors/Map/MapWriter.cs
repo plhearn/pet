@@ -76,6 +76,7 @@ namespace RolePlayingGameProcessors
             output.Write(value.CombatTextureName);
             output.Write(value.MusicCueName);
             output.Write(value.CombatMusicCueName);
+            output.Write(value.Effect);
             output.WriteObject(value.BaseLayer);
             output.WriteObject(value.FringeLayer);
             output.WriteObject(value.ObjectLayer);

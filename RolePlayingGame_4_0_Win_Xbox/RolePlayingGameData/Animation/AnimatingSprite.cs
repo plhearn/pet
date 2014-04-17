@@ -233,6 +233,21 @@ namespace RolePlayingGameData
             }
         }
 
+
+        /// <summary>
+        /// Play the given animation on the sprite.
+        /// </summary>
+        /// <remarks>The given animation may be null, to clear any animation.</remarks>
+        public void PlayAnimationByName(Animation animation)
+        {
+            // start the new animation, ignoring redundant Plays
+            if (animation.Name != currentAnimation.Name)
+            {
+                currentAnimation = animation;
+                ResetAnimation();
+            }
+        }
+
         
         /// <summary>
         /// Play an animation given by index.

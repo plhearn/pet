@@ -1301,6 +1301,8 @@ C:\Users\Peter\Documents\GitHub\pet\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame
 C:\Users\Peter\Documents\GitHub\pet\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\x86\Debug\Content\Characters\QuestNPCs\sara.xnb
 C:\Users\Peter\Documents\GitHub\pet\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\x86\Debug\Content\Characters\QuestNPCs\matt.xnb
 C:\Users\Peter\Documents\GitHub\pet\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\x86\Debug\Content\Characters\Players\jen.xnb
+C:\Users\Peter\Documents\GitHub\pet\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\x86\Debug\Content\Maps\forest1.xnb
+C:\Users\Peter\Documents\GitHub\pet\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\x86\Debug\Content\Maps\frontyard.xnb
 C:\Users\Peter\Documents\GitHub\pet\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\x86\Debug\Content\Fonts\ButtonNamesFont.xnb
 C:\Users\Peter\Documents\GitHub\pet\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\x86\Debug\Content\Fonts\CaptionFont.xnb
 C:\Users\Peter\Documents\GitHub\pet\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\x86\Debug\Content\Fonts\DamageFont.xnb
@@ -2030,6 +2032,9 @@ C:\Users\Peter\Documents\GitHub\pet\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame
 C:\Users\Peter\Documents\GitHub\pet\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\x86\Debug\Content\Textures\Characters\sara.xnb
 C:\Users\Peter\Documents\GitHub\pet\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\x86\Debug\Content\Textures\Characters\matt.xnb
 C:\Users\Peter\Documents\GitHub\pet\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\x86\Debug\Content\Textures\Maps\NonCombat\frontyard64.xnb
+C:\Users\Peter\Documents\GitHub\pet\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\x86\Debug\Content\Textures\Maps\NonCombat\frontyard.xnb
+C:\Users\Peter\Documents\GitHub\pet\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\x86\Debug\Content\Textures\Maps\NonCombat\rain.xnb
+C:\Users\Peter\Documents\GitHub\pet\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\x86\Debug\Content\Textures\Maps\NonCombat\rain64.xnb
 C:\Users\Peter\Documents\GitHub\pet\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\x86\Debug\Content\Audio\RPGAudio.xgs
 C:\Users\Peter\Documents\GitHub\pet\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\x86\Debug\Content\Audio\Wave Bank.xwb
 C:\Users\Peter\Documents\GitHub\pet\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\x86\Debug\Content\Audio\Sound Bank.xsb
@@ -2038,16 +2043,17 @@ C:\Users\Peter\Documents\GitHub\pet\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame
 C:\Users\Peter\Documents\GitHub\pet\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\x86\Debug\Content\Textures\Characters\imp.png
 C:\Users\Peter\Documents\GitHub\pet\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\x86\Debug\Content\Textures\Maps\NonCombat\testSet64.png
 C:\Users\Peter\Documents\GitHub\pet\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\x86\Debug\Content\Textures\Blocks\default.png
-C:\Users\Peter\Documents\GitHub\pet\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\x86\Debug\Content\Maps\Cutscenes\kid.txt
 C:\Users\Peter\Documents\GitHub\pet\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\x86\Debug\Content\Maps\Triggers\test2.txt
-C:\Users\Peter\Documents\GitHub\pet\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\x86\Debug\Content\Maps\Cutscenes\trees1.txt
 C:\Users\Peter\Documents\GitHub\pet\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\x86\Debug\Content\Maps\Cutscenes\outside1.txt
 C:\Users\Peter\Documents\GitHub\pet\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\x86\Debug\RolePlayingGame.exe
 C:\Users\Peter\Documents\GitHub\pet\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\x86\Debug\RolePlayingGame.pdb
 C:\Users\Peter\Documents\GitHub\pet\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\x86\Debug\RolePlayingGameDataWindows.dll
 C:\Users\Peter\Documents\GitHub\pet\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\x86\Debug\RolePlayingGameDataWindows.pdb
-C:\Users\Peter\Documents\GitHub\pet\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\obj\x86\Debug\ResolveAssemblyReference.cache
 C:\Users\Peter\Documents\GitHub\pet\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 C:\Users\Peter\Documents\GitHub\pet\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\obj\x86\Debug\RolePlayingGame.exe
 C:\Users\Peter\Documents\GitHub\pet\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\obj\x86\Debug\RolePlayingGame.pdb
-C:\Users\Peter\Documents\GitHub\pet\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\x86\Debug\Content\Maps\forest1.xnb
+C:\Users\Peter\Documents\GitHub\pet\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\x86\Debug\Content\Maps\indoors1.xnb
+C:\Users\Peter\Documents\GitHub\pet\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\x86\Debug\Content\Textures\Maps\NonCombat\indoors164.xnb
+C:\Users\Peter\Documents\GitHub\pet\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\x86\Debug\Content\Maps\test4.xnb
+C:\Users\Peter\Documents\GitHub\pet\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\x86\Debug\Content\Textures\Maps\NonCombat\test464.xnb
+C:\Users\Peter\Documents\GitHub\pet\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\obj\x86\Debug\RolePlayingGameWindows.csprojResolveAssemblyReference.cache

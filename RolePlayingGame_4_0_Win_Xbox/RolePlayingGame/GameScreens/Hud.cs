@@ -184,6 +184,10 @@ namespace RolePlaying
 
                 DrawForCombat();
             }
+
+
+            Fonts.DrawCenteredText(spriteBatch, Fonts.PlayerStatisticsFont, "X:" + TileEngine.mapOriginPosition.X + " Y:" + TileEngine.mapOriginPosition.Y + " " + Session.holdButton.ToString(), new Vector2(200,200), Color.White);
+
             /*
             else
             {

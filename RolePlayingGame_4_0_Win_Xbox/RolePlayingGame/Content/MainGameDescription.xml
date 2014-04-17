@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <XnaContent>
   <Asset Type="RolePlayingGameData.GameStartDescription">
-      <MapContentName>forest1</MapContentName>
+      <MapContentName>outside1</MapContentName>
 	  <PlayerContentNames>
 		  <Item>jen</Item>
 	  </PlayerContentNames>

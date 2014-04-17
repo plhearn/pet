@@ -104,7 +104,7 @@ namespace RolePlaying
             ContentManager content = Game.Content;
 
             spriteBatch = new SpriteBatch(GraphicsDevice);
-
+            
             // Tell each of the screens to load their content.
             foreach (GameScreen screen in screens)
             {

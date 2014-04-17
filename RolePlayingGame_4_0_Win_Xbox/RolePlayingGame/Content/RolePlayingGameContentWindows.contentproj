@@ -5167,12 +5167,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Maps\Cutscenes\kid.txt">
-      <Name>kid</Name>
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-  </ItemGroup>
-  <ItemGroup>
     <Compile Include="Textures\Characters\relm.png">
       <Name>relm</Name>
       <Importer>TextureImporter</Importer>
@@ -5306,12 +5300,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Maps\Cutscenes\trees1.txt">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      <Name>trees1</Name>
-    </None>
-  </ItemGroup>
-  <ItemGroup>
     <Compile Include="Maps\outside1.xml">
       <SubType>Designer</SubType>
       <Name>outside1</Name>
@@ -5403,6 +5391,63 @@
       <Name>forest1</Name>
       <Importer>XmlImporter</Importer>
       <Processor>PassThroughProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Maps\frontyard.xml">
+      <SubType>Designer</SubType>
+      <Name>frontyard</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Textures\Maps\NonCombat\frontyard.png">
+      <Name>frontyard</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Textures\Maps\NonCombat\rain.png">
+      <Name>rain</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Textures\Maps\NonCombat\rain64.png">
+      <Name>rain64</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Maps\indoors1.xml">
+      <SubType>Designer</SubType>
+      <Name>indoors1</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Textures\Maps\NonCombat\indoors164.png">
+      <Name>indoors164</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Maps\test4.xml">
+      <SubType>Designer</SubType>
+      <Name>test4</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Textures\Maps\NonCombat\test464.png">
+      <Name>test464</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
     </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\XNA Game Studio\$(XnaFrameworkVersion)\Microsoft.Xna.GameStudio.ContentPipeline.targets" />
