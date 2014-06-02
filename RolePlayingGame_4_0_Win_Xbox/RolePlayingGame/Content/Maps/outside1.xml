@@ -4,12 +4,12 @@
     <Name>outside1</Name>
     <MapDimensions>20 20</MapDimensions>
     <TileSize>64 64</TileSize>
-    <SpawnMapPosition>10 10</SpawnMapPosition>
+    <SpawnMapPosition>11 10</SpawnMapPosition>
     <TextureName>testSet64</TextureName>
     <CombatTextureName>CombatBkgdVillage</CombatTextureName>
     <MusicCueName />
     <CombatMusicCueName>BattleTheme</CombatMusicCueName>
-    <Effect/>
+    <Effect>fog</Effect>
     <BaseLayer>
       671 671 671 412 412 413 702 672 1006 670 702 670 411 702 367 702 367 367 367 367
       367 367 702 672 412 413 367 412 702 1007 672 367 411 367 367 671 367 367 367 671
@@ -182,12 +182,12 @@
     <QuestNpcEntries>
       <Item>
         <ContentName>matt</ContentName>
-        <MapPosition>2 14</MapPosition>
+        <MapPosition>-1 -1</MapPosition>
         <Direction>South</Direction>
       </Item>
       <Item>
         <ContentName>sara</ContentName>
-        <MapPosition>10 14</MapPosition>
+        <MapPosition>-1 -1</MapPosition>
         <Direction>South</Direction>
       </Item>
     </QuestNpcEntries>

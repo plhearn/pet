@@ -34,6 +34,7 @@ namespace RolePlayingGameData
         public string name;
         public List<CutsceneFrame> frames = new List<CutsceneFrame>();
         public int currentFrame = 0;
+        public int maxFrame = 0;
 
         /// <summary>
         /// The Cutscene in the Cutscene, along with quantities.
@@ -67,6 +68,16 @@ namespace RolePlayingGameData
             get { return ((entries.Count <= 0)); }
         }
 
+        public int setMaxFrame()
+        {
+            foreach(CutsceneFrame frame in frames)
+            {
+                if(frame.frame > maxFrame)
+                    maxFrame = frame.frame;
+            }
+
+            return maxFrame;
+        }
 
 
 

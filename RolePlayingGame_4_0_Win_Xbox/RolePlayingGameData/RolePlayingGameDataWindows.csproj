@@ -61,6 +61,7 @@
   <ItemGroup>
     <Compile Include="Animation\AnimatingSprite.cs" />
     <Compile Include="Animation\Animation.cs" />
+    <Compile Include="Animation\Fog.cs" />
     <Compile Include="Animation\Raindrop.cs" />
     <Compile Include="Characters\Character.cs" />
     <Compile Include="Characters\CharacterClass.cs" />

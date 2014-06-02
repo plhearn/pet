@@ -71,7 +71,7 @@ namespace RolePlaying
             newGameMenuEntry = new MenuEntry("New Game");
             newGameMenuEntry.Description = "Start a New Game";
             newGameMenuEntry.Font = Fonts.HeaderFont;
-            newGameMenuEntry.Position = new Vector2(715, 0f);
+            newGameMenuEntry.Position = new Vector2(700, 0f);
             newGameMenuEntry.Selected += NewGameMenuEntrySelected;
             MenuEntries.Add(newGameMenuEntry);
 
@@ -82,7 +82,7 @@ namespace RolePlaying
                 saveGameMenuEntry = new MenuEntry("Save Game");
                 saveGameMenuEntry.Description = "Save the Game";
                 saveGameMenuEntry.Font = Fonts.HeaderFont;
-                saveGameMenuEntry.Position = new Vector2(730, 0f);
+                saveGameMenuEntry.Position = new Vector2(700, 0f);
                 saveGameMenuEntry.Selected += SaveGameMenuEntrySelected;
                 MenuEntries.Add(saveGameMenuEntry);
             }
@@ -98,14 +98,14 @@ namespace RolePlaying
             loadGameMenuEntry.Position = new Vector2(700, 0f);
             loadGameMenuEntry.Selected += LoadGameMenuEntrySelected;
             MenuEntries.Add(loadGameMenuEntry);
-
+            
             // add the Controls menu entry
             controlsMenuEntry = new MenuEntry("Controls");
             controlsMenuEntry.Description = "View Game Controls";
             controlsMenuEntry.Font = Fonts.HeaderFont;
             controlsMenuEntry.Position = new Vector2(720, 0f);
             controlsMenuEntry.Selected += ControlsMenuEntrySelected;
-            MenuEntries.Add(controlsMenuEntry);
+            //MenuEntries.Add(controlsMenuEntry);
 
             // add the Help menu entry
             helpMenuEntry = new MenuEntry("Help");
@@ -113,13 +113,14 @@ namespace RolePlaying
             helpMenuEntry.Font = Fonts.HeaderFont;
             helpMenuEntry.Position = new Vector2(700, 0f);
             helpMenuEntry.Selected += HelpMenuEntrySelected;
-            MenuEntries.Add(helpMenuEntry);
+            //MenuEntries.Add(helpMenuEntry);
+            
 
             // create the Exit menu entry
             exitGameMenuEntry = new MenuEntry("Exit");
             exitGameMenuEntry.Description = "Quit the Game";
             exitGameMenuEntry.Font = Fonts.HeaderFont;
-            exitGameMenuEntry.Position = new Vector2(720, 0f);
+            exitGameMenuEntry.Position = new Vector2(700, 0f);
             exitGameMenuEntry.Selected += OnCancel;
             MenuEntries.Add(exitGameMenuEntry);
 
@@ -141,11 +142,11 @@ namespace RolePlaying
                 content.Load<Texture2D>(@"Textures\MainMenu\MainMenuInfoSpace");
             iconTexture = content.Load<Texture2D>(@"Textures\MainMenu\GameLogo");
             plankTexture1 = 
-                content.Load<Texture2D>(@"Textures\MainMenu\MainMenuPlank");
-            plankTexture2 = 
-                content.Load<Texture2D>(@"Textures\MainMenu\MainMenuPlank02");
-            plankTexture3 = 
-                content.Load<Texture2D>(@"Textures\MainMenu\MainMenuPlank03");
+                content.Load<Texture2D>(@"Textures\MainMenu\menuItem");
+            plankTexture2 =
+                content.Load<Texture2D>(@"Textures\MainMenu\menuItem");
+            plankTexture3 =
+                content.Load<Texture2D>(@"Textures\MainMenu\menuItem");
             backTexture = content.Load<Texture2D>(@"Textures\Buttons\BButton");
             selectTexture = content.Load<Texture2D>(@"Textures\Buttons\AButton");
 
@@ -327,9 +328,8 @@ namespace RolePlaying
 
             // draw the background images
             spriteBatch.Draw(backgroundTexture, backgroundPosition, Color.White);
-            spriteBatch.Draw(descriptionAreaTexture, descriptionAreaPosition, 
-                Color.White);
-            spriteBatch.Draw(iconTexture, iconPosition, Color.White);
+            //spriteBatch.Draw(descriptionAreaTexture, descriptionAreaPosition, Color.White);
+            //spriteBatch.Draw(iconTexture, iconPosition, Color.White);
 
             // Draw each menu entry in turn.
             for (int i = 0; i < MenuEntries.Count; i++)
@@ -340,6 +340,7 @@ namespace RolePlaying
             }
 
             // draw the description text for the selected entry
+            /*
             MenuEntry selectedMenuEntry = SelectedMenuEntry;
             if ((selectedMenuEntry != null) &&
                 !String.IsNullOrEmpty(selectedMenuEntry.Description))
@@ -349,8 +350,7 @@ namespace RolePlaying
                 Vector2 textPosition = descriptionAreaTextPosition + new Vector2(
                     (float)Math.Floor((descriptionAreaTexture.Width - textSize.X) / 2),
                     0f);
-                spriteBatch.DrawString(Fonts.DescriptionFont, 
-                    selectedMenuEntry.Description, textPosition, Color.White);
+                spriteBatch.DrawString(Fonts.DescriptionFont, selectedMenuEntry.Description, textPosition, Color.White);
             }
 
             // draw the select instruction
@@ -361,13 +361,14 @@ namespace RolePlaying
                 selectPosition.Y + 5), Color.White);
 
             // if we are in-game, draw the back instruction
+            
             if (Session.IsActive)
             {
                 spriteBatch.Draw(backTexture, backPosition, Color.White);
                 spriteBatch.DrawString(Fonts.ButtonNamesFont, "Resume",
                     new Vector2(backPosition.X + 55, backPosition.Y + 5), Color.White);
             }
-
+            */
             spriteBatch.End();
         }
 

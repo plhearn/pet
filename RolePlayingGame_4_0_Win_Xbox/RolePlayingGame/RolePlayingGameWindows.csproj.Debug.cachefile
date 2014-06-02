@@ -476,6 +476,7 @@ Content\Textures\GameScreens\Highlight.xnb
 Content\Textures\GameScreens\HighlightLarge.xnb
 Content\Textures\GameScreens\InfoDisplay.xnb
 Content\Textures\GameScreens\LineBorder.xnb
+Content\Textures\GameScreens\menuItem.xnb
 Content\Textures\GameScreens\PlayerSelected.xnb
 Content\Textures\GameScreens\PlayerUnSelected.xnb
 Content\Textures\GameScreens\PopupScreen.xnb
@@ -1013,6 +1014,10 @@ Content\Textures\Maps\NonCombat\rain.xnb
 Content\Textures\Maps\NonCombat\rain64.xnb
 Content\Textures\Maps\NonCombat\indoors164.xnb
 Content\Textures\Maps\NonCombat\test464.xnb
+Content\Textures\GameScreens\blueTalk.xnb
+Content\Textures\MainMenu\menuItem.xnb
+Content\Textures\GameScreens\nameLabel.xnb
+Content\Textures\Maps\NonCombat\fog.xnb
 Content\Audio\RPGAudio.xgs
 Content\Audio\Wave Bank.xwb
 Content\Audio\Sound Bank.xsb

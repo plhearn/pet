@@ -56,12 +56,14 @@ namespace RolePlaying
             get { return (singleton == null ? null : singleton.party); }
         }
 
+        Vector2 oldCamPos;
 
         #endregion
 
         #region Map Effects
 
         public static List<Raindrop> raindrops = new List<Raindrop>();
+        public static Fog fog;
 
         #endregion
 
@@ -153,6 +155,24 @@ namespace RolePlaying
             {
                 raindrops.Clear();
             }
+
+
+            if (TileEngine.Map.Effect == "fog")
+            {
+                Texture2D fogTex = content.Load<Texture2D>(@"Textures\Maps\NonCombat\fog");
+
+                fog = new Fog();
+                fog.TextureName = "fog";
+                fog.FramesPerRow = 1;
+                fog.FrameDimensions = new Point(fog.width, fog.width);
+                fog.AddAnimation(new Animation("fog", 1, 1, 1, false));
+                fog.Texture = fogTex;
+                fog.position = new Vector2(ScreenManager.GraphicsDevice.Viewport.Width / 2, ScreenManager.GraphicsDevice.Viewport.Height / 2);
+                fog.lifeTimer = random.Next(100);
+            }
+
+
+
         }
 
 
@@ -1279,6 +1299,12 @@ namespace RolePlaying
                 {
                     cutoff = false;
 
+                    frames.Clear();
+                    actorNames.Clear();
+                    animationNames.Clear();
+                    xs.Clear();
+                    ys.Clear();
+
                     line = reader.ReadLine();
                     width = line.Length;
 
@@ -1330,6 +1356,7 @@ namespace RolePlaying
 
                 }
 
+                cutscene.setMaxFrame();
                 cutscenes.Add(cutscene);
             }
 
@@ -1444,16 +1471,58 @@ namespace RolePlaying
             if (currentCutscene == null)
                 return;
 
+            //pan camera
+            Vector2 camPos = Vector2.Zero;
+
+            foreach (CutsceneFrame frame in currentCutscene.frames)
+                if (frame.actorName == "camera" && frame.frame == currentCutscene.currentFrame)
+                    camPos = new Vector2(frame.x, frame.y);
+
+            if (oldCamPos != Vector2.Zero)
+            {
+                Vector2 movement = camPos - oldCamPos;
+
+                if (movement != Vector2.Zero)
+                    TileEngine.PartyLeaderPosition.Move(movement);
+            }
+
+            oldCamPos = camPos;
+
+
+            /*
+            //adjust position to end frame
+            if (currentCutscene.currentFrame == 0)
+            {
+
+                Player player = party.Players[0];
+                Point p = new Point();
+                Vector2 endPlayerFrame = Vector2.Zero;
+
+                foreach (CutsceneFrame frame in currentCutscene.frames)
+                    if (player.Name == frame.actorName)
+                        endPlayerFrame = new Vector2(frame.x, frame.y);
+
+                Vector2 delta = endPlayerFrame - TileEngine.GetScreenPosition(TileEngine.Map.SpawnMapPosition);
+
+                p = new Point((int)(delta.X / TileEngine.Map.TileSize.X), (int)(delta.Y / TileEngine.Map.TileSize.Y));
+
+                TileEngine.PartyLeaderPosition.TilePosition = new Point(TileEngine.PartyLeaderPosition.TilePosition.X + p.X, TileEngine.PartyLeaderPosition.TilePosition.Y + p.Y);
+                TileEngine.PartyLeaderPosition.TileOffset = new Vector2(delta.X % TileEngine.Map.TileSize.X, delta.Y % TileEngine.Map.TileSize.Y);
+                
+
+            }
+            */
+
             foreach (CutsceneFrame frame in currentCutscene.frames)
             {
-                if (frame.frame == currentCutscene.currentFrame && frame.animationName.Contains("d:"))
-                    singleton.screenManager.AddScreen(new DialogueScreen("O HAI", frame.animationName.Replace("d:", "")));
+                if (frame.frame-1 == currentCutscene.currentFrame && frame.actorName.Contains("d:"))
+                    singleton.screenManager.AddScreen(new DialogueScreen("O HAI", frame.actorName.Replace("d:", "")));
 
-                if (frame.frame == currentCutscene.currentFrame && frame.animationName.Contains("f:"))
+                if (frame.frame-1 == currentCutscene.currentFrame && frame.actorName.Contains("f:"))
                 {
                     foreach(MapEntry<FixedCombat> fight in TileEngine.Map.FixedCombatEntries)
                     {
-                        if (fight.Content.Name == frame.animationName.Replace("f:", ""))
+                        if (fight.Content.Name == frame.actorName.Replace("f:", ""))
                             EncounterFixedCombat(fight);
                     }
                 }
@@ -1461,11 +1530,13 @@ namespace RolePlaying
 
             currentCutscene.currentFrame++;
 
-            if (currentCutscene.currentFrame == currentCutscene.frames.Count)
+            if (currentCutscene.currentFrame == currentCutscene.maxFrame)
             {
                 currentCutscene.currentFrame = 0;
                 currentCutscene = null;
+                oldCamPos = Vector2.Zero;
             }
+
         }
 
         public void UpdateMapEffects(GameTime gameTime, Vector2 movement)
@@ -1475,8 +1546,12 @@ namespace RolePlaying
                 foreach (Raindrop rain in raindrops)
                 {
                     rain.UpdateRainAnimation((float)gameTime.ElapsedGameTime.TotalSeconds, ScreenManager.GraphicsDevice.Viewport.Width, ScreenManager.GraphicsDevice.Viewport.Height, movement);
-                    
                 }
+            }
+
+            if(fog != null)
+            {
+                fog.UpdateFog((float)gameTime.ElapsedGameTime.TotalSeconds, ScreenManager.GraphicsDevice.Viewport.Width, ScreenManager.GraphicsDevice.Viewport.Height, movement);
             }
         }
 
@@ -1543,7 +1618,7 @@ namespace RolePlaying
                 // draw the ground layer
                 TileEngine.DrawLayers(spriteBatch, true, true, false);
                 // draw the character shadows
-                DrawShadows(spriteBatch);
+                //DrawShadows(spriteBatch);
             }
             spriteBatch.End();
 
@@ -1575,6 +1650,9 @@ namespace RolePlaying
                             player.MapSprite.UpdateAnimation(elapsedSeconds);
                             player.MapSprite.Draw(spriteBatch, position,
                                 1f - position.Y / (float)TileEngine.Viewport.Height);
+
+                            //if (frame.frame == 374)
+                            //    position = position;
                         }
                     }
                 }
@@ -1678,42 +1756,50 @@ namespace RolePlaying
                             position = new Vector2(frame.x, frame.y);
 
                             questNpcEntry.Content.MapSprite.PlayAnimationByName(getCutsceneAnimation(frame.animationName));
+
+                            questNpcEntry.Content.MapSprite.UpdateAnimation(elapsedSeconds);
+                            questNpcEntry.Content.MapSprite.Draw(spriteBatch, position,
+                                1f - position.Y / (float)TileEngine.Viewport.Height);
+
                         }
+                    }
+                }
+                else
+                {
+                    questNpcEntry.Content.ResetAnimation(false);
+                    switch (questNpcEntry.Content.State)
+                    {
+                        case Character.CharacterState.Idle:
+                            if (questNpcEntry.Content.MapSprite != null)
+                            {
+                                questNpcEntry.Content.MapSprite.UpdateAnimation(
+                                    elapsedSeconds);
+                                questNpcEntry.Content.MapSprite.Draw(spriteBatch, position,
+                                    1f - position.Y / (float)TileEngine.Viewport.Height);
+                            }
+                            break;
+
+                        case Character.CharacterState.Walking:
+                            if (questNpcEntry.Content.WalkingSprite != null)
+                            {
+                                questNpcEntry.Content.WalkingSprite.UpdateAnimation(
+                                    elapsedSeconds);
+                                questNpcEntry.Content.WalkingSprite.Draw(spriteBatch,
+                                    position,
+                                    1f - position.Y / (float)TileEngine.Viewport.Height);
+                            }
+                            else if (questNpcEntry.Content.MapSprite != null)
+                            {
+                                questNpcEntry.Content.MapSprite.UpdateAnimation(
+                                    elapsedSeconds);
+                                questNpcEntry.Content.MapSprite.Draw(spriteBatch, position,
+                                    1f - position.Y / (float)TileEngine.Viewport.Height);
+                            }
+                            break;
                     }
                 }
 
 
-                questNpcEntry.Content.ResetAnimation(false);
-                switch (questNpcEntry.Content.State)
-                {
-                    case Character.CharacterState.Idle:
-                        if (questNpcEntry.Content.MapSprite != null)
-                        {
-                            questNpcEntry.Content.MapSprite.UpdateAnimation(
-                                elapsedSeconds);
-                            questNpcEntry.Content.MapSprite.Draw(spriteBatch, position,
-                                1f - position.Y / (float)TileEngine.Viewport.Height);
-                        }
-                        break;
-
-                    case Character.CharacterState.Walking:
-                        if (questNpcEntry.Content.WalkingSprite != null)
-                        {
-                            questNpcEntry.Content.WalkingSprite.UpdateAnimation(
-                                elapsedSeconds);
-                            questNpcEntry.Content.WalkingSprite.Draw(spriteBatch, 
-                                position,
-                                1f - position.Y / (float)TileEngine.Viewport.Height);
-                        }
-                        else if (questNpcEntry.Content.MapSprite != null)
-                        {
-                            questNpcEntry.Content.MapSprite.UpdateAnimation(
-                                elapsedSeconds);
-                            questNpcEntry.Content.MapSprite.Draw(spriteBatch, position,
-                                1f - position.Y / (float)TileEngine.Viewport.Height);
-                        }
-                        break;
-                }
             }
 
             // draw the fixed-combat monsters NPCs from the TileEngine.Map
@@ -1901,6 +1987,13 @@ namespace RolePlaying
                 }
             }
 
+            // draw the fog
+            if (fog != null)
+            {
+                Rectangle srcRect = new Rectangle(fog.rowOffset, 0, fog.width, fog.width);
+
+                spriteBatch.Draw(fog.Texture, fog.position, srcRect, Color.White * 0.2f);
+            }
         }
 
         /// <summary>
@@ -2559,12 +2652,12 @@ namespace RolePlaying
             }
 
             // the storage device must be retrieved
-            if (!Guide.IsVisible)
-            {
+            //if (!Guide.IsVisible)
+            //{
                 // Reset the device
                 storageDevice = null;
                 StorageDevice.BeginShowSelector(GetStorageDeviceResult, retrievalDelegate);
-            }
+            //}
 
 
         }

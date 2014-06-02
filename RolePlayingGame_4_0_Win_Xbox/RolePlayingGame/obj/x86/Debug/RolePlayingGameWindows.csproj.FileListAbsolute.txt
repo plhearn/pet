@@ -2057,3 +2057,8 @@ C:\Users\Peter\Documents\GitHub\pet\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame
 C:\Users\Peter\Documents\GitHub\pet\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\x86\Debug\Content\Maps\test4.xnb
 C:\Users\Peter\Documents\GitHub\pet\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\x86\Debug\Content\Textures\Maps\NonCombat\test464.xnb
 C:\Users\Peter\Documents\GitHub\pet\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\obj\x86\Debug\RolePlayingGameWindows.csprojResolveAssemblyReference.cache
+C:\Users\Peter\Documents\GitHub\pet\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\x86\Debug\Content\Textures\GameScreens\blueTalk.xnb
+C:\Users\Peter\Documents\GitHub\pet\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\x86\Debug\Content\Textures\MainMenu\menuItem.xnb
+C:\Users\Peter\Documents\GitHub\pet\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\x86\Debug\Content\Textures\GameScreens\menuItem.xnb
+C:\Users\Peter\Documents\GitHub\pet\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\x86\Debug\Content\Textures\GameScreens\nameLabel.xnb
+C:\Users\Peter\Documents\GitHub\pet\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\x86\Debug\Content\Textures\Maps\NonCombat\fog.xnb

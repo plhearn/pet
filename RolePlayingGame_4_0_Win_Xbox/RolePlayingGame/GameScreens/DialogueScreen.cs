@@ -47,6 +47,10 @@ namespace RolePlaying
         private Vector2 titlePosition;
         private Vector2 dialogueStartPosition;
 
+        private Texture2D nameLabelTexture;
+        private Vector2 nameLabelPosition;
+
+        private string charName = "";
 
         #endregion
 
@@ -103,23 +107,32 @@ namespace RolePlaying
                 }
                 else
                 {
+                    if (dialogueText.Contains(":"))
+                    {
+                        charName = dialogueText.Substring(0, dialogueText.IndexOf(':'));
+                        dialogueText = dialogueText.Substring(dialogueText.IndexOf(':') + 1).Trim();
+                    }
+
                     dialogueList = Fonts.BreakTextIntoList(dialogueText, 
                         Fonts.DescriptionFont, maxWidth);
                 }
+                
                 // set which lines ar edrawn
                 startIndex = 0;
                 endIndex = drawMaxLines;
                 if (endIndex > dialogueList.Count)
                 {
-                    dialogueStartPosition = new Vector2(271f,
-                        375f - ((dialogueList.Count - startIndex) *
+                    dialogueStartPosition = new Vector2(20f,
+                        600f - ((dialogueList.Count - startIndex) *
                             (Fonts.DescriptionFont.LineSpacing) / 2));
                     endIndex = dialogueList.Count;
                 }
                 else
                 {
-                    dialogueStartPosition = new Vector2(271f, 225f);
+                    dialogueStartPosition = new Vector2(20f, 225f);
                 }
+                
+                dialogueStartPosition = new Vector2(20f, 600f);
             }
         }
 
@@ -169,7 +182,7 @@ namespace RolePlaying
         /// <summary>
         /// Maximum width of each line in pixels
         /// </summary>
-        private const int maxWidth = 705;
+        private const int maxWidth = 984;
 
 
         /// <summary>
@@ -226,7 +239,7 @@ namespace RolePlaying
             fadeTexture =
                 content.Load<Texture2D>(@"Textures\GameScreens\FadeScreen");
             backgroundTexture =
-                content.Load<Texture2D>(@"Textures\GameScreens\PopupScreen");
+                content.Load<Texture2D>(@"Textures\GameScreens\blueTalk");
             scrollTexture =
                 content.Load<Texture2D>(@"Textures\GameScreens\ScrollButtons");
             selectButtonTexture = content.Load<Texture2D>(@"Textures\Buttons\AButton");
@@ -234,14 +247,16 @@ namespace RolePlaying
             lineTexture =
                 content.Load<Texture2D>(@"Textures\GameScreens\SeparationLine");
 
+            nameLabelTexture = content.Load<Texture2D>(@"Textures\GameScreens\nameLabel");
+
             Viewport viewport = ScreenManager.GraphicsDevice.Viewport;
 
             backgroundPosition.X = (viewport.Width - backgroundTexture.Width) / 2;
-            backgroundPosition.Y = (viewport.Height - backgroundTexture.Height) / 2;
+            backgroundPosition.Y = (viewport.Height - backgroundTexture.Height);
 
 
             selectButtonPosition.X = viewport.Width / 2 + 260;
-            selectButtonPosition.Y = backgroundPosition.Y + 530f;
+            selectButtonPosition.Y =  700f;
             selectPosition.X = selectButtonPosition.X -
                 Fonts.ButtonNamesFont.MeasureString(selectText).X - 10f;
             selectPosition.Y = selectButtonPosition.Y;
@@ -260,8 +275,11 @@ namespace RolePlaying
             bottomLinePosition.Y = 550f;
 
             titlePosition.X = (viewport.Width -
-                Fonts.HeaderFont.MeasureString(titleText).X) / 2;
-            titlePosition.Y = backgroundPosition.Y + 70f;
+                Fonts.HeaderFont.MeasureString(titleText).X) / 8;
+            titlePosition.Y = backgroundPosition.Y + 10f;
+
+            nameLabelPosition.X = backgroundPosition.X;
+            nameLabelPosition.Y = backgroundPosition.Y - nameLabelTexture.Height;
         }
 
 
@@ -322,29 +340,26 @@ namespace RolePlaying
             spriteBatch.Begin();
 
             // draw the fading screen
-            spriteBatch.Draw(fadeTexture, new Rectangle(0, 0, 1280, 720), Color.White);
+            //spriteBatch.Draw(fadeTexture, new Rectangle(0, 0, 1024, 768), Color.White);
 
             // draw popup background
             spriteBatch.Draw(backgroundTexture, backgroundPosition, Color.White);
 
             // draw the top line
-            spriteBatch.Draw(lineTexture, topLinePosition, Color.White);
+            //spriteBatch.Draw(lineTexture, topLinePosition, Color.White);
 
             // draw the bottom line
-            spriteBatch.Draw(lineTexture, bottomLinePosition, Color.White);
+            //spriteBatch.Draw(lineTexture, bottomLinePosition, Color.White);
 
             // draw scrollbar
-            spriteBatch.Draw(scrollTexture, scrollPosition, Color.White);
+            //spriteBatch.Draw(scrollTexture, scrollPosition, Color.White);
 
-            // draw title
-            spriteBatch.DrawString(Fonts.HeaderFont, titleText, titlePosition,
-                Fonts.CountColor);
 
             // draw the dialogue
             for (int i = startIndex; i < endIndex; i++)
             {
                 spriteBatch.DrawString(Fonts.DescriptionFont, dialogueList[i],
-                    textPosition, Fonts.CountColor);
+                    textPosition, Color.White);
                 textPosition.Y += Fonts.DescriptionFont.LineSpacing;
             }
 
@@ -366,6 +381,12 @@ namespace RolePlaying
                     Color.White);
                 spriteBatch.Draw(selectButtonTexture, selectButtonPosition, Color.White);
             }
+
+
+
+            // draw name label
+            spriteBatch.Draw(nameLabelTexture, nameLabelPosition, Color.White);
+            spriteBatch.DrawString(Fonts.HeaderFont, charName, nameLabelPosition + new Vector2(20,20), Color.White);
 
             spriteBatch.End();
         }

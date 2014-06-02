@@ -2456,7 +2456,7 @@
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Peter\Documents\GitHub\pet\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\x86\Debug\Content\Maps\outside1.xnb</Output>
-      <Time>2013-10-31T19:02:57.3440396-04:00</Time>
+      <Time>2014-05-31T01:06:16.5808601-04:00</Time>
     </Item>
     <Item>
       <Source>Maps\outside2.xml</Source>
@@ -2492,7 +2492,7 @@
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Peter\Documents\GitHub\pet\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\x86\Debug\Content\Characters\Players\jen.xnb</Output>
-      <Time>2012-09-02T15:47:52.1830263-04:00</Time>
+      <Time>2014-05-28T21:40:22.4403646-04:00</Time>
     </Item>
     <Item>
       <Source>Maps\forest1.xml</Source>
@@ -4302,6 +4302,15 @@
       <Options>None</Options>
       <Output>C:\Users\Peter\Documents\GitHub\pet\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\x86\Debug\Content\Textures\GameScreens\LineBorder.xnb</Output>
       <Time>2012-09-02T15:47:52.8200627-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\GameScreens\menuItem.png</Source>
+      <Name>Textures\GameScreens\menuItem</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Peter\Documents\GitHub\pet\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\x86\Debug\Content\Textures\GameScreens\menuItem.xnb</Output>
+      <Time>2014-05-29T19:56:54.717385-04:00</Time>
     </Item>
     <Item>
       <Source>Textures\GameScreens\PlayerSelected.png</Source>
@@ -8450,7 +8459,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Peter\Documents\GitHub\pet\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\x86\Debug\Content\Textures\MainMenu\MainMenu.xnb</Output>
-      <Time>2012-09-02T15:47:53.1130795-04:00</Time>
+      <Time>2014-05-29T11:01:39.9922433-04:00</Time>
     </Item>
     <Item>
       <Source>Textures\MainMenu\MainMenuInfoSpace.png</Source>
@@ -9136,6 +9145,42 @@
       <Output>C:\Users\Peter\Documents\GitHub\pet\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\x86\Debug\Content\Textures\Maps\NonCombat\test464.xnb</Output>
       <Time>2013-11-26T19:14:18.4049733-05:00</Time>
     </Item>
+    <Item>
+      <Source>Textures\GameScreens\blueTalk.png</Source>
+      <Name>Textures\GameScreens\blueTalk</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Peter\Documents\GitHub\pet\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\x86\Debug\Content\Textures\GameScreens\blueTalk.xnb</Output>
+      <Time>2014-05-29T10:38:12.4727378-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\MainMenu\menuItem.png</Source>
+      <Name>Textures\MainMenu\menuItem</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Peter\Documents\GitHub\pet\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\x86\Debug\Content\Textures\MainMenu\menuItem.xnb</Output>
+      <Time>2014-05-29T11:57:47.3938476-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\GameScreens\nameLabel.png</Source>
+      <Name>Textures\GameScreens\nameLabel</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Peter\Documents\GitHub\pet\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\x86\Debug\Content\Textures\GameScreens\nameLabel.xnb</Output>
+      <Time>2014-05-30T11:05:59.936193-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Maps\NonCombat\fog.png</Source>
+      <Name>Textures\Maps\NonCombat\fog</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Peter\Documents\GitHub\pet\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\x86\Debug\Content\Textures\Maps\NonCombat\fog.xnb</Output>
+      <Time>2014-05-30T19:48:57.2468725-04:00</Time>
+    </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
       <TargetPlatform>Windows</TargetPlatform>
@@ -9150,7 +9195,7 @@
     <Assemblies>
       <Assembly>
         <Key>C:\Users\Peter\Documents\GitHub\pet\RolePlayingGame_4_0_Win_Xbox\RolePlayingGameProcessors\bin\x86\Debug\RolePlayingGameProcessors.dll</Key>
-        <Value>2014-04-16T16:02:32.5371352-04:00</Value>
+        <Value>2014-05-31T01:28:15.8643188-04:00</Value>
       </Assembly>
       <Assembly>
         <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
