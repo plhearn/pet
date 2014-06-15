@@ -19,7 +19,7 @@
     <XnaUpgrade>
     </XnaUpgrade>
     <XnaOutputType>Game</XnaOutputType>
-    <XnaProfile>HiDef</XnaProfile>
+    <XnaProfile>Reach</XnaProfile>
     <TargetFrameworkProfile>Client</TargetFrameworkProfile>
     <FileUpgradeFlags>
     </FileUpgradeFlags>
@@ -130,6 +130,10 @@
     <Compile Include="Session\PlayerSaveData.cs" />
     <Compile Include="Session\SaveGameDescription.cs" />
     <Compile Include="Session\Session.cs" />
+    <Compile Include="TileEngine\FadeOverlay.cs" />
+    <Compile Include="TileEngine\FadeInOverlay.cs" />
+    <Compile Include="TileEngine\LightFlashOverlay.cs" />
+    <Compile Include="TileEngine\MapOverlay.cs" />
     <Compile Include="TileEngine\PlayerPosition.cs" />
     <Compile Include="TileEngine\TileEngine.cs" />
   </ItemGroup>

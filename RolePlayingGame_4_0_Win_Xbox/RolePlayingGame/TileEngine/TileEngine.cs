@@ -47,6 +47,8 @@ namespace RolePlaying
 
         public static Vector2 scrollMovement;
 
+        public static Vector2 userMovement;
+
         /// <summary>
         /// The map being used by the tile engine.
         /// </summary>
@@ -113,12 +115,12 @@ namespace RolePlaying
                 partyLeaderPosition.TilePosition = portalEntry.MapPosition;
                 partyLeaderPosition.TileOffset = Vector2.Zero;
                 partyLeaderPosition.Direction = portalEntry.Direction;
-                autoPartyLeaderMovement = Vector2.Multiply(
+                /*autoPartyLeaderMovement = Vector2.Multiply(
                     new Vector2(map.TileSize.X, map.TileSize.Y), new Vector2(
                     portalEntry.Content.LandingMapPosition.X - 
                         partyLeaderPosition.TilePosition.X,
                     portalEntry.Content.LandingMapPosition.Y - 
-                        partyLeaderPosition.TilePosition.Y));
+                        partyLeaderPosition.TilePosition.Y));*/
             }
         }
 
@@ -168,7 +170,7 @@ namespace RolePlaying
         /// <remarks>
         /// The movementCollisionTolerance constant should be a multiple of this number.
         /// </remarks>
-        private const float partyLeaderMovementSpeed = 3f;
+        public const float partyLeaderMovementSpeed = 3f;
 
 
         /// <summary>
@@ -215,7 +217,7 @@ namespace RolePlaying
                 Math.Abs(autoPartyLeaderMovement.X));
             movement.Y = Math.Sign(movement.Y) * MathHelper.Min(Math.Abs(movement.Y),
                 Math.Abs(autoPartyLeaderMovement.Y));
-
+            
             // remove the movement from the total remaining auto-movement
             autoPartyLeaderMovement -= movement;
 
@@ -552,7 +554,7 @@ namespace RolePlaying
             Vector2 autoMovement = UpdatePartyLeaderAutoMovement(gameTime);
 
             // if there is no auto-movement, handle user controls
-            Vector2 userMovement = Vector2.Zero;
+            userMovement = Vector2.Zero;
             if (autoMovement == Vector2.Zero)
             {
                 userMovement = UpdateUserMovement(gameTime);

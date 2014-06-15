@@ -1,3 +1,5 @@
+Content\Audio\thunder.xnb
+Content\Audio\rain.xnb
 Content\Gear\Armor\BronzeArmor.xnb
 Content\Gear\Armor\BronzeBoots.xnb
 Content\Gear\Armor\BronzeHelmet.xnb
@@ -1018,13 +1020,27 @@ Content\Textures\GameScreens\blueTalk.xnb
 Content\Textures\MainMenu\menuItem.xnb
 Content\Textures\GameScreens\nameLabel.xnb
 Content\Textures\Maps\NonCombat\fog.xnb
+Content\Textures\Maps\NonCombat\clouda.xnb
+Content\Textures\Maps\NonCombat\cloudb.xnb
+Content\Textures\Maps\NonCombat\fiber.xnb
+Content\Textures\Maps\NonCombat\retic.xnb
+Content\Textures\Maps\NonCombat\mist.xnb
+Content\Textures\GameScreens\WhiteScreen.xnb
+Content\Audio\SEdream1.xnb
+Content\Textures\Maps\NonCombat\blue.xnb
+Content\Audio\rain.wma
+Content\Audio\SEdream1.wma
 Content\Audio\RPGAudio.xgs
 Content\Audio\Wave Bank.xwb
 Content\Audio\Sound Bank.xsb
+Content\Audio\thunder.mp3
+Content\MainGameDescription.xml
 Content\Textures\Characters\jen.png
 Content\Textures\Characters\umaro.png
 Content\Textures\Characters\imp.png
 Content\Textures\Maps\NonCombat\testSet64.png
 Content\Textures\Blocks\default.png
 Content\Maps\Triggers\test2.txt
-Content\Maps\Cutscenes\outside1.txt
+Content\Maps\Cutscenes\outside1d.txt
+Content\Maps\Cutscenes\frontyard.txt
+Content\Maps\Cutscenes\fadeout.txt

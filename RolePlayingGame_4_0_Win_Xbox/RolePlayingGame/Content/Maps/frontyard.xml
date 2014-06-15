@@ -4,12 +4,12 @@
     <Name>frontyard</Name>
     <MapDimensions>100 70</MapDimensions>
     <TileSize>64 64</TileSize>
-    <SpawnMapPosition>20 10</SpawnMapPosition>
+    <SpawnMapPosition>46 69</SpawnMapPosition>
     <TextureName>frontyard64</TextureName>
     <CombatTextureName>CombatBkgdVillage</CombatTextureName>
     <MusicCueName />
     <CombatMusicCueName>BattleTheme</CombatMusicCueName>
-    <Effect>rain</Effect>
+    <Effect></Effect>
     <BaseLayer>
       546 546 546 546 546 546 546 547 546 260 546 546 71 546 546 492 546 90 91 91 91 91 91 91 91 91 91 91 91 91 91 91 91 91 91 91 91 91 91 91 91 91 91 91 91 91 91 91 91 91 91 91 91 91 91 91 91 91 91 91 546 546 546 546 546 546 546 546 546 546 546 546 546 546 546 546 546 546 546 91 92 546 546 546 546 71 546 546 546 260 546 545 546 546 546 546 546 546 546 546
       546 546 546 546 546 546 546 547 546 260 546 546 71 546 493 546 546 90 91 91 91 91 91 91 91 91 91 91 91 91 91 91 91 91 91 91 91 91 91 91 91 91 91 91 91 91 91 91 91 91 91 91 91 91 91 91 91 91 91 91 546 546 546 546 546 546 546 546 546 546 546 546 546 546 546 546 546 546 546 91 92 546 546 546 546 71 546 546 546 260 546 545 546 546 546 546 546 546 546 546
@@ -298,8 +298,70 @@
       0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
       0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
     </CollisionLayer>
-    <Portals />
-    <PortalEntries />
+    <Portals>
+      <Item>
+        <Name>P0</Name>
+        <LandingMapPosition>0 0</LandingMapPosition>
+        <DestinationMapContentName>outside2</DestinationMapContentName>
+        <DestinationMapPortalName>P0</DestinationMapPortalName>
+      </Item>
+      <Item>
+        <Name>P1</Name>
+        <LandingMapPosition>0 0</LandingMapPosition>
+        <DestinationMapContentName>outside2</DestinationMapContentName>
+        <DestinationMapPortalName>P1</DestinationMapPortalName>
+      </Item>
+      <Item>
+        <Name>P2</Name>
+        <LandingMapPosition>0 0</LandingMapPosition>
+        <DestinationMapContentName>outside2</DestinationMapContentName>
+        <DestinationMapPortalName>P2</DestinationMapPortalName>
+      </Item>
+      <Item>
+        <Name>P3</Name>
+        <LandingMapPosition>0 0</LandingMapPosition>
+        <DestinationMapContentName>outside2</DestinationMapContentName>
+        <DestinationMapPortalName>P3</DestinationMapPortalName>
+      </Item>
+      <Item>
+        <Name>P4</Name>
+        <LandingMapPosition>0 0</LandingMapPosition>
+        <DestinationMapContentName>outside2</DestinationMapContentName>
+        <DestinationMapPortalName>P4</DestinationMapPortalName>
+      </Item>
+      <Item>
+        <Name>P5</Name>
+        <LandingMapPosition>0 0</LandingMapPosition>
+        <DestinationMapContentName>outside2</DestinationMapContentName>
+        <DestinationMapPortalName>P5</DestinationMapPortalName>
+      </Item>
+    </Portals>
+    <PortalEntries>
+      <Item>
+        <ContentName>P0</ContentName>
+        <MapPosition>43 70</MapPosition>
+      </Item>
+      <Item>
+        <ContentName>P1</ContentName>
+        <MapPosition>44 70</MapPosition>
+      </Item>
+      <Item>
+        <ContentName>P2</ContentName>
+        <MapPosition>45 70</MapPosition>
+      </Item>
+      <Item>
+        <ContentName>P3</ContentName>
+        <MapPosition>46 70</MapPosition>
+      </Item>
+      <Item>
+        <ContentName>P4</ContentName>
+        <MapPosition>47 70</MapPosition>
+      </Item>
+      <Item>
+        <ContentName>P5</ContentName>
+        <MapPosition>48 70</MapPosition>
+      </Item>
+    </PortalEntries>
     <ChestEntries />
     <FixedCombatEntries />
     <RandomCombat>
@@ -317,7 +379,16 @@
         </Item>
       </Entries>
     </RandomCombat>
-    <QuestNpcEntries />
+    <QuestNpcEntries>
+      <Item>
+        <ContentName>Matt</ContentName>
+        <MapPosition>45 25</MapPosition>
+      </Item>
+      <Item>
+        <ContentName>Sara</ContentName>
+        <MapPosition>47 25</MapPosition>
+      </Item>
+    </QuestNpcEntries>
     <PlayerNpcEntries />
     <InnEntries />
     <StoreEntries />

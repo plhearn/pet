@@ -103,7 +103,7 @@ namespace RolePlaying
                 backgroundTexture.Width - 100, backgroundTexture.Height - 100);
 
             confirmPosition.X = backgroundPosition.X + (backgroundTexture.Width -
-                Fonts.HeaderFont.MeasureString("Confirmation").X) / 2f;
+                Fonts.HeaderFont.MeasureString("Quit Game?").X) / 2f;
             confirmPosition.Y = backgroundPosition.Y + 47;
 
             message = Fonts.BreakTextIntoLines(message, 36, 10);
@@ -168,10 +168,9 @@ namespace RolePlaying
                 new Vector2(
                 selectPosition.X - Fonts.ButtonNamesFont.MeasureString("Yes").X,
                 selectPosition.Y + 5), Color.White);
-            spriteBatch.DrawString(Fonts.HeaderFont, "Confirmation", confirmPosition,
-                Fonts.CountColor);
-            spriteBatch.DrawString(Fonts.GearInfoFont, message, messagePosition, 
-                Fonts.CountColor);
+            spriteBatch.DrawString(Fonts.HeaderFont, "Quit Game?", confirmPosition,
+                Color.White);
+            spriteBatch.DrawString(Fonts.GearInfoFont, message, messagePosition, Color.White);
 
             spriteBatch.End();
         }

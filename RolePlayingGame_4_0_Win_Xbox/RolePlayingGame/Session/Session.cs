@@ -19,6 +19,8 @@ using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.GamerServices;
 using Microsoft.Xna.Framework.Graphics;
+using Microsoft.Xna.Framework.Audio;
+using Microsoft.Xna.Framework.Media;
 using Microsoft.Xna.Framework.Storage;
 using RolePlayingGameData;
 #endregion
@@ -39,9 +41,9 @@ namespace RolePlaying
         #endregion
 
         public static bool holdButton = false;
+        const int MAP_TRANSITION_FADE_TIME = 60;
 
         #region Party
-
 
         /// <summary>
         /// The party that is playing the game right now.
@@ -57,19 +59,28 @@ namespace RolePlaying
         }
 
         Vector2 oldCamPos;
+        Vector2 playerProxyPosition;
+        Vector2 playerProxyMovement;
+        Vector2 playerProxyStartPosition;
+
+        bool fadeTransition = false;
+        Vector2 transitionMovement;
+        MapEntry<Portal> transitionPortal;
+
+        List<MapOverlay> garbageOverlays;
 
         #endregion
 
         #region Map Effects
 
         public static List<Raindrop> raindrops = new List<Raindrop>();
-        public static Fog fog;
+
+        public static List<MapOverlay> mapOverlays = new List<MapOverlay>();
 
         #endregion
 
 
         #region Map
-
 
         /// <summary>
         /// Change the current map, arriving at the given portal if any.
@@ -78,6 +89,8 @@ namespace RolePlaying
         /// <param name="originalPortal">The portal from the previous map.</param>
         public static void ChangeMap(string contentName, Portal originalPortal)
         {
+            TileEngine.autoPartyLeaderMovement = Vector2.Multiply(singleton.transitionMovement, 15f);
+
             // make sure the content name is valid
             string mapContentName = contentName;
             if (!mapContentName.StartsWith(@"Maps\"))
@@ -113,7 +126,7 @@ namespace RolePlaying
 
 
             // start playing the music for the new map
-            AudioManager.PlayMusic(map.MusicCueName);
+            //AudioManager.PlayMusic(map.MusicCueName);
 
             // set the new map into the tile engine
             TileEngine.SetMap(map, originalPortal == null ? null :
@@ -130,51 +143,223 @@ namespace RolePlaying
             }
 
 
+            /*
             if (TileEngine.Map.Effect == "rain")
             {
-                raindrops = new List<Raindrop>();
-
-                Raindrop rain;
-
-                Texture2D rainTex = content.Load<Texture2D>(@"Textures\Maps\NonCombat\rain64");
-
-                for (int i = 0; i < 200; i++)
-                {
-                    rain = new Raindrop();
-                    rain.TextureName = "rain";
-                    rain.FramesPerRow = rain.width;
-                    rain.FrameDimensions = new Point(rain.width, rain.width * 2);
-                    rain.AddAnimation(new Animation("rain", 1, 4, 1, false));
-                    rain.Texture = rainTex;
-                    rain.position = new Vector2(ScreenManager.GraphicsDevice.Viewport.Width/4 + random.Next(ScreenManager.GraphicsDevice.Viewport.Width), -(rain.width * 2) - random.Next(ScreenManager.GraphicsDevice.Viewport.Height));
-                    rain.lifeTimer = random.Next(100);
-                    raindrops.Add(rain);
-                }
+                loadRain();
             }
             else
             {
-                raindrops.Clear();
+                //raindrops.Clear();
             }
 
+            //mapOverlays.Clear();
 
             if (TileEngine.Map.Effect == "fog")
             {
-                Texture2D fogTex = content.Load<Texture2D>(@"Textures\Maps\NonCombat\fog");
+                loadFog();
+             * loadMist();
+            }
+            */
 
-                fog = new Fog();
-                fog.TextureName = "fog";
-                fog.FramesPerRow = 1;
-                fog.FrameDimensions = new Point(fog.width, fog.width);
-                fog.AddAnimation(new Animation("fog", 1, 1, 1, false));
-                fog.Texture = fogTex;
-                fog.position = new Vector2(ScreenManager.GraphicsDevice.Viewport.Width / 2, ScreenManager.GraphicsDevice.Viewport.Height / 2);
-                fog.lifeTimer = random.Next(100);
+            removeOverlay("black");
+            loadFade(MAP_TRANSITION_FADE_TIME, 1, 0);
+        }
+
+
+
+        public static void loadFade(int duration, float startOpacity, float endOpacity)
+        {
+            Texture2D fadeTex = singleton.screenManager.Game.Content.Load<Texture2D>(@"Textures\GameScreens\FadeScreen");
+
+            MapOverlay fade = new FadeOverlay(duration, startOpacity, endOpacity, fadeTex, ScreenManager.GraphicsDevice.Viewport.Width, ScreenManager.GraphicsDevice.Viewport.Height);
+            fade.name = "fade";
+            mapOverlays.Add(fade);
+        }
+
+        public static void loadRain()
+        {
+            raindrops = new List<Raindrop>();
+
+            Raindrop rain;
+
+            Texture2D rainTex = singleton.screenManager.Game.Content.Load<Texture2D>(@"Textures\Maps\NonCombat\rain64");
+
+            for (int i = 0; i < 200; i++)
+            {
+                rain = new Raindrop();
+                rain.TextureName = "rain";
+                rain.FramesPerRow = rain.width;
+                rain.FrameDimensions = new Point(rain.width, rain.width * 2);
+                rain.AddAnimation(new Animation("rain", 1, 4, 1, false));
+                rain.Texture = rainTex;
+                rain.position = new Vector2(ScreenManager.GraphicsDevice.Viewport.Width / 4 + random.Next(ScreenManager.GraphicsDevice.Viewport.Width), -(rain.width * 2) - random.Next(ScreenManager.GraphicsDevice.Viewport.Height));
+                rain.lifeTimer = random.Next(100);
+                raindrops.Add(rain);
             }
 
+            loadSong("rain");
+        }
+
+        public static void loadFog()
+        {
+            Texture2D fogTex = singleton.screenManager.Game.Content.Load<Texture2D>(@"Textures\Maps\NonCombat\clouda");
+
+            float speed = 0.3f;
+
+            Vector2 drift = new Vector2(speed, speed);
+            float opacity = 0.2f;
+
+            MapOverlay fog = new MapOverlay(drift, opacity, fogTex, ScreenManager.GraphicsDevice.Viewport.Width, ScreenManager.GraphicsDevice.Viewport.Height);
+
+            mapOverlays.Add(fog);
+
+            drift = new Vector2(speed, 0.0f);
+            opacity = 0.2f;
+            MapOverlay fog2 = new MapOverlay(drift, opacity, fogTex, ScreenManager.GraphicsDevice.Viewport.Width, ScreenManager.GraphicsDevice.Viewport.Height);
+
+            mapOverlays.Add(fog2);
+
+            drift = new Vector2(-speed, 0.0f);
+            opacity = 0.2f;
+            MapOverlay fog3 = new MapOverlay(drift, opacity, fogTex, ScreenManager.GraphicsDevice.Viewport.Width, ScreenManager.GraphicsDevice.Viewport.Height);
+
+            mapOverlays.Add(fog3);
+
+            drift = new Vector2(-speed, -speed);
+            opacity = 0.2f;
+            MapOverlay fog4 = new MapOverlay(drift, opacity, fogTex, ScreenManager.GraphicsDevice.Viewport.Width, ScreenManager.GraphicsDevice.Viewport.Height);
+
+            fog.name = "fog";
+            mapOverlays.Add(fog4);
+        }
+
+
+        public static void loadMist()
+        {
+            Texture2D mistTex = singleton.screenManager.Game.Content.Load<Texture2D>(@"Textures\Maps\NonCombat\mist");
+
+            float speed = 0.2f;
+
+            Vector2 drift = new Vector2(speed, 0);
+            float opacity = 0.2f;
+
+            MapOverlay mist = new MapOverlay(drift, opacity, mistTex, ScreenManager.GraphicsDevice.Viewport.Width, ScreenManager.GraphicsDevice.Viewport.Height);
+            mist.name = "mist";
+            mapOverlays.Add(mist);
+        }
+
+
+        public static void loadDarken()
+        {
+            Texture2D darkTex = singleton.screenManager.Game.Content.Load<Texture2D>(@"Textures\GameScreens\FadeScreen");
+
+            float speed = 0.0f;
+
+            Vector2 drift = new Vector2(speed, 0);
+            float opacity = 0.6f;
+
+            MapOverlay darken = new FadeInOverlay(drift, opacity, darkTex, ScreenManager.GraphicsDevice.Viewport.Width, ScreenManager.GraphicsDevice.Viewport.Height);
+            darken.name = "darken";
+            mapOverlays.Add(darken);
+        }
+
+        public static void loadBlack()
+        {
+            Texture2D darkTex = singleton.screenManager.Game.Content.Load<Texture2D>(@"Textures\GameScreens\FadeScreen");
+
+            float speed = 0.0f;
+
+            Vector2 drift = new Vector2(speed, 0);
+            float opacity = 1f;
+
+            MapOverlay black = new MapOverlay(drift, opacity, darkTex, ScreenManager.GraphicsDevice.Viewport.Width, ScreenManager.GraphicsDevice.Viewport.Height);
+            black.name = "black";
+            mapOverlays.Add(black);
+        }
+
+        public static void loadBlue()
+        {
+            Texture2D blueTex = singleton.screenManager.Game.Content.Load<Texture2D>(@"Textures\Maps\NonCombat\blue");
+
+            float speed = 0.0f;
+
+            Vector2 drift = new Vector2(speed, 0);
+            float opacity = 0.3f;
+
+            MapOverlay blue = new MapOverlay(drift, opacity, blueTex, ScreenManager.GraphicsDevice.Viewport.Width, ScreenManager.GraphicsDevice.Viewport.Height);
+            blue.name = "blue";
+            mapOverlays.Add(blue);
+        }
+
+
+        public static void loadLightening()
+        {
+            Texture2D whiteTex = singleton.screenManager.Game.Content.Load<Texture2D>(@"Textures\GameScreens\WhiteScreen");
+
+            float speed = 0.0f;
+
+            Vector2 drift = new Vector2(speed, 0);
+            float opacity = 0.8f;
+
+            SoundEffect thunder = singleton.screenManager.Game.Content.Load<SoundEffect>(@"Audio\thunder");
+
+            LightFlashOverlay white = new LightFlashOverlay(drift, opacity, whiteTex, ScreenManager.GraphicsDevice.Viewport.Width, ScreenManager.GraphicsDevice.Viewport.Height, thunder);
+
+            mapOverlays.Add(white);
 
 
         }
 
+
+        public static void loadSong(string song)
+        {
+            Song music;
+
+            if (song != "")
+            {
+                music = singleton.screenManager.Game.Content.Load<Song>(@"Audio\" + song);
+                MediaPlayer.IsRepeating = true;
+                MediaPlayer.Play(music);
+                //MediaPlayer.Volume = 0.1f;
+            }
+            else
+                MediaPlayer.Stop();
+        }
+
+
+
+        public static void removeOverlay(string str)
+        {
+            string[] removeList = str.Split('.');
+
+            bool clear = false;
+
+            singleton.garbageOverlays = new List<MapOverlay>();
+
+            foreach (MapOverlay overlay in mapOverlays)
+            {
+                foreach (string item in removeList)
+                {
+                    if (item == overlay.name)
+                        singleton.garbageOverlays.Add(overlay);
+
+                    if (item == "rain")
+                        raindrops.Clear();
+
+                    if (item == "clear")
+                        clear = true;
+                }
+            }
+
+            foreach (MapOverlay overlay in singleton.garbageOverlays)
+                mapOverlays.Remove(overlay);
+
+            singleton.garbageOverlays.Clear();
+
+            if (clear)
+                mapOverlays.Clear();
+        }
 
         /// <summary>
         /// Perform any actions associated withe the given tile.
@@ -292,7 +477,7 @@ namespace RolePlaying
             if (portalEntry != null)
             {
                 Session.EncounterPortal(portalEntry);
-                TileEngine.autoPartyLeaderMovement = Vector2.Zero;
+                //TileEngine.autoPartyLeaderMovement = Vector2.Zero;
                 return true;
             }
 
@@ -441,14 +626,44 @@ namespace RolePlaying
         public static void EncounterPortal(MapEntry<Portal> portalEntry)
         {
             // check the parameter
-            if ((portalEntry == null) || (portalEntry.Content == null))
+
+            if (portalEntry == null)
+            {
+
+            }
+            else if ((portalEntry.Content == null))
             {
                 throw new ArgumentNullException("portalEntry");
             }
 
-            // change to the new map
-            ChangeMap(portalEntry.Content.DestinationMapContentName, 
-                portalEntry.Content);
+            if (singleton.fadeTransition == false)
+            {
+                singleton.fadeTransition = true;
+                singleton.transitionMovement = TileEngine.userMovement;
+                singleton.transitionPortal = portalEntry;
+                loadFade(MAP_TRANSITION_FADE_TIME, 0, 1);
+            }
+
+            bool fadeFound = false;
+
+            foreach (MapOverlay overlay in mapOverlays)
+                if (overlay.name == "fade")
+                    fadeFound = true;
+
+            if (singleton.fadeTransition)
+            {
+                if (fadeFound)
+                {
+                    TileEngine.autoPartyLeaderMovement = singleton.transitionMovement;
+                }
+                else
+                {
+                    singleton.fadeTransition = false;
+                    // change to the new map
+                    ChangeMap(singleton.transitionPortal.Content.DestinationMapContentName,
+                        singleton.transitionPortal.Content);
+                }
+            }
         }
 
 
@@ -1457,6 +1672,10 @@ namespace RolePlaying
             }
             else
             {
+
+                if (singleton.fadeTransition)
+                    Session.EncounterPortal(null);
+
                 singleton.UpdateQuest();
                 TileEngine.Update(gameTime);
 
@@ -1513,10 +1732,40 @@ namespace RolePlaying
             }
             */
 
+
+
+            if (currentCutscene != null)
+            {
+                Player player = party.Players[0];
+
+                foreach (CutsceneFrame frame in currentCutscene.frames)
+                {
+                    if (frame.frame == currentCutscene.currentFrame && player.Name == frame.actorName)
+                    {
+                        if (playerProxyStartPosition == Vector2.Zero)
+                            playerProxyStartPosition = new Vector2(frame.x, frame.y);
+
+                        if (playerProxyPosition == Vector2.Zero)
+                            playerProxyPosition = new Vector2(frame.x, frame.y);
+
+                        Vector2 currentFramePosition = new Vector2(frame.x, frame.y);
+
+                        playerProxyMovement += currentFramePosition - playerProxyPosition;
+
+                        playerProxyPosition = currentFramePosition;
+
+                        player.MapSprite.PlayAnimationByName(getCutsceneAnimation(frame.animationName));
+                    }
+                }
+            }
+
+
+
+
             foreach (CutsceneFrame frame in currentCutscene.frames)
             {
                 if (frame.frame-1 == currentCutscene.currentFrame && frame.actorName.Contains("d:"))
-                    singleton.screenManager.AddScreen(new DialogueScreen("O HAI", frame.actorName.Replace("d:", "")));
+                    singleton.screenManager.AddScreen(new DialogueScreen("Dialogue Screen", frame.actorName.Replace("d:", "")));
 
                 if (frame.frame-1 == currentCutscene.currentFrame && frame.actorName.Contains("f:"))
                 {
@@ -1524,6 +1773,59 @@ namespace RolePlaying
                     {
                         if (fight.Content.Name == frame.actorName.Replace("f:", ""))
                             EncounterFixedCombat(fight);
+                    }
+                }
+
+                if (frame.frame - 1 == currentCutscene.currentFrame && frame.actorName.Contains("s:"))
+                {
+                    loadSong(frame.actorName.Replace("s:", ""));
+                }
+
+                if (frame.frame - 1 == currentCutscene.currentFrame && frame.actorName.Contains("r:"))
+                {
+                    removeOverlay(frame.actorName.Replace("r:", ""));
+                }
+
+                if (frame.frame - 1 == currentCutscene.currentFrame && frame.actorName.Contains("e:"))
+                {
+                    string[] list = frame.actorName.Replace("e:", "").Split('.');
+
+                    foreach (string item in list)
+                    {
+                        if (item == "rain")
+                        {
+                            loadRain();
+                        }
+
+                        if (item == "darken")
+                        {
+                            loadDarken();
+                        }
+
+                        if (item == "black")
+                        {
+                            loadBlack();
+                        }
+
+                        if (item == "thunder")
+                        {
+                            loadLightening();
+                        }
+
+                        if (item == "fog")
+                        {
+                            loadFog();
+                        }
+
+                        if (item == "mist")
+                        {
+                            loadMist();
+                        }
+
+                        if (item == "blue")
+                        {
+                            loadBlue();
+                        }
                     }
                 }
             }
@@ -1534,6 +1836,11 @@ namespace RolePlaying
             {
                 currentCutscene.currentFrame = 0;
                 currentCutscene = null;
+
+                playerProxyMovement = Vector2.Zero;
+                playerProxyPosition = Vector2.Zero;
+                playerProxyStartPosition = Vector2.Zero;
+
                 oldCamPos = Vector2.Zero;
             }
 
@@ -1549,9 +1856,29 @@ namespace RolePlaying
                 }
             }
 
-            if(fog != null)
+
+            if(mapOverlays.Count > 0)
             {
-                fog.UpdateFog((float)gameTime.ElapsedGameTime.TotalSeconds, ScreenManager.GraphicsDevice.Viewport.Width, ScreenManager.GraphicsDevice.Viewport.Height, movement);
+                singleton.garbageOverlays = new List<MapOverlay>();
+
+                foreach (MapOverlay overlay in mapOverlays)
+                {
+                    overlay.Update((float)gameTime.ElapsedGameTime.TotalSeconds, ScreenManager.GraphicsDevice.Viewport.Width, ScreenManager.GraphicsDevice.Viewport.Height, movement + overlay.drift);
+
+                    //remove completed fade in/out
+                    if (overlay.name == "fade" && overlay.lifeTimer == MAP_TRANSITION_FADE_TIME)
+                        singleton.garbageOverlays.Add(overlay);
+                }
+
+                foreach (MapOverlay overlay in singleton.garbageOverlays)
+                {
+                    mapOverlays.Remove(overlay);
+
+                    if(overlay.opacity > 0.99f)
+                        loadBlack();
+                }
+
+
             }
         }
 
@@ -1633,32 +1960,14 @@ namespace RolePlaying
                 Vector2 position = TileEngine.PartyLeaderPosition.ScreenPosition;
                 player.Direction = TileEngine.PartyLeaderPosition.Direction;
 
-
-
                 // apply cutscene position
-
                 if (currentCutscene != null)
                 {
-                    foreach (CutsceneFrame frame in currentCutscene.frames)
-                    {
-                        if (frame.frame == currentCutscene.currentFrame && player.Name == frame.actorName)
-                        {
-                            position = new Vector2(frame.x, frame.y);
-
-                            player.MapSprite.PlayAnimationByName(getCutsceneAnimation(frame.animationName));
-
-                            player.MapSprite.UpdateAnimation(elapsedSeconds);
-                            player.MapSprite.Draw(spriteBatch, position,
-                                1f - position.Y / (float)TileEngine.Viewport.Height);
-
-                            //if (frame.frame == 374)
-                            //    position = position;
-                        }
-                    }
+                    player.MapSprite.UpdateAnimation(elapsedSeconds);
+                    player.MapSprite.Draw(spriteBatch, playerProxyStartPosition + playerProxyMovement, 1f - (playerProxyStartPosition.Y + playerProxyMovement.Y) / (float)TileEngine.Viewport.Height);   
                 }
                 else
                 {
-
                     player.ResetAnimation(TileEngine.PartyLeaderPosition.IsMoving);
                     switch (player.State)
                     {
@@ -1987,12 +2296,19 @@ namespace RolePlaying
                 }
             }
 
-            // draw the fog
-            if (fog != null)
+            // draw the mapOverlays
+            if (mapOverlays.Count > 0)
             {
-                Rectangle srcRect = new Rectangle(fog.rowOffset, 0, fog.width, fog.width);
+                Rectangle srcRect;
 
-                spriteBatch.Draw(fog.Texture, fog.position, srcRect, Color.White * 0.2f);
+                foreach (MapOverlay overlay in mapOverlays)
+                {
+                    foreach(OverlayPane pane in overlay.overlays)
+                    {
+                        srcRect = new Rectangle(pane.rowOffset, 0, pane.width, pane.height);
+                        spriteBatch.Draw(pane.Texture, pane.position, srcRect, Color.White * overlay.opacity);
+                    }
+                }
             }
         }
 

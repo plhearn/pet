@@ -6,3 +6,11 @@ C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGameProcessors\bin\Xbox 360\Debug
 C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGameProcessors\obj\Xbox 360\Debug\ResolveAssemblyReference.cache
 C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGameProcessors\obj\Xbox 360\Debug\RolePlayingGameProcessors.dll
 C:\XNA\RolePlayingGame_4_0_Win_Xbox\RolePlayingGameProcessors\obj\Xbox 360\Debug\RolePlayingGameProcessors.pdb
+C:\Users\Peter\Documents\GitHub\pet\RolePlayingGame_4_0_Win_Xbox\RolePlayingGameProcessors\bin\Xbox 360\Debug\RolePlayingGameProcessors.dll
+C:\Users\Peter\Documents\GitHub\pet\RolePlayingGame_4_0_Win_Xbox\RolePlayingGameProcessors\bin\Xbox 360\Debug\RolePlayingGameProcessors.pdb
+C:\Users\Peter\Documents\GitHub\pet\RolePlayingGame_4_0_Win_Xbox\RolePlayingGameProcessors\bin\Xbox 360\Debug\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll
+C:\Users\Peter\Documents\GitHub\pet\RolePlayingGame_4_0_Win_Xbox\RolePlayingGameProcessors\bin\Xbox 360\Debug\RolePlayingGameDataWindows.dll
+C:\Users\Peter\Documents\GitHub\pet\RolePlayingGame_4_0_Win_Xbox\RolePlayingGameProcessors\bin\Xbox 360\Debug\RolePlayingGameDataWindows.pdb
+C:\Users\Peter\Documents\GitHub\pet\RolePlayingGame_4_0_Win_Xbox\RolePlayingGameProcessors\obj\Xbox 360\Debug\RolePlayingGameProcessors.csprojResolveAssemblyReference.cache
+C:\Users\Peter\Documents\GitHub\pet\RolePlayingGame_4_0_Win_Xbox\RolePlayingGameProcessors\obj\Xbox 360\Debug\RolePlayingGameProcessors.dll
+C:\Users\Peter\Documents\GitHub\pet\RolePlayingGame_4_0_Win_Xbox\RolePlayingGameProcessors\obj\Xbox 360\Debug\RolePlayingGameProcessors.pdb

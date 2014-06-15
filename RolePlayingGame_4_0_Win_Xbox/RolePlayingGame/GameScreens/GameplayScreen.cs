@@ -138,8 +138,7 @@ namespace RolePlaying
             if (InputManager.IsActionTriggered(InputManager.Action.ExitGame))
             {
                 // add a confirmation message box
-                const string message = 
-                    "Are you sure you want to exit?  All unsaved progress will be lost.";
+                const string message = "";
                 MessageBoxScreen confirmExitMessageBox = new MessageBoxScreen(message);
                 confirmExitMessageBox.Accepted += ConfirmExitMessageBoxAccepted;
                 ScreenManager.AddScreen(confirmExitMessageBox);

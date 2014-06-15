@@ -9181,6 +9181,51 @@
       <Output>C:\Users\Peter\Documents\GitHub\pet\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\x86\Debug\Content\Textures\Maps\NonCombat\fog.xnb</Output>
       <Time>2014-05-30T19:48:57.2468725-04:00</Time>
     </Item>
+    <Item>
+      <Source>Textures\Maps\NonCombat\clouda.png</Source>
+      <Name>Textures\Maps\NonCombat\clouda</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Peter\Documents\GitHub\pet\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\x86\Debug\Content\Textures\Maps\NonCombat\clouda.xnb</Output>
+      <Time>2014-06-03T23:13:38.2493479-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Maps\NonCombat\cloudb.png</Source>
+      <Name>Textures\Maps\NonCombat\cloudb</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Peter\Documents\GitHub\pet\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\x86\Debug\Content\Textures\Maps\NonCombat\cloudb.xnb</Output>
+      <Time>2014-06-03T23:33:58.4121372-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Maps\NonCombat\fiber.png</Source>
+      <Name>Textures\Maps\NonCombat\fiber</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Peter\Documents\GitHub\pet\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\x86\Debug\Content\Textures\Maps\NonCombat\fiber.xnb</Output>
+      <Time>2014-06-03T23:47:37.7079983-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Maps\NonCombat\retic.png</Source>
+      <Name>Textures\Maps\NonCombat\retic</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Peter\Documents\GitHub\pet\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\x86\Debug\Content\Textures\Maps\NonCombat\retic.xnb</Output>
+      <Time>2014-06-03T23:52:53.2160443-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Maps\NonCombat\mist.png</Source>
+      <Name>Textures\Maps\NonCombat\mist</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Peter\Documents\GitHub\pet\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\x86\Debug\Content\Textures\Maps\NonCombat\mist.xnb</Output>
+      <Time>2014-06-04T21:34:03.7764249-04:00</Time>
+    </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
       <TargetPlatform>Windows</TargetPlatform>
@@ -9195,7 +9240,7 @@
     <Assemblies>
       <Assembly>
         <Key>C:\Users\Peter\Documents\GitHub\pet\RolePlayingGame_4_0_Win_Xbox\RolePlayingGameProcessors\bin\x86\Debug\RolePlayingGameProcessors.dll</Key>
-        <Value>2014-05-31T01:28:15.8643188-04:00</Value>
+        <Value>2014-06-04T18:02:23.5380129-04:00</Value>
       </Assembly>
       <Assembly>
         <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>

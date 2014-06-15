@@ -135,6 +135,42 @@
         <DestinationMapContentName>outside1</DestinationMapContentName>
         <DestinationMapPortalName>P5</DestinationMapPortalName>
       </Item>
+      <Item>
+        <Name>P6</Name>
+        <LandingMapPosition>0 0</LandingMapPosition>
+        <DestinationMapContentName>frontyard</DestinationMapContentName>
+        <DestinationMapPortalName>P0</DestinationMapPortalName>
+      </Item>
+      <Item>
+        <Name>P7</Name>
+        <LandingMapPosition>0 0</LandingMapPosition>
+        <DestinationMapContentName>frontyard</DestinationMapContentName>
+        <DestinationMapPortalName>P1</DestinationMapPortalName>
+      </Item>
+      <Item>
+        <Name>P8</Name>
+        <LandingMapPosition>0 0</LandingMapPosition>
+        <DestinationMapContentName>frontyard</DestinationMapContentName>
+        <DestinationMapPortalName>P2</DestinationMapPortalName>
+      </Item>
+      <Item>
+        <Name>P7</Name>
+        <LandingMapPosition>0 0</LandingMapPosition>
+        <DestinationMapContentName>frontyard</DestinationMapContentName>
+        <DestinationMapPortalName>P3</DestinationMapPortalName>
+      </Item>
+      <Item>
+        <Name>P8</Name>
+        <LandingMapPosition>0 0</LandingMapPosition>
+        <DestinationMapContentName>frontyard</DestinationMapContentName>
+        <DestinationMapPortalName>P4</DestinationMapPortalName>
+      </Item>
+      <Item>
+        <Name>P9</Name>
+        <LandingMapPosition>0 0</LandingMapPosition>
+        <DestinationMapContentName>frontyard</DestinationMapContentName>
+        <DestinationMapPortalName>P5</DestinationMapPortalName>
+      </Item>
     </Portals>
     <PortalEntries>
       <Item>
@@ -160,6 +196,30 @@
       <Item>
         <ContentName>P5</ContentName>
         <MapPosition>11 19</MapPosition>
+      </Item>
+      <Item>
+        <ContentName>P6</ContentName>
+        <MapPosition>6 0</MapPosition>
+      </Item>
+      <Item>
+        <ContentName>P7</ContentName>
+        <MapPosition>7 0</MapPosition>
+      </Item>
+      <Item>
+        <ContentName>P8</ContentName>
+        <MapPosition>8 0</MapPosition>
+      </Item>
+      <Item>
+        <ContentName>P9</ContentName>
+        <MapPosition>9 0</MapPosition>
+      </Item>
+      <Item>
+        <ContentName>P10</ContentName>
+        <MapPosition>10 0</MapPosition>
+      </Item>
+      <Item>
+        <ContentName>P11</ContentName>
+        <MapPosition>11 0</MapPosition>
       </Item>
     </PortalEntries>
     <ChestEntries />
