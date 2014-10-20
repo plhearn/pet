@@ -196,6 +196,10 @@ namespace RolePlayingGameData
                 else
                 {
                     mapSprite.PlayAnimation("Idle", Direction);
+
+                    //draw still NPCs
+                    if (mapSprite.FramesPerRow == 1)
+                        mapSprite.PlayOtherAnimation("Still");
                 }
             }
             if (walkingSprite != null)
@@ -274,6 +278,10 @@ namespace RolePlayingGameData
                     MapIdleAnimationInterval, true));
                 mapSprite.AddAnimation(new Animation("IdleSoutheast", 2, 2, 
                     MapIdleAnimationInterval, true));
+
+
+                mapSprite.AddAnimation(new Animation("Still", 1, 1,
+                    MapIdleAnimationInterval, false));
             }
         }
 

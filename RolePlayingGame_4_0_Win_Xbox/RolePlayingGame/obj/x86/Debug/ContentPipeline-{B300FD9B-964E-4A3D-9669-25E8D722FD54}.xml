@@ -21,6 +21,16 @@
       <Time>2014-06-07T21:38:00.5823615-04:00</Time>
     </Item>
     <Item>
+      <Source>Audio\SEdream1.mp3</Source>
+      <Name>Audio\SEdream1</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>SongProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Peter\Documents\GitHub\pet\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\x86\Debug\Content\Audio\SEdream1.xnb</Output>
+      <Extra>C:\Users\Peter\Documents\GitHub\pet\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\x86\Debug\Content\Audio\SEdream1.wma</Extra>
+      <Time>2014-06-11T12:54:12.1813175-04:00</Time>
+    </Item>
+    <Item>
       <Source>Gear\Armor\BronzeArmor.xml</Source>
       <Name>Gear\Armor\BronzeArmor</Name>
       <Importer>XmlImporter</Importer>
@@ -2367,7 +2377,7 @@
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Peter\Documents\GitHub\pet\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\x86\Debug\Content\MainGameDescription.xnb</Output>
-      <Time>2014-06-12T19:45:40.4906095-04:00</Time>
+      <Time>2014-10-19T14:49:59.9117361-04:00</Time>
     </Item>
     <Item>
       <Source>Characters\QuestNPCs\imp.xml</Source>
@@ -2475,7 +2485,7 @@
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Peter\Documents\GitHub\pet\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\x86\Debug\Content\Maps\outside1.xnb</Output>
-      <Time>2014-06-08T13:36:54.9941416-04:00</Time>
+      <Time>2014-06-30T22:24:00.3118959-04:00</Time>
     </Item>
     <Item>
       <Source>Maps\outside2.xml</Source>
@@ -2484,7 +2494,7 @@
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Peter\Documents\GitHub\pet\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\x86\Debug\Content\Maps\outside2.xnb</Output>
-      <Time>2014-06-12T19:45:22.9846082-04:00</Time>
+      <Time>2014-06-21T16:25:55.6815262-04:00</Time>
     </Item>
     <Item>
       <Source>Characters\QuestNPCs\sara.xml</Source>
@@ -2529,16 +2539,7 @@
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Peter\Documents\GitHub\pet\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\x86\Debug\Content\Maps\frontyard.xnb</Output>
-      <Time>2014-06-12T19:45:22.997609-04:00</Time>
-    </Item>
-    <Item>
-      <Source>Maps\indoors1.xml</Source>
-      <Name>Maps\indoors1</Name>
-      <Importer>XmlImporter</Importer>
-      <Processor>PassThroughProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Peter\Documents\GitHub\pet\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\x86\Debug\Content\Maps\indoors1.xnb</Output>
-      <Time>2014-02-09T23:55:56.8159462-05:00</Time>
+      <Time>2014-10-19T15:49:26.3637255-04:00</Time>
     </Item>
     <Item>
       <Source>Maps\test4.xml</Source>
@@ -2548,6 +2549,51 @@
       <Options>None</Options>
       <Output>C:\Users\Peter\Documents\GitHub\pet\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\x86\Debug\Content\Maps\test4.xnb</Output>
       <Time>2013-12-18T10:35:46.3402775-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Characters\QuestNPCs\sandy.xml</Source>
+      <Name>Characters\QuestNPCs\sandy</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Peter\Documents\GitHub\pet\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\x86\Debug\Content\Characters\QuestNPCs\sandy.xnb</Output>
+      <Time>2014-06-27T17:01:00.4296949-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Characters\QuestNPCs\lgate1.xml</Source>
+      <Name>Characters\QuestNPCs\lgate1</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Peter\Documents\GitHub\pet\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\x86\Debug\Content\Characters\QuestNPCs\lgate1.xnb</Output>
+      <Time>2014-06-27T18:00:36.4602321-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Characters\QuestNPCs\rgate1.xml</Source>
+      <Name>Characters\QuestNPCs\rgate1</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Peter\Documents\GitHub\pet\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\x86\Debug\Content\Characters\QuestNPCs\rgate1.xnb</Output>
+      <Time>2014-06-27T18:00:36.4672325-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Characters\QuestNPCs\rgate2.xml</Source>
+      <Name>Characters\QuestNPCs\rgate2</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Peter\Documents\GitHub\pet\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\x86\Debug\Content\Characters\QuestNPCs\rgate2.xnb</Output>
+      <Time>2014-06-29T15:59:41.3578587-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Characters\QuestNPCs\lgate2.xml</Source>
+      <Name>Characters\QuestNPCs\lgate2</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Peter\Documents\GitHub\pet\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\x86\Debug\Content\Characters\QuestNPCs\lgate2.xnb</Output>
+      <Time>2014-06-29T15:59:41.345858-04:00</Time>
     </Item>
     <Item>
       <Source>Fonts\ButtonNamesFont.bmp</Source>
@@ -9117,7 +9163,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Peter\Documents\GitHub\pet\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\x86\Debug\Content\Textures\Maps\NonCombat\frontyard64.xnb</Output>
-      <Time>2013-10-28T10:13:21.0489937-04:00</Time>
+      <Time>2014-06-29T21:31:49.0086551-04:00</Time>
     </Item>
     <Item>
       <Source>Textures\Maps\NonCombat\frontyard.png</Source>
@@ -9153,7 +9199,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Peter\Documents\GitHub\pet\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\x86\Debug\Content\Textures\Maps\NonCombat\indoors164.xnb</Output>
-      <Time>2014-02-09T23:57:08.8670673-05:00</Time>
+      <Time>2014-09-06T21:56:33.2056534-04:00</Time>
     </Item>
     <Item>
       <Source>Textures\Maps\NonCombat\test464.png</Source>
@@ -9255,16 +9301,6 @@
       <Time>2014-06-07T11:25:01.9507441-04:00</Time>
     </Item>
     <Item>
-      <Source>Audio\SEdream1.mp3</Source>
-      <Name>Audio\SEdream1</Name>
-      <Importer>Mp3Importer</Importer>
-      <Processor>SongProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Peter\Documents\GitHub\pet\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\x86\Debug\Content\Audio\SEdream1.xnb</Output>
-      <Extra>C:\Users\Peter\Documents\GitHub\pet\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\x86\Debug\Content\Audio\SEdream1.wma</Extra>
-      <Time>2014-06-11T12:54:12.1813175-04:00</Time>
-    </Item>
-    <Item>
       <Source>Textures\Maps\NonCombat\blue.png</Source>
       <Name>Textures\Maps\NonCombat\blue</Name>
       <Importer>TextureImporter</Importer>
@@ -9272,6 +9308,132 @@
       <Options>None</Options>
       <Output>C:\Users\Peter\Documents\GitHub\pet\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\x86\Debug\Content\Textures\Maps\NonCombat\blue.xnb</Output>
       <Time>2014-06-12T19:22:33.1832601-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Characters\sandy.png</Source>
+      <Name>Textures\Characters\sandy</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Peter\Documents\GitHub\pet\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\x86\Debug\Content\Textures\Characters\sandy.xnb</Output>
+      <Time>2014-06-28T18:50:16.6034839-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Characters\lgate.png</Source>
+      <Name>Textures\Characters\lgate</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Peter\Documents\GitHub\pet\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\x86\Debug\Content\Textures\Characters\lgate.xnb</Output>
+      <Time>2014-06-22T13:46:52.4184801-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Characters\rgate.png</Source>
+      <Name>Textures\Characters\rgate</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Peter\Documents\GitHub\pet\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\x86\Debug\Content\Textures\Characters\rgate.xnb</Output>
+      <Time>2014-06-22T13:47:11.2875594-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\door.wav</Source>
+      <Name>Audio\door</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Peter\Documents\GitHub\pet\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\x86\Debug\Content\Audio\door.xnb</Output>
+      <Time>2000-03-06T23:00:00-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\GateMove.wav</Source>
+      <Name>Audio\GateMove</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Peter\Documents\GitHub\pet\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\x86\Debug\Content\Audio\GateMove.xnb</Output>
+      <Time>2001-10-27T18:04:00-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\whisper.wav</Source>
+      <Name>Audio\whisper</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Peter\Documents\GitHub\pet\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\x86\Debug\Content\Audio\whisper.xnb</Output>
+      <Time>2002-01-31T12:29:00-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Maps\NonCombat\FadeScreen.png</Source>
+      <Name>Textures\Maps\NonCombat\FadeScreen</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Peter\Documents\GitHub\pet\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\x86\Debug\Content\Textures\Maps\NonCombat\FadeScreen.xnb</Output>
+      <Time>2012-09-02T15:47:52.8140624-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Maps\NonCombat\indoors1.png</Source>
+      <Name>Textures\Maps\NonCombat\indoors1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Peter\Documents\GitHub\pet\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\x86\Debug\Content\Textures\Maps\NonCombat\indoors1.xnb</Output>
+      <Time>2014-07-21T22:10:43.4944413-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Maps\upstairs.xml</Source>
+      <Name>Maps\upstairs</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Peter\Documents\GitHub\pet\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\x86\Debug\Content\Maps\upstairs.xnb</Output>
+      <Time>2014-07-28T01:13:46.2794998-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Maps\jenroom.xml</Source>
+      <Name>Maps\jenroom</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Peter\Documents\GitHub\pet\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\x86\Debug\Content\Maps\jenroom.xnb</Output>
+      <Time>2014-07-28T00:53:51.9821899-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Maps\mattroom.xml</Source>
+      <Name>Maps\mattroom</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Peter\Documents\GitHub\pet\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\x86\Debug\Content\Maps\mattroom.xnb</Output>
+      <Time>2014-07-28T01:16:39.0973844-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Maps\leannieroom.xml</Source>
+      <Name>Maps\leannieroom</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Peter\Documents\GitHub\pet\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\x86\Debug\Content\Maps\leannieroom.xnb</Output>
+      <Time>2014-07-28T01:25:03.6412427-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Maps\lukeroom.xml</Source>
+      <Name>Maps\lukeroom</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Peter\Documents\GitHub\pet\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\x86\Debug\Content\Maps\lukeroom.xnb</Output>
+      <Time>2014-07-28T01:15:27.2322739-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Maps\downstairs.xml</Source>
+      <Name>Maps\downstairs</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Peter\Documents\GitHub\pet\RolePlayingGame_4_0_Win_Xbox\RolePlayingGame\bin\x86\Debug\Content\Maps\downstairs.xnb</Output>
+      <Time>2014-10-20T01:14:36.8242929-04:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
@@ -9288,7 +9450,7 @@
     <Assemblies>
       <Assembly>
         <Key>C:\Users\Peter\Documents\GitHub\pet\RolePlayingGame_4_0_Win_Xbox\RolePlayingGameProcessors\bin\Xbox 360\Debug\RolePlayingGameProcessors.dll</Key>
-        <Value>2014-06-09T11:55:08.6900467-04:00</Value>
+        <Value>2014-06-29T21:55:03.2263998-04:00</Value>
       </Assembly>
       <Assembly>
         <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>

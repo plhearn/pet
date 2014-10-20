@@ -549,12 +549,12 @@ namespace RolePlayingGameData
             }
 
             /*
-            foreach (Trigger trigger in Session.triggers)
+            foreach (Trigger Trigger in Session.Triggers)
             {
-                if (trigger.mapName == Map.Name &&
-                    trigger.active)
+                if (Trigger.mapName == Map.Name &&
+                    Trigger.active)
                 {
-                    foreach (TileOverride over in trigger.overrides)
+                    foreach (TileOverride over in Trigger.overrides)
                     {
                         if (over.position.X == x &&
                             over.position.Y == y &&

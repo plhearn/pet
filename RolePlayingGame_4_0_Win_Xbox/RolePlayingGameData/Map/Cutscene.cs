@@ -79,8 +79,6 @@ namespace RolePlayingGameData
             return maxFrame;
         }
 
-
-
         public Cutscene(string name)
         {
             this.name = name;

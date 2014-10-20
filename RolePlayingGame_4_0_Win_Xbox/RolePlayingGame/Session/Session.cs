@@ -42,6 +42,7 @@ namespace RolePlaying
 
         public static bool holdButton = false;
         const int MAP_TRANSITION_FADE_TIME = 60;
+        const float MAP_TRANSITION_TRAVEL_DISTANCE = 15f;
 
         #region Party
 
@@ -62,12 +63,33 @@ namespace RolePlaying
         Vector2 playerProxyPosition;
         Vector2 playerProxyMovement;
         Vector2 playerProxyStartPosition;
+        Vector2 playerProxyAutoMove;
+
+        public List<QuestNpc> npcs;
+        public static List<Vector2> npcPositions;
+        public List<Vector2> npcOldPositions;
 
         bool fadeTransition = false;
         Vector2 transitionMovement;
         MapEntry<Portal> transitionPortal;
 
         List<MapOverlay> garbageOverlays;
+
+
+        public List<Cutscene> cutscenes = new List<Cutscene>();
+        public Cutscene currentCutscene;
+
+        public static Cutscene CurrentCutscene
+        {
+            get { return singleton.currentCutscene; }
+        }
+
+
+        public static List<TileOverrideTrigger> TileOverrideTriggers = new List<TileOverrideTrigger>();
+
+        public static List<CutsceneTrigger> CutsceneTriggers = new List<CutsceneTrigger>();
+
+
 
         #endregion
 
@@ -76,6 +98,7 @@ namespace RolePlaying
         public static List<Raindrop> raindrops = new List<Raindrop>();
 
         public static List<MapOverlay> mapOverlays = new List<MapOverlay>();
+
 
         #endregion
 
@@ -89,7 +112,9 @@ namespace RolePlaying
         /// <param name="originalPortal">The portal from the previous map.</param>
         public static void ChangeMap(string contentName, Portal originalPortal)
         {
-            TileEngine.autoPartyLeaderMovement = Vector2.Multiply(singleton.transitionMovement, 15f);
+
+
+            TileEngine.autoPartyLeaderMovement = Vector2.Multiply(singleton.transitionMovement, MAP_TRANSITION_TRAVEL_DISTANCE);
 
             // make sure the content name is valid
             string mapContentName = contentName;
@@ -133,8 +158,7 @@ namespace RolePlaying
                 map.FindPortal(originalPortal.DestinationMapPortalName));
 
 
-            loadTriggers();
-
+            SetNPCPositions();
 
             foreach (Cutscene cutscene in singleton.cutscenes)
             {
@@ -174,6 +198,15 @@ namespace RolePlaying
 
             MapOverlay fade = new FadeOverlay(duration, startOpacity, endOpacity, fadeTex, ScreenManager.GraphicsDevice.Viewport.Width, ScreenManager.GraphicsDevice.Viewport.Height);
             fade.name = "fade";
+            mapOverlays.Add(fade);
+        }
+
+        public static void loadColorFade(int duration, float startOpacity, float endOpacity, string color)
+        {
+            Texture2D fadeTex = singleton.screenManager.Game.Content.Load<Texture2D>(@"Textures\Maps\NonCombat\" + color);
+
+            MapOverlay fade = new FadeOverlay(duration, startOpacity, endOpacity, fadeTex, ScreenManager.GraphicsDevice.Viewport.Width, ScreenManager.GraphicsDevice.Viewport.Height);
+            fade.name = "colorfade";
             mapOverlays.Add(fade);
         }
 
@@ -278,6 +311,21 @@ namespace RolePlaying
             mapOverlays.Add(black);
         }
 
+        public static void loadDusk()
+        {
+            Texture2D duskTex = singleton.screenManager.Game.Content.Load<Texture2D>(@"Textures\GameScreens\FadeScreen");
+
+            float speed = 0.0f;
+
+            Vector2 drift = new Vector2(speed, 0);
+            float opacity = 0.6f;
+
+            MapOverlay dusk = new MapOverlay(drift, opacity, duskTex, ScreenManager.GraphicsDevice.Viewport.Width, ScreenManager.GraphicsDevice.Viewport.Height);
+            dusk.name = "darken";
+            mapOverlays.Add(dusk);
+        }
+
+
         public static void loadBlue()
         {
             Texture2D blueTex = singleton.screenManager.Game.Content.Load<Texture2D>(@"Textures\Maps\NonCombat\blue");
@@ -327,11 +375,17 @@ namespace RolePlaying
                 MediaPlayer.Stop();
         }
 
+        public static void loadSoundEffect(string name)
+        {
+            SoundEffect sound = singleton.screenManager.Game.Content.Load<SoundEffect>(@"Audio\" + name);
+
+            sound.Play();
+        }
 
 
         public static void removeOverlay(string str)
         {
-            string[] removeList = str.Split('.');
+            string[] removeList = str.Split('_');
 
             bool clear = false;
 
@@ -361,6 +415,47 @@ namespace RolePlaying
                 mapOverlays.Clear();
         }
 
+        public static void SetNPCPositions()
+        {
+            singleton.npcs = new List<QuestNpc>();
+            npcPositions = new List<Vector2>();
+            singleton.npcOldPositions = new List<Vector2>();
+
+            foreach (MapEntry<QuestNpc> questNpcEntry in TileEngine.Map.QuestNpcEntries)
+            {
+                if (questNpcEntry.Content == null)
+                {
+                    continue;
+                }
+
+                Vector2 position = new Vector2(questNpcEntry.Content.MapPosition.X * TileEngine.Map.TileSize.X, questNpcEntry.Content.MapPosition.Y * TileEngine.Map.TileSize.Y);
+
+                singleton.npcs.Add(questNpcEntry.Content);
+                npcPositions.Add(position);
+                singleton.npcOldPositions.Add(Vector2.Zero);
+            }
+        }
+
+
+
+        public static void moveToTile(string tileStr)
+        {
+            string[] tile = tileStr.Split('_');
+
+            Vector2 startPos = TileEngine.PartyLeaderPosition.ScreenPosition;
+            Vector2 endPos = TileEngine.GetScreenPosition(new Point(int.Parse(tile[0]), int.Parse(tile[1])));
+
+            singleton.playerProxyAutoMove = endPos - startPos;
+        }
+
+        public static void setCamera(string tileStr)
+        {
+            string[] tile = tileStr.Split(',');
+
+            TileEngine.PartyLeaderPosition.TilePosition = new Point(int.Parse(tile[0]), int.Parse(tile[1]));
+            TileEngine.PartyLeaderPosition.TileOffset = new Vector2(float.Parse(tile[2]), float.Parse(tile[3]));
+        }
+        
         /// <summary>
         /// Perform any actions associated withe the given tile.
         /// </summary>
@@ -368,6 +463,17 @@ namespace RolePlaying
         /// <returns>True if anything was encountered, false otherwise.</returns>
         public static bool EncounterTile(Point mapPosition)
         {
+            //check for cutscene
+            foreach(CutsceneTrigger trigger in CutsceneTriggers)
+                if(trigger.mapName == TileEngine.Map.Name && trigger.activated == false)
+                    foreach (Point p in trigger.tiles)
+                        if (p == mapPosition)
+                        {
+                            singleton.currentCutscene = trigger.cutscene;
+                            trigger.activated = true;
+                        }
+
+
             // look for fixed-combats from the quest
             if ((singleton.quest != null) &&
                 ((singleton.quest.Stage == Quest.QuestStage.InProgress) ||
@@ -583,7 +689,6 @@ namespace RolePlaying
             {
                 if (cutscene.name == questNpcEntry.Content.Name)
                     singleton.currentCutscene = cutscene;
-                
             }
         }
 
@@ -1439,21 +1544,6 @@ namespace RolePlaying
 
         #region Initialization
 
-        public List<Cutscene> cutscenes = new List<Cutscene>();
-        public Cutscene currentCutscene;
-
-        public static Cutscene CurrentCutscene
-        {
-            get { return singleton.currentCutscene; }
-        }
-
-
-        //Add name + frame number together as a string for the unique key between the two data sets
-        
-        //add custscene first pass then just update it
-        
-        public static List<Trigger> triggers = new List<Trigger>();
-
 
         /// <summary>
         /// Private constructor of a Session object.
@@ -1482,6 +1572,7 @@ namespace RolePlaying
             this.hud.LoadContent();
 
             loadCutscenes();
+            loadTileOverrideTriggers();
         }
 
         public void loadCutscenes()
@@ -1534,19 +1625,37 @@ namespace RolePlaying
 
                         if (cutoff)
                         {
-                            fields = line.Split(',');
+                            fields = line.Split(';');
 
                             int frame = int.Parse(fields[0]);
                             string actorName = fields[1];
                             string animationName = fields[2];
 
+                            bool addFrame = false;
+
                             for (int i = 0; i < frames.Count; i++)
+                            {
                                 if (frames[i] == frame && actorNames[i].Trim() == actorName.Trim())
                                     animationNames[i] = animationName;
+                                else
+                                {
+                                    addFrame = true;
+                                }
+                            }
+
+                            if(addFrame)
+                            {
+                                frames.Add(frame);
+                                actorNames.Add(actorName);
+                                animationNames.Add(animationName);
+                                xs.Add(0);
+                                ys.Add(0);
+                            }
+
                         }
                         else
                         {
-                            fields = line.Split(',');
+                            fields = line.Split(';');
 
                             int frame = int.Parse(fields[0]);
                             string actorName = fields[1];
@@ -1575,14 +1684,15 @@ namespace RolePlaying
                 cutscenes.Add(cutscene);
             }
 
+            loadCutsceneTriggers(cutscenes);
         }
 
 
-        public static void loadTriggers()
+        public static void loadTileOverrideTriggers()
         {
-            string TriggerPath = "Content/Maps/Triggers";
+            string TileOverrideTriggerPath = "Content/Maps/TileOverrideTriggers";
 
-            DirectoryInfo di = new DirectoryInfo(TriggerPath);
+            DirectoryInfo di = new DirectoryInfo(TileOverrideTriggerPath);
             FileInfo[] rgFiles = di.GetFiles("*.*");
 
             int width;
@@ -1591,22 +1701,28 @@ namespace RolePlaying
 
             foreach (FileInfo fi in rgFiles)
             {
-                Trigger trigger = new Trigger();
-                
-                trigger.mapName = fi.Name.Replace(".txt", "");
-                trigger.overrides = new List<TileOverride>();
-                trigger.switchCheck = new List<MapEntry<RolePlayingGameData.Switch>>();
+                TileOverrideTrigger tileOverrideTrigger = new TileOverrideTrigger();
+
+                tileOverrideTrigger.mapName = fi.Name.Replace(".txt", "");
+                tileOverrideTrigger.overrides = new List<TileOverride>();
+                tileOverrideTrigger.switchCheck = new List<MapEntry<RolePlayingGameData.Switch>>();
 
                 bool overrideMode = false;
 
                 lines = new List<string>();
                 string[] fields;
-                using (StreamReader reader = new StreamReader(TriggerPath + "/" + fi.Name))
+                using (StreamReader reader = new StreamReader(TileOverrideTriggerPath + "/" + fi.Name))
                 {
                     line = reader.ReadLine();
                     width = line.Length;
                     while (line != null)
                     {
+                        if (line.StartsWith("NAME:"))
+                        {
+                            tileOverrideTrigger.name = line.Replace("NAME:","");
+                            line = reader.ReadLine();
+                        }
+
                         if (line == "OVERRIDE")
                         {
                             overrideMode = true;
@@ -1628,26 +1744,87 @@ namespace RolePlaying
                             tileOverride.layer = layer;
                             tileOverride.newValue = newValue;
 
-                            trigger.overrides.Add(tileOverride);
+                            tileOverrideTrigger.overrides.Add(tileOverride);
                         }
                         else
                         {
+                            /*
                             foreach (MapEntry<RolePlayingGameData.Switch> Switch in TileEngine.Map.SwitchEntries)
                             {
                                 if (Switch.ContentName == line)
-                                    trigger.switchCheck.Add(Switch);
+                                    tileOverrideTrigger.switchCheck.Add(Switch);
                             }
+                             */
                         }
 
                         line = reader.ReadLine();
                     }
                 }
 
-                triggers.Add(trigger);
+                TileOverrideTriggers.Add(tileOverrideTrigger);
             }
 
         }
 
+
+        public static void loadCutsceneTriggers(List<Cutscene> cutscenes)
+        {
+            string CutsceneTriggerPath = "Content/Maps/CutsceneTriggers";
+
+            DirectoryInfo di = new DirectoryInfo(CutsceneTriggerPath);
+            FileInfo[] rgFiles = di.GetFiles("*.*");
+
+            int width;
+            List<string> lines;
+            string line;
+
+            foreach (FileInfo fi in rgFiles)
+            {
+                CutsceneTrigger cutsceneTrigger = new CutsceneTrigger();
+                cutsceneTrigger.tiles = new List<Point>();
+
+                foreach (Cutscene cutscene in cutscenes)
+                    if (cutscene.name == fi.Name.Replace(".txt", ""))
+                        cutsceneTrigger.cutscene = cutscene;
+
+                lines = new List<string>();
+                string[] fields;
+
+                using (StreamReader reader = new StreamReader(CutsceneTriggerPath + "/" + fi.Name))
+                {
+                    line = reader.ReadLine();
+                    width = line.Length;
+                    while (line != null)
+                    {
+                        if (line.StartsWith("MAP:"))
+                        {
+                            cutsceneTrigger.mapName = line.Replace("MAP:", "");
+                        }
+
+                        if (line.StartsWith("NPC:"))
+                        {
+                            cutsceneTrigger.npcName = line.Replace("NPC:", "");
+                        }
+
+                        if (line.StartsWith("TILES:"))
+                        {
+                            fields = line.Replace("TILES:", "").Split(';');
+
+                            foreach (string s in fields)
+                                if(s != "")
+                                    cutsceneTrigger.tiles.Add(new Point(int.Parse(s.Split(',')[0]), int.Parse(s.Split(',')[1])));
+                        }
+
+                        line = reader.ReadLine();
+                    }
+                }
+
+
+
+                CutsceneTriggers.Add(cutsceneTrigger);
+            }
+
+        }
         #endregion
 
 
@@ -1687,8 +1864,13 @@ namespace RolePlaying
 
         public void UpdateCutscene()
         {
+            if(TileEngine.Map.Name != "downstairs")
+                currentCutscene = null;
+
             if (currentCutscene == null)
                 return;
+
+            currentCutscene.currentFrame++;
 
             //pan camera
             Vector2 camPos = Vector2.Zero;
@@ -1699,48 +1881,27 @@ namespace RolePlaying
 
             if (oldCamPos != Vector2.Zero)
             {
+                if (camPos == Vector2.Zero)
+                    camPos = oldCamPos;
+
                 Vector2 movement = camPos - oldCamPos;
 
                 if (movement != Vector2.Zero)
-                    TileEngine.PartyLeaderPosition.Move(movement);
+                {
+                    //move camera
+                    TileEngine.PartyLeaderPosition.Move(movement, false);
+                }
+                    
             }
 
             oldCamPos = camPos;
 
-
-            /*
-            //adjust position to end frame
-            if (currentCutscene.currentFrame == 0)
-            {
-
-                Player player = party.Players[0];
-                Point p = new Point();
-                Vector2 endPlayerFrame = Vector2.Zero;
-
-                foreach (CutsceneFrame frame in currentCutscene.frames)
-                    if (player.Name == frame.actorName)
-                        endPlayerFrame = new Vector2(frame.x, frame.y);
-
-                Vector2 delta = endPlayerFrame - TileEngine.GetScreenPosition(TileEngine.Map.SpawnMapPosition);
-
-                p = new Point((int)(delta.X / TileEngine.Map.TileSize.X), (int)(delta.Y / TileEngine.Map.TileSize.Y));
-
-                TileEngine.PartyLeaderPosition.TilePosition = new Point(TileEngine.PartyLeaderPosition.TilePosition.X + p.X, TileEngine.PartyLeaderPosition.TilePosition.Y + p.Y);
-                TileEngine.PartyLeaderPosition.TileOffset = new Vector2(delta.X % TileEngine.Map.TileSize.X, delta.Y % TileEngine.Map.TileSize.Y);
-                
-
-            }
-            */
-
-
-
-            if (currentCutscene != null)
-            {
+                //update player
                 Player player = party.Players[0];
 
                 foreach (CutsceneFrame frame in currentCutscene.frames)
                 {
-                    if (frame.frame == currentCutscene.currentFrame && player.Name == frame.actorName)
+                    if (frame.frame == currentCutscene.currentFrame && player.Name == frame.actorName.Trim())
                     {
                         if (playerProxyStartPosition == Vector2.Zero)
                             playerProxyStartPosition = new Vector2(frame.x, frame.y);
@@ -1748,98 +1909,211 @@ namespace RolePlaying
                         if (playerProxyPosition == Vector2.Zero)
                             playerProxyPosition = new Vector2(frame.x, frame.y);
 
-                        Vector2 currentFramePosition = new Vector2(frame.x, frame.y);
+                        if (frame.x != 0 && frame.y != 0)
+                        {
+                            Vector2 currentFramePosition = new Vector2(frame.x, frame.y);
+                            playerProxyMovement += currentFramePosition - playerProxyPosition;
+                            playerProxyPosition = currentFramePosition;
+                        }
 
-                        playerProxyMovement += currentFramePosition - playerProxyPosition;
+                        if (frame.animationName != "")
+                        {
+                            player.MapSprite.PlayAnimationByName(getCutsceneAnimation(frame.animationName));
 
-                        playerProxyPosition = currentFramePosition;
-
-                        player.MapSprite.PlayAnimationByName(getCutsceneAnimation(frame.animationName));
+                            if (frame.animationName.EndsWith("U") || frame.animationName.EndsWith("Uw"))
+                                TileEngine.PartyLeaderPosition.Direction = Direction.North;
+                            if (frame.animationName.EndsWith("D") || frame.animationName.EndsWith("Dw"))
+                                TileEngine.PartyLeaderPosition.Direction = Direction.South;
+                            if (frame.animationName.EndsWith("L") || frame.animationName.EndsWith("Lw"))
+                                TileEngine.PartyLeaderPosition.Direction = Direction.West;
+                            if (frame.animationName.EndsWith("R") || frame.animationName.EndsWith("Rw"))
+                                TileEngine.PartyLeaderPosition.Direction = Direction.East;
+                        }
                     }
                 }
-            }
 
+                playerProxyMovement += cutsceneAutoStep();
+            
 
-
-
-            foreach (CutsceneFrame frame in currentCutscene.frames)
+            
+            // update NPCs
+            for (int i = 0; i < singleton.npcs.Count; i++ )
             {
-                if (frame.frame-1 == currentCutscene.currentFrame && frame.actorName.Contains("d:"))
-                    singleton.screenManager.AddScreen(new DialogueScreen("Dialogue Screen", frame.actorName.Replace("d:", "")));
-
-                if (frame.frame-1 == currentCutscene.currentFrame && frame.actorName.Contains("f:"))
-                {
-                    foreach(MapEntry<FixedCombat> fight in TileEngine.Map.FixedCombatEntries)
+                    foreach (CutsceneFrame frame in currentCutscene.frames)
                     {
-                        if (fight.Content.Name == frame.actorName.Replace("f:", ""))
-                            EncounterFixedCombat(fight);
-                    }
-                }
-
-                if (frame.frame - 1 == currentCutscene.currentFrame && frame.actorName.Contains("s:"))
-                {
-                    loadSong(frame.actorName.Replace("s:", ""));
-                }
-
-                if (frame.frame - 1 == currentCutscene.currentFrame && frame.actorName.Contains("r:"))
-                {
-                    removeOverlay(frame.actorName.Replace("r:", ""));
-                }
-
-                if (frame.frame - 1 == currentCutscene.currentFrame && frame.actorName.Contains("e:"))
-                {
-                    string[] list = frame.actorName.Replace("e:", "").Split('.');
-
-                    foreach (string item in list)
-                    {
-                        if (item == "rain")
+                        if (frame.frame == currentCutscene.currentFrame && npcs[i].Name == frame.actorName.Trim())
                         {
-                            loadRain();
-                        }
+                            Vector2 currentPosition = new Vector2(frame.x, frame.y);
 
-                        if (item == "darken")
-                        {
-                            loadDarken();
-                        }
+                            if(npcOldPositions[i] == Vector2.Zero)
+                                npcOldPositions[i] = currentPosition;
 
-                        if (item == "black")
-                        {
-                            loadBlack();
-                        }
+                            if (frame.x != 0 && frame.y != 0)
+                            {
+                                npcPositions[i] += currentPosition - npcOldPositions[i];
+                                npcOldPositions[i] = currentPosition;
+                            }
 
-                        if (item == "thunder")
-                        {
-                            loadLightening();
-                        }
-
-                        if (item == "fog")
-                        {
-                            loadFog();
-                        }
-
-                        if (item == "mist")
-                        {
-                            loadMist();
-                        }
-
-                        if (item == "blue")
-                        {
-                            loadBlue();
+                            if (frame.animationName != "")
+                                npcs[i].MapSprite.PlayAnimationByName(getCutsceneAnimation(frame.animationName));
+                                
                         }
                     }
-                }
+                
+
             }
 
-            currentCutscene.currentFrame++;
+                //actions/events
+                foreach (CutsceneFrame frame in currentCutscene.frames)
+                {
+                    if (frame.frame == currentCutscene.currentFrame && frame.actorName.Contains("d:"))
+                        singleton.screenManager.AddScreen(new DialogueScreen("Dialogue Screen", frame.actorName.Replace("d:", "")));
 
+                    if (frame.frame == currentCutscene.currentFrame && frame.actorName.Contains("f:"))
+                    {
+                        foreach (MapEntry<FixedCombat> fight in TileEngine.Map.FixedCombatEntries)
+                        {
+                            if (fight.Content.Name == frame.actorName.Replace("f:", ""))
+                                EncounterFixedCombat(fight);
+                        }
+                    }
+
+                    if (frame.frame == currentCutscene.currentFrame && frame.actorName.Contains("w:"))
+                    {
+                        if (frame.actorName.Replace("w:", "") == party.Players[0].Name)
+                            playerProxyStartPosition = new Vector2(frame.x, frame.y);
+
+                        for (int i = 0; i < npcs.Count; i++)
+                            if(frame.actorName.Replace("w:", "") == npcs[i].Name)
+                                npcPositions[i] =  new Vector2(frame.x, frame.y);
+                    }
+
+
+                    if (frame.frame == currentCutscene.currentFrame && frame.actorName.Contains("wmap:"))
+                    {
+                        for (int i = 0; i < npcs.Count; i++)
+                            if (frame.actorName.Replace("wmap:", "") == npcs[i].Name)
+                                npcPositions[i] = TileEngine.GetScreenPosition(npcs[i].MapPosition);
+                    }
+
+
+                    if (frame.frame == currentCutscene.currentFrame && frame.actorName.Contains("wxy:"))
+                    {
+                        for (int i = 0; i < npcs.Count; i++)
+                            if (frame.actorName.Replace("wxy:", "") == npcs[i].Name)
+                                npcPositions[i] = new Vector2(TileEngine.Map.QuestNpcEntries[i].MapPosition.X, TileEngine.Map.QuestNpcEntries[i].MapPosition.Y);
+                    }
+
+
+                    if (frame.frame == currentCutscene.currentFrame && frame.actorName.Contains("s:"))
+                    {
+                        loadSong(frame.actorName.Replace("s:", ""));
+                    }
+
+                    if (frame.frame == currentCutscene.currentFrame && frame.actorName.Contains("se:"))
+                    {
+                        loadSoundEffect(frame.actorName.Replace("se:", ""));
+                    }
+
+                    if (frame.frame == currentCutscene.currentFrame && frame.actorName.Contains("r:"))
+                    {
+                        removeOverlay(frame.actorName.Replace("r:", ""));
+                    }
+
+                    if (frame.frame == currentCutscene.currentFrame && frame.actorName.Contains("moveToTile:"))
+                    {
+                        moveToTile(frame.actorName.Replace("moveToTile:", ""));
+                    }
+
+                    if (frame.frame == currentCutscene.currentFrame && frame.actorName.Contains("goTo:"))
+                    {
+                        currentCutscene.currentFrame = int.Parse(frame.actorName.Replace("goTo:", ""));
+                    }
+
+                    if (frame.frame == currentCutscene.currentFrame && frame.actorName.Contains("setCam:"))
+                    {
+                        setCamera(frame.actorName.Replace("setCam:", ""));
+                    }
+
+                    if (frame.frame == currentCutscene.currentFrame && frame.actorName.Contains("tileOverride:"))
+                    {
+                        activateTileOverride(frame.actorName.Replace("tileOverride:", ""));
+                    }
+
+                    if (frame.frame == currentCutscene.currentFrame && frame.actorName.Contains("e:"))
+                    {
+                        string[] list = frame.actorName.Replace("e:", "").Split('_');
+                        
+                        foreach (string item in list)
+                        {
+                            if (item == "rain")
+                            {
+                                loadRain();
+                            }
+
+                            if (item == "darken")
+                            {
+                                loadDarken();
+                            }
+
+                            if (item == "dusk")
+                            {
+                                loadDusk();
+                            }
+
+                            if (item == "black")
+                            {
+                                loadBlack();
+                            }
+
+                            if (item == "thunder")
+                            {
+                                loadLightening();
+                            }
+
+                            if (item == "fog")
+                            {
+                                loadFog();
+                            }
+
+                            if (item == "mist")
+                            {
+                                loadMist();
+                            }
+
+                            if (item == "blue")
+                            {
+                                loadBlue();
+                            }
+
+                            if(item.StartsWith("cf:"))
+                            {
+                                string[] param = item.Replace("cf:", "").Split(',');
+                                loadColorFade(int.Parse(param[0]), float.Parse(param[1]), float.Parse(param[2]), param[3]);
+                            }
+                        }
+                    }
+                }
+
+            //end cutscene
             if (currentCutscene.currentFrame == currentCutscene.maxFrame)
             {
                 currentCutscene.currentFrame = 0;
                 currentCutscene = null;
 
+                
+                //update player position
+                Vector2 playerCustsceneDist = playerProxyStartPosition + playerProxyMovement - TileEngine.PartyLeaderPosition.ScreenPosition;
+                TileEngine.PartyLeaderPosition.Move(playerCustsceneDist, false);
+                
+                // update NPCs positions
+                for (int i = 0; i < singleton.npcs.Count; i++)
+                    npcOldPositions[i] = Vector2.Zero;
+
                 playerProxyMovement = Vector2.Zero;
                 playerProxyPosition = Vector2.Zero;
                 playerProxyStartPosition = Vector2.Zero;
+                playerProxyAutoMove = Vector2.Zero;
 
                 oldCamPos = Vector2.Zero;
             }
@@ -1868,19 +2142,81 @@ namespace RolePlaying
                     //remove completed fade in/out
                     if (overlay.name == "fade" && overlay.lifeTimer == MAP_TRANSITION_FADE_TIME)
                         singleton.garbageOverlays.Add(overlay);
+
+                    if (overlay.name == "colorfade")
+                        if (overlay.deactivated || overlay.opacity < 0.01f)
+                            singleton.garbageOverlays.Add(overlay);
                 }
 
                 foreach (MapOverlay overlay in singleton.garbageOverlays)
                 {
                     mapOverlays.Remove(overlay);
 
-                    if(overlay.opacity > 0.99f)
+                    if (overlay.opacity > 0.99f && overlay.name == "fade")
                         loadBlack();
                 }
 
 
             }
         }
+
+        public static Vector2 cutsceneAutoStep()
+        {
+            Vector2 autoStep = Vector2.Zero;
+
+            if (singleton.playerProxyAutoMove != Vector2.Zero)
+            {
+                if (Math.Abs(singleton.playerProxyAutoMove.X) > TileEngine.partyLeaderMovementSpeed)
+                {
+                    if (singleton.playerProxyAutoMove.X > 0)
+                    { 
+                        autoStep.X = TileEngine.partyLeaderMovementSpeed;
+                        singleton.playerProxyAutoMove.X -= TileEngine.partyLeaderMovementSpeed;
+                    }
+                    else
+                    {
+                        autoStep.X = -TileEngine.partyLeaderMovementSpeed;
+                        singleton.playerProxyAutoMove.X += TileEngine.partyLeaderMovementSpeed;
+                    }
+                }
+                else
+                {
+                    autoStep.X = singleton.playerProxyAutoMove.X;
+                    singleton.playerProxyAutoMove.X = 0;
+                }
+
+                if (Math.Abs(singleton.playerProxyAutoMove.Y) > TileEngine.partyLeaderMovementSpeed)
+                {
+                    if (singleton.playerProxyAutoMove.Y > 0)
+                    {
+                        autoStep.Y = TileEngine.partyLeaderMovementSpeed;
+                        singleton.playerProxyAutoMove.Y -= TileEngine.partyLeaderMovementSpeed;
+                    }
+                    else
+                    {
+                        autoStep.Y = -TileEngine.partyLeaderMovementSpeed;
+                        singleton.playerProxyAutoMove.Y += TileEngine.partyLeaderMovementSpeed;
+                    }
+                }
+                else
+                {
+                    autoStep.Y = singleton.playerProxyAutoMove.Y;
+                    singleton.playerProxyAutoMove.Y = 0;
+                }
+            }
+
+            //TileEngine.PartyLeaderPosition.Move(autoStep);
+            return autoStep;
+        }
+
+        public static void activateTileOverride(string overrideName)
+        {
+            foreach (TileOverrideTrigger over in TileOverrideTriggers)
+                if (TileEngine.Map.Name.StartsWith(over.mapName) && over.name == overrideName)
+                    over.active = true;
+        }
+
+        
 
         #endregion
 
@@ -1938,6 +2274,18 @@ namespace RolePlaying
             samst.Filter = TextureFilter.Point;
 
             spriteBatch.GraphicsDevice.SamplerStates[0] = samst;
+            */
+
+
+            /*
+            if (Session.holdButton)
+            {
+                Texture2D printTex = singleton.screenManager.Game.Content.Load<Texture2D>(@"Textures\Maps\NonCombat\indoors1");
+
+                TileEngine.PrintMap(spriteBatch, true, false, false, printTex);
+                TileEngine.PrintMap(spriteBatch, false, true, false, printTex);
+                TileEngine.PrintMap(spriteBatch, false, false, true, printTex);
+            }
             */
 
             if (TileEngine.Map.Texture != null)
@@ -1998,6 +2346,7 @@ namespace RolePlaying
                 }
             }
 
+            #region player NPCs
             // draw the player NPCs
             foreach (MapEntry<Player> playerEntry in TileEngine.Map.PlayerNpcEntries)
             {
@@ -2005,10 +2354,8 @@ namespace RolePlaying
                 {
                     continue;
                 }
-                Vector2 position = 
-                    TileEngine.GetScreenPosition(playerEntry.MapPosition);
 
-
+                Vector2 position = TileEngine.GetScreenPosition(playerEntry.MapPosition);
 
                 playerEntry.Content.ResetAnimation(false);
                 switch (playerEntry.Content.State)
@@ -2041,6 +2388,7 @@ namespace RolePlaying
                         break;
                 }
             }
+            #endregion
 
             // draw the quest NPCs
             foreach (MapEntry<QuestNpc> questNpcEntry in TileEngine.Map.QuestNpcEntries)
@@ -2052,29 +2400,23 @@ namespace RolePlaying
 
                 Vector2 position = Vector2.Zero;
 
-                position = TileEngine.GetScreenPosition(questNpcEntry.MapPosition);
-
-
+                //position = TileEngine.GetScreenPosition(questNpcEntry.MapPosition);
 
                 if (currentCutscene != null)
                 {
-                    foreach (CutsceneFrame frame in currentCutscene.frames)
-                    {
-                        if (frame.frame == currentCutscene.currentFrame && questNpcEntry.Content.Name == frame.actorName)
+                    for (int i = 0; i < npcs.Count; i++)
+                        if (npcs[i].Name == questNpcEntry.Content.Name)
                         {
-                            position = new Vector2(frame.x, frame.y);
-
-                            questNpcEntry.Content.MapSprite.PlayAnimationByName(getCutsceneAnimation(frame.animationName));
-
                             questNpcEntry.Content.MapSprite.UpdateAnimation(elapsedSeconds);
-                            questNpcEntry.Content.MapSprite.Draw(spriteBatch, position,
-                                1f - position.Y / (float)TileEngine.Viewport.Height);
-
+                            questNpcEntry.Content.MapSprite.Draw(spriteBatch, npcPositions[i] + TileEngine.mapOriginPosition, 1f - (TileEngine.mapOriginPosition.Y + npcPositions[i].Y) / (float)TileEngine.Viewport.Height);
                         }
-                    }
                 }
                 else
                 {
+                    for (int i = 0; i < npcs.Count; i++)
+                        if (npcs[i].Name == questNpcEntry.Content.Name)
+                            position = npcPositions[i] + TileEngine.mapOriginPosition;
+
                     questNpcEntry.Content.ResetAnimation(false);
                     switch (questNpcEntry.Content.State)
                     {
@@ -2277,6 +2619,9 @@ namespace RolePlaying
                 result = new Animation("IdleWest", 10, 10, 200, true);
             if (animationName.Substring(animationName.Length - 1, 1) == "R")
                 result = new Animation("IdleEast", 14, 14, 200, true);
+
+            if (animationName.Substring(animationName.Length - 1, 1) == "S")
+                result = new Animation("Still", 1, 1, 200, true);
 
             return result;
 

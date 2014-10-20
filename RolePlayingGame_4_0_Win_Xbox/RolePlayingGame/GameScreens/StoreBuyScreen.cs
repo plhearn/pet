@@ -240,7 +240,7 @@ namespace RolePlaying
 
 
         /// <summary>
-        /// Respond to the triggering of the Select action.
+        /// Respond to the Triggering of the Select action.
         /// </summary>
         protected override void SelectTriggered(Gear entry) 
         {
@@ -294,14 +294,14 @@ namespace RolePlaying
 
 
         /// <summary>
-        /// Reset the menu title and trigger button text for the current store category.
+        /// Reset the menu title and Trigger button text for the current store category.
         /// </summary>
         private void ResetMenu()
         {
             // update the title the title
             titleText = store.StoreCategories[currentCategoryIndex].Name;
 
-            // get the left trigger text
+            // get the left Trigger text
             int index = currentCategoryIndex - 1;
             if (index < 0)
             {
@@ -309,7 +309,7 @@ namespace RolePlaying
             }
             leftTriggerText = store.StoreCategories[index].Name;
 
-            // get the right trigger text
+            // get the right Trigger text
             index = currentCategoryIndex + 1;
             if (index >= store.StoreCategories.Count)
             {

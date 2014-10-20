@@ -33,6 +33,9 @@ namespace RolePlaying
         public List<OverlayPane> overlays;
 
         public int lifeTimer = 0;
+        public int duration;
+
+        public bool deactivated;
 
         public MapOverlay()
         {

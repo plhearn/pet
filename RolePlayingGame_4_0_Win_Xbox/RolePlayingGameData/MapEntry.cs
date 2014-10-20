@@ -53,7 +53,6 @@ namespace RolePlayingGameData
             set { direction = value; }
         }
 
-
         #endregion
 
 
@@ -144,6 +143,7 @@ namespace RolePlayingGameData
                 input.ReadRawObject<ContentEntry<T>>(desc as ContentEntry<T>);
                 desc.MapPosition = input.ReadObject<Point>();
                 desc.Direction = (Direction)input.ReadInt32();
+
 
                 return desc;
             }

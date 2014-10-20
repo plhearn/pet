@@ -153,7 +153,7 @@ namespace RolePlaying
 
 
         /// <summary>
-        /// Respond to the triggering of the Select action (and related key).
+        /// Respond to the Triggering of the Select action (and related key).
         /// </summary>
         protected override void SelectTriggered(Spell entry)
         {

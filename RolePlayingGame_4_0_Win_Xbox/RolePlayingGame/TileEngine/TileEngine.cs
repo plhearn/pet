@@ -12,6 +12,7 @@ using System;
 using System.Collections.Generic;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
+using System.IO;
 using RolePlayingGameData;
 #endregion
 
@@ -24,15 +25,30 @@ namespace RolePlaying
         public int newValue;
     }
 
-    public class Trigger
+    public class TileOverrideTrigger
     {
         public List<MapEntry<RolePlayingGameData.Switch>> switchCheck;
         public List<TileOverride> overrides;
+        public string name;
         public string mapName;
         public bool active;
         public bool alwaysActive;
 
-        public Trigger()
+        public TileOverrideTrigger()
+        {
+
+        }
+    }
+
+    public class CutsceneTrigger
+    {
+        public List<Point> tiles;
+        public string mapName;
+        public string npcName;
+        public bool activated;
+        public Cutscene cutscene;
+
+        public CutsceneTrigger()
         {
 
         }
@@ -155,7 +171,7 @@ namespace RolePlaying
         /// <summary>
         /// The center of the current viewport.
         /// </summary>
-        private static Vector2 viewportCenter;
+        public static Vector2 viewportCenter;
 
 
         #endregion
@@ -209,8 +225,7 @@ namespace RolePlaying
             Vector2 autoMovementDirection = Vector2.Normalize(autoPartyLeaderMovement);
 
             // calculate the potential movement vector
-            Vector2 movement = Vector2.Multiply(autoMovementDirection,
-                partyLeaderMovementSpeed);
+            Vector2 movement = Vector2.Multiply(autoMovementDirection, partyLeaderMovementSpeed);
 
             // limit the potential movement vector by the remaining auto-movement
             movement.X = Math.Sign(movement.X) * MathHelper.Min(Math.Abs(movement.X),
@@ -326,12 +341,12 @@ namespace RolePlaying
             */
 
 
-            foreach (Trigger trigger in Session.triggers)
+            foreach (TileOverrideTrigger TileOverrideTrigger in Session.TileOverrideTriggers)
             {
-                if (trigger.mapName == Map.Name &&
-                    trigger.active)
+                if (TileOverrideTrigger.mapName == Map.Name &&
+                    TileOverrideTrigger.active)
                 {
-                    foreach (TileOverride over in trigger.overrides)
+                    foreach (TileOverride over in TileOverrideTrigger.overrides)
                     {
                         if (over.position.X == partyLeaderPosition.TilePosition.X &&
                             over.position.Y == partyLeaderPosition.TilePosition.Y-1 &&
@@ -391,12 +406,12 @@ namespace RolePlaying
             */
 
 
-            foreach (Trigger trigger in Session.triggers)
+            foreach (TileOverrideTrigger TileOverrideTrigger in Session.TileOverrideTriggers)
             {
-                if (trigger.mapName == Map.Name &&
-                    trigger.active)
+                if (TileOverrideTrigger.mapName == Map.Name &&
+                    TileOverrideTrigger.active)
                 {
-                    foreach (TileOverride over in trigger.overrides)
+                    foreach (TileOverride over in TileOverrideTrigger.overrides)
                     {
                         if (over.position.X == partyLeaderPosition.TilePosition.X &&
                             over.position.Y == partyLeaderPosition.TilePosition.Y+1 &&
@@ -452,12 +467,12 @@ namespace RolePlaying
             }
             */
 
-            foreach (Trigger trigger in Session.triggers)
+            foreach (TileOverrideTrigger TileOverrideTrigger in Session.TileOverrideTriggers)
             {
-                if (trigger.mapName == Map.Name &&
-                    trigger.active)
+                if (TileOverrideTrigger.mapName == Map.Name &&
+                    TileOverrideTrigger.active)
                 {
-                    foreach (TileOverride over in trigger.overrides)
+                    foreach (TileOverride over in TileOverrideTrigger.overrides)
                     {
                         if (over.position.X == partyLeaderPosition.TilePosition.X-1 &&
                             over.position.Y == partyLeaderPosition.TilePosition.Y &&
@@ -512,12 +527,12 @@ namespace RolePlaying
             }
             */
 
-            foreach (Trigger trigger in Session.triggers)
+            foreach (TileOverrideTrigger TileOverrideTrigger in Session.TileOverrideTriggers)
             {
-                if (trigger.mapName == Map.Name &&
-                    trigger.active)
+                if (TileOverrideTrigger.mapName == Map.Name &&
+                    TileOverrideTrigger.active)
                 {
-                    foreach (TileOverride over in trigger.overrides)
+                    foreach (TileOverride over in TileOverrideTrigger.overrides)
                     {
                         if (over.position.X == partyLeaderPosition.TilePosition.X+1 &&
                             over.position.Y == partyLeaderPosition.TilePosition.Y &&
@@ -585,14 +600,14 @@ namespace RolePlaying
             //active or deactivate switches
             updateSwitches(playerPosition);
 
-            //check switch triggers
-            updateTriggers();
+            //check switch TileOverrideTriggers
+            updateTileOverrideTriggers();
 
             // move the party
             Point oldPartyLeaderTilePosition = partyLeaderPosition.TilePosition;
 
             //if(Session.holdButton == false)
-            partyLeaderPosition.Move(autoMovement + userMovement);
+            partyLeaderPosition.Move(autoMovement + userMovement, Session.CurrentCutscene == null);
 
             if(userMovement == Vector2.Zero)
                 Session.holdButton = false;
@@ -605,6 +620,8 @@ namespace RolePlaying
             {
                 Session.CheckForRandomCombat(Map.RandomCombat);
             }
+
+
 
             Vector2 oldmap = mapOriginPosition;
 
@@ -983,23 +1000,24 @@ namespace RolePlaying
             }
         }
 
-        private static void updateTriggers()
+        private static void updateTileOverrideTriggers()
         {
-            foreach (Trigger trigger in Session.triggers)
+            foreach (TileOverrideTrigger TileOverrideTrigger in Session.TileOverrideTriggers)
             {
+                /*
+                bool allActive = false;
 
-                bool allActive = true;
-
-                foreach (MapEntry<RolePlayingGameData.Switch> Switch in trigger.switchCheck)
+                foreach (MapEntry<RolePlayingGameData.Switch> Switch in TileOverrideTrigger.switchCheck)
                 {
                     if (!Switch.Content.Active)
                         allActive = false;
                 }
 
                 if (allActive)
-                    trigger.active = true;
-                else if (!trigger.alwaysActive)
-                    trigger.active = false;
+                    TileOverrideTrigger.active = true;
+                else if (!TileOverrideTrigger.alwaysActive)
+                    TileOverrideTrigger.active = false;
+                 */
             }
         }
 
@@ -1065,17 +1083,21 @@ namespace RolePlaying
 
                     bool overrideSkip = false;
 
-                    foreach (Trigger trigger in Session.triggers)
+                    foreach (TileOverrideTrigger TileOverrideTrigger in Session.TileOverrideTriggers)
                     {
-                        if (trigger.mapName == Map.Name && 
-                            trigger.active)
+                        if (TileOverrideTrigger.mapName == Map.Name && 
+                            TileOverrideTrigger.active)
                         {
-                            foreach (TileOverride over in trigger.overrides)
+                            foreach (TileOverride over in TileOverrideTrigger.overrides)
                             {
                                 if (over.position.X == x &&
                                     over.position.Y == y)
                                 {
-                                    overrideSkip = true;
+                                    if(over.layer == 3 && drawFringe)
+                                        overrideSkip = true;
+
+                                    if ((over.layer == 1 || over.layer == 2) && (drawFringe && drawBase))
+                                        overrideSkip = true;
                                 }
                             }
                         }
@@ -1093,12 +1115,12 @@ namespace RolePlaying
                             if (sourceRectangle != Rectangle.Empty || overrideSkip)
                             {
 
-                                foreach (Trigger trigger in Session.triggers)
+                                foreach (TileOverrideTrigger TileOverrideTrigger in Session.TileOverrideTriggers)
                                 {
-                                    if (trigger.mapName == Map.Name && 
-                                        trigger.active)
+                                    if (TileOverrideTrigger.mapName == Map.Name && 
+                                        TileOverrideTrigger.active)
                                     {
-                                        foreach (TileOverride over in trigger.overrides)
+                                        foreach (TileOverride over in TileOverrideTrigger.overrides)
                                         {
                                             if (over.position.X == x &&
                                                 over.position.Y == y &&
@@ -1127,12 +1149,12 @@ namespace RolePlaying
                                 map.GetFringeLayerSourceRectangleMinusOne(mapPosition);
                             if (sourceRectangle != Rectangle.Empty || overrideSkip)
                             {
-                                foreach (Trigger trigger in Session.triggers)
+                                foreach (TileOverrideTrigger TileOverrideTrigger in Session.TileOverrideTriggers)
                                 {
-                                    if (trigger.mapName == Map.Name &&
-                                        trigger.active)
+                                    if (TileOverrideTrigger.mapName == Map.Name &&
+                                        TileOverrideTrigger.active)
                                     {
-                                        foreach (TileOverride over in trigger.overrides)
+                                        foreach (TileOverride over in TileOverrideTrigger.overrides)
                                         {
                                             if (over.position.X == x &&
                                                 over.position.Y == y &&
@@ -1161,12 +1183,12 @@ namespace RolePlaying
                                 map.GetObjectLayerSourceRectangleMinusOne(mapPosition);
                             if (sourceRectangle != Rectangle.Empty || overrideSkip)
                             {
-                                foreach (Trigger trigger in Session.triggers)
+                                foreach (TileOverrideTrigger TileOverrideTrigger in Session.TileOverrideTriggers)
                                 {
-                                    if (trigger.mapName == Map.Name &&
-                                        trigger.active)
+                                    if (TileOverrideTrigger.mapName == Map.Name &&
+                                        TileOverrideTrigger.active)
                                     {
-                                        foreach (TileOverride over in trigger.overrides)
+                                        foreach (TileOverride over in TileOverrideTrigger.overrides)
                                         {
                                             if (over.position.X == x &&
                                                 over.position.Y == y &&
@@ -1194,6 +1216,134 @@ namespace RolePlaying
             } 
 
         }
+
+
+        public static void PrintMap(SpriteBatch spriteBatch, bool drawBase,
+            bool drawFringe, bool drawObject, Texture2D printTex)
+        {
+            Texture2D t2d = new Texture2D(spriteBatch.GraphicsDevice, map.Texture.Width, map.Texture.Height, false, spriteBatch.GraphicsDevice.PresentationParameters.BackBufferFormat);
+
+            
+            // check the parameters
+            if (spriteBatch == null)
+            {
+                throw new ArgumentNullException("spriteBatch");
+            }
+            if (!drawBase && !drawFringe && !drawObject)
+            {
+                return;
+            }
+
+            Rectangle destinationRectangle =
+                new Rectangle(0, 0, map.TileSize.X/2, map.TileSize.Y/2);
+
+            for (int y = 0; y < map.MapDimensions.Y; y++)
+            {
+                for (int x = 0; x < map.MapDimensions.X; x++)
+                {
+                    destinationRectangle.X = x * map.TileSize.X/2;
+                    destinationRectangle.Y = y * map.TileSize.Y/2;
+
+
+                    if (true)
+                    {
+                        Point mapPosition = new Point(x, y);
+                        if (drawBase)
+                        {
+                            int baseLayerValue = map.GetBaseLayerValue(mapPosition) - 1;
+
+                            Rectangle sourceRectangle =  new Rectangle(
+                                (baseLayerValue % map.TilesPerRow) * map.TileSize.X/2,
+                                (baseLayerValue / map.TilesPerRow) * map.TileSize.Y/2,
+                                 map.TileSize.X / 2, map.TileSize.Y / 2);
+
+
+                            if (sourceRectangle != Rectangle.Empty)
+                            {
+                                if ((x > 0 && x < 64) && (y > 0 && y < 64))
+                                {
+                                    byte[] tileData = new byte[sourceRectangle.Width * sourceRectangle.Height * 4];
+
+                                    printTex.GetData(0, sourceRectangle, tileData, 0, tileData.Length);
+
+                                    t2d.SetData<byte>(0, destinationRectangle, tileData, 0, tileData.Length);
+
+                                }
+                            }
+                        }
+
+                        if (drawFringe)
+                        {
+                            int fringeLayerValue = map.GetFringeLayerValue(mapPosition) - 1;
+
+                            Rectangle sourceRectangle = new Rectangle(
+                                (fringeLayerValue % map.TilesPerRow) * map.TileSize.X / 2,
+                                (fringeLayerValue / map.TilesPerRow) * map.TileSize.Y / 2,
+                                 map.TileSize.X / 2, map.TileSize.Y / 2);
+
+
+                            if (sourceRectangle != Rectangle.Empty && fringeLayerValue >= 0)
+                            {
+                                if ((x > 0 && x < 64) && (y > 0 && y < 64))
+                                {
+                                    byte[] tileData = new byte[sourceRectangle.Width * sourceRectangle.Height * 4];
+
+                                    printTex.GetData(0, sourceRectangle, tileData, 0, tileData.Length);
+
+                                    t2d.SetData<byte>(0, destinationRectangle, tileData, 0, tileData.Length);
+
+                                }
+                            }
+                        }
+
+                        if (drawObject)
+                        {
+                            int objectLayerValue = map.GetObjectLayerValue(mapPosition) - 1;
+
+                            Rectangle sourceRectangle = new Rectangle(
+                                (objectLayerValue % map.TilesPerRow) * map.TileSize.X / 2,
+                                (objectLayerValue / map.TilesPerRow) * map.TileSize.Y / 2,
+                                 map.TileSize.X / 2, map.TileSize.Y / 2);
+
+
+                            if (sourceRectangle != Rectangle.Empty && objectLayerValue >= 0)
+                            {
+                                if ((x > 0 && x < 64) && (y > 0 && y < 64))
+                                {
+                                    byte[] tileData = new byte[sourceRectangle.Width * sourceRectangle.Height * 4];
+
+                                    printTex.GetData(0, sourceRectangle, tileData, 0, tileData.Length);
+
+                                    t2d.SetData<byte>(0, destinationRectangle, tileData, 0, tileData.Length);
+
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+
+            int i = 0;
+            string name = "ScreenShot" + i.ToString() + ".png";
+            while (File.Exists(name))
+            {
+                i += 1;
+                name = "ScreenShot" + i.ToString() + ".png";
+
+            }
+
+            Stream st = new FileStream(name, FileMode.Create);
+
+            t2d.SaveAsPng(st, t2d.Width, t2d.Height);
+
+            st.Close();
+
+            t2d.Dispose();
+
+
+        }
+
 
 
         /// <summary>

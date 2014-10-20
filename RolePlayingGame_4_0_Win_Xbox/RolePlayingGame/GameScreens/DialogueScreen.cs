@@ -140,7 +140,7 @@ namespace RolePlaying
         /// <summary>
         /// The text shown next to the A button, if any.
         /// </summary>
-        private string selectText = "Continue";
+        private string selectText = "";
 
         /// <summary>
         /// The text shown next to the A button, if any.

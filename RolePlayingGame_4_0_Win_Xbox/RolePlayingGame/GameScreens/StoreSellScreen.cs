@@ -202,7 +202,7 @@ namespace RolePlaying
 
 
         /// <summary>
-        /// Respond to the triggering of the Select action.
+        /// Respond to the Triggering of the Select action.
         /// </summary>
         protected override void SelectTriggered(ContentEntry<Gear> entry) 
         {
@@ -250,7 +250,7 @@ namespace RolePlaying
 
 
         /// <summary>
-        /// Reset the trigger button text to the names of the 
+        /// Reset the Trigger button text to the names of the 
         /// previous and next UI screens.
         /// </summary>
         protected override void ResetTriggerText()

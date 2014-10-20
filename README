@@ -1,0 +1,11 @@
+cutscene events:
+
+d		dialogue
+f		fight
+w		warp to screen position
+wmap		warp to tile position
+s		song
+r		remove overlay
+e		add overlay
+moveToTile	walk to tile position
+goTo		move to certain frame

@@ -341,7 +341,7 @@ namespace RolePlaying
 
 
         /// <summary>
-        /// Respond to the triggering of the Back action.
+        /// Respond to the Triggering of the Back action.
         /// </summary>
         protected override void BackTriggered()
         {
@@ -369,7 +369,7 @@ namespace RolePlaying
 
 
         /// <summary>
-        /// Respond to the triggering of the Select action.
+        /// Respond to the Triggering of the Select action.
         /// </summary>
         protected override void SelectTriggered(ContentEntry<Gear> entry) 
         {
@@ -421,7 +421,7 @@ namespace RolePlaying
 
 
         /// <summary>
-        /// Respond to the triggering of the Y button (and related key).
+        /// Respond to the Triggering of the Y button (and related key).
         /// </summary>
         protected override void ButtonYPressed(ContentEntry<Gear> entry) 
         {

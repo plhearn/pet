@@ -85,9 +85,13 @@ namespace RolePlaying
         /// <summary>
         /// Move the player by the given amount.
         /// </summary>
-        public void Move(Vector2 movement)
+        public void Move(Vector2 movement, bool setDirection=true)
         {
             isMoving = (movement != Vector2.Zero);
+
+
+            if (!setDirection)
+                isMoving = false;
 
             CalculateMovement(movement, ref TilePosition, ref TileOffset);
 

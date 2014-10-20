@@ -5275,7 +5275,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Maps\Triggers\test2.txt">
+    <None Include="Maps\TileOverrideTriggers\test2.txt">
       <Name>test2</Name>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
@@ -5433,9 +5433,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Maps\indoors1.xml">
+    <Compile Include="Maps\downstairs.xml">
       <SubType>Designer</SubType>
-      <Name>indoors1</Name>
+      <Name>downstairs</Name>
       <Importer>XmlImporter</Importer>
       <Processor>PassThroughProcessor</Processor>
     </Compile>
@@ -5558,9 +5558,166 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Maps\Cutscenes\fadeout.txt">
+    <Compile Include="Characters\QuestNPCs\sandy.xml">
+      <Name>sandy</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Textures\Characters\sandy.png">
+      <Name>sandy</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Characters\QuestNPCs\lgate1.xml">
+      <Name>lgate1</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Characters\QuestNPCs\rgate1.xml">
+      <Name>rgate1</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Textures\Characters\lgate.png">
+      <Name>lgate</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Textures\Characters\rgate.png">
+      <Name>rgate</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Maps\CutsceneTriggers\frontyard_gate.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      <Name>fadeout</Name>
+      <Name>frontyard_gate</Name>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Maps\CutsceneTriggers\frontyard_porch.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>frontyard_porch</Name>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Characters\QuestNPCs\rgate2.xml">
+      <Name>rgate2</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Characters\QuestNPCs\lgate2.xml">
+      <Name>lgate2</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Maps\Cutscenes\frontyard_gate.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>frontyard_gate</Name>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Maps\Cutscenes\frontyard_porch.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>frontyard_porch</Name>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Maps\TileOverrideTriggers\frontyard.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>frontyard</Name>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Audio\door.wav">
+      <Name>door</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+    </Compile>
+    <Compile Include="Audio\GateMove.wav">
+      <Name>GateMove</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Audio\whisper.wav">
+      <Name>whisper</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Textures\Maps\NonCombat\FadeScreen.png">
+      <Name>FadeScreen</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Textures\Maps\NonCombat\indoors1.png">
+      <Name>indoors1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Maps\upstairs.xml">
+      <SubType>Designer</SubType>
+      <Name>upstairs</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Maps\jenroom.xml">
+      <SubType>Designer</SubType>
+      <Name>jenroom</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Maps\mattroom.xml">
+      <SubType>Designer</SubType>
+      <Name>mattroom</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Maps\leannieroom.xml">
+      <SubType>Designer</SubType>
+      <Name>leannieroom</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Maps\lukeroom.xml">
+      <SubType>Designer</SubType>
+      <Name>lukeroom</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Maps\Cutscenes\downstairs.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>downstairs</Name>
     </None>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\XNA Game Studio\$(XnaFrameworkVersion)\Microsoft.Xna.GameStudio.ContentPipeline.targets" />

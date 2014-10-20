@@ -24,7 +24,6 @@ namespace RolePlaying
          */
 
 
-        int duration;
         float startOpacity;
         float endOpacity;
 
@@ -79,6 +78,9 @@ namespace RolePlaying
                 lifeTimer++;
                 opacity += (endOpacity - startOpacity) * (1 / (float)duration);
             }
+
+            if (lifeTimer >= duration)
+                deactivated = true;
         }
 
 

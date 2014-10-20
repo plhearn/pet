@@ -147,7 +147,7 @@ namespace RolePlaying
 
 
         /// <summary>
-        /// Respond to the triggering of the Select action (and related key).
+        /// Respond to the Triggering of the Select action (and related key).
         /// </summary>
         protected override void SelectTriggered(ContentEntry<Gear> entry)
         {
@@ -171,7 +171,7 @@ namespace RolePlaying
 
 
         /// <summary>
-        /// Respond to the triggering of the X button (and related key).
+        /// Respond to the Triggering of the X button (and related key).
         /// </summary>
         protected override void ButtonXPressed(ContentEntry<Gear> entry)
         {
@@ -247,7 +247,7 @@ namespace RolePlaying
 
         
         /// <summary>
-        /// Reset the trigger button text to the names of the 
+        /// Reset the Trigger button text to the names of the 
         /// previous and next UI screens.
         /// </summary>
         protected virtual void ResetTriggerText()

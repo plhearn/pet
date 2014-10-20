@@ -304,7 +304,7 @@ namespace RolePlaying
             spriteBatch.Draw(plankTexture, plankPosition, Color.White);
 
 #if !XBOX
-            // Draw the trigger buttons
+            // Draw the Trigger buttons
             spriteBatch.Draw(leftTriggerButton, leftTriggerPosition, Color.White);
             spriteBatch.Draw(rightTriggerButton, rightTriggerPosition, Color.White);
 #endif
@@ -331,14 +331,14 @@ namespace RolePlaying
                 }
 
 #if !XBOX
-                // Near left trigger
+                // Near left Trigger
                 spriteBatch.DrawString(Fonts.PlayerStatisticsFont, "Keyboard",
                     new Vector2(leftTriggerPosition.X + (leftTriggerButton.Width -
                     Fonts.PlayerStatisticsFont.MeasureString("Keyboard").X) / 2,
                     rightTriggerPosition.Y + 85),
                     Color.Black);
 
-                // Near right trigger
+                // Near right Trigger
                 spriteBatch.DrawString(Fonts.PlayerStatisticsFont, "Keyboard",
                     new Vector2(rightTriggerPosition.X + (rightTriggerButton.Width -
                     Fonts.PlayerStatisticsFont.MeasureString("Keyboard").X) / 2,
@@ -427,13 +427,13 @@ namespace RolePlaying
                 spriteBatch.DrawString(Fonts.CaptionFont, "Key 2", key2Position,
                     Fonts.CaptionColor);
 
-                // Near left trigger
+                // Near left Trigger
                 spriteBatch.DrawString(Fonts.PlayerStatisticsFont, "Gamepad",
                     new Vector2(leftTriggerPosition.X + (leftTriggerButton.Width -
                     Fonts.PlayerStatisticsFont.MeasureString("Gamepad").X) / 2,
                     rightTriggerPosition.Y + 85), Color.Black);
 
-                // Near right trigger
+                // Near right Trigger
                 spriteBatch.DrawString(Fonts.PlayerStatisticsFont, "Gamepad",
                     new Vector2(rightTriggerPosition.X + (rightTriggerButton.Width -
                     Fonts.PlayerStatisticsFont.MeasureString("Gamepad").X) / 2,

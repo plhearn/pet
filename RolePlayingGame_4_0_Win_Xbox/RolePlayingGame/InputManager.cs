@@ -339,8 +339,8 @@ namespace RolePlaying
         }
 
 
-        /// <summary>
-        /// Check if the gamepad's left trigger is pressed.
+        /// <summary>Trigger
+        /// Check if the gamepad's left Trigger is pressed.
         /// </summary>
         public static bool IsGamePadLeftTriggerPressed()
         {
@@ -349,7 +349,7 @@ namespace RolePlaying
 
 
         /// <summary>
-        /// Check if the gamepad's right trigger is pressed.
+        /// Check if the gamepad's right Trigger is pressed.
         /// </summary>
         public static bool IsGamePadRightTriggerPressed()
         {
@@ -580,7 +580,7 @@ namespace RolePlaying
 
 
         /// <summary>
-        /// Check if the gamepad's left trigger was just pressed.
+        /// Check if the gamepad's left Trigger was just pressed.
         /// </summary>
         public static bool IsGamePadLeftTriggerTriggered()
         {
@@ -590,7 +590,7 @@ namespace RolePlaying
 
 
         /// <summary>
-        /// Check if the gamepad's right trigger was just pressed.
+        /// Check if the gamepad's right Trigger was just pressed.
         /// </summary>
         public static bool IsGamePadRightTriggerTriggered()
         {
@@ -898,7 +898,7 @@ namespace RolePlaying
 
 
         /// <summary>
-        /// Check if an action map has been triggered this frame.
+        /// Check if an action map has been Triggered this frame.
         /// </summary>
         private static bool IsActionMapTriggered(ActionMap actionMap)
         {

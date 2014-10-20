@@ -253,7 +253,7 @@ namespace RolePlaying
             selectionArrowTexture =
                 content.Load<Texture2D>(@"Textures\GameScreens\SelectionArrow");
 
-            // load the trigger images
+            // load the Trigger images
             leftTriggerTexture = 
                 content.Load<Texture2D>(@"Textures\Buttons\LeftTriggerButton");
             rightTriggerTexture = 
@@ -370,7 +370,7 @@ namespace RolePlaying
 
 
         /// <summary>
-        /// Respond to the triggering of the Back action.
+        /// Respond to the Triggering of the Back action.
         /// </summary>
         protected virtual void BackTriggered()
         {
@@ -379,19 +379,19 @@ namespace RolePlaying
 
 
         /// <summary>
-        /// Respond to the triggering of the Select action.
+        /// Respond to the Triggering of the Select action.
         /// </summary>
         protected virtual void SelectTriggered(T entry) { }
 
 
         /// <summary>
-        /// Respond to the triggering of the X button (and related key).
+        /// Respond to the Triggering of the X button (and related key).
         /// </summary>
         protected virtual void ButtonXPressed(T entry) { }
 
 
         /// <summary>
-        /// Respond to the triggering of the Y button (and related key).
+        /// Respond to the Triggering of the Y button (and related key).
         /// </summary>
         protected virtual void ButtonYPressed(T entry) { }
 
@@ -571,7 +571,7 @@ namespace RolePlaying
 
             SpriteBatch spriteBatch = ScreenManager.SpriteBatch;
 
-            // draw the left trigger texture and text
+            // draw the left Trigger texture and text
             if ((leftTriggerTexture != null) && !String.IsNullOrEmpty(leftTriggerText))
             {
                 Vector2 position = leftTriggerTexturePosition + new Vector2(
@@ -584,7 +584,7 @@ namespace RolePlaying
                     position, Color.Black);
             }
 
-            // draw the right trigger texture and text
+            // draw the right Trigger texture and text
             if ((rightTriggerTexture != null) && !String.IsNullOrEmpty(rightTriggerText))
             {
                 Vector2 position = rightTriggerTexturePosition + new Vector2(
@@ -597,7 +597,7 @@ namespace RolePlaying
                     position, Color.Black);
             }
 
-            // draw the left trigger texture and text
+            // draw the left Trigger texture and text
             if ((backButtonTexture != null) && !String.IsNullOrEmpty(backButtonText))
             {
                 spriteBatch.Draw(backButtonTexture, backButtonTexturePosition,
@@ -606,7 +606,7 @@ namespace RolePlaying
                     backButtonTextPosition, Color.White);
             }
 
-            // draw the left trigger texture and text
+            // draw the left Trigger texture and text
             if ((selectButtonTexture != null) && !String.IsNullOrEmpty(selectButtonText))
             {
                 spriteBatch.Draw(selectButtonTexture, selectButtonTexturePosition,
@@ -618,7 +618,7 @@ namespace RolePlaying
                     position, Color.White);
             }
 
-            // draw the left trigger texture and text
+            // draw the left Trigger texture and text
             if ((xButtonTexture != null) && !String.IsNullOrEmpty(xButtonText))
             {
                 spriteBatch.Draw(xButtonTexture, xButtonTexturePosition,
@@ -627,7 +627,7 @@ namespace RolePlaying
                     xButtonTextPosition, Color.White);
             }
 
-            // draw the left trigger texture and text
+            // draw the left Trigger texture and text
             if ((yButtonTexture != null) && !String.IsNullOrEmpty(yButtonText))
             {
                 spriteBatch.Draw(yButtonTexture, yButtonTexturePosition,
@@ -648,7 +648,7 @@ namespace RolePlaying
         {
             SpriteBatch spriteBatch = ScreenManager.SpriteBatch;
 
-            // draw the left trigger texture and text
+            // draw the left Trigger texture and text
             if ((plankTexture != null) && !String.IsNullOrEmpty(titleText))
             {
                 Vector2 titleTextSize = Fonts.HeaderFont.MeasureString(titleText);

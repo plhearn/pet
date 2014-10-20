@@ -182,12 +182,17 @@
     <QuestNpcEntries>
       <Item>
         <ContentName>matt</ContentName>
-        <MapPosition>-1 -1</MapPosition>
+        <MapPosition>512 704</MapPosition>
         <Direction>South</Direction>
       </Item>
       <Item>
         <ContentName>sara</ContentName>
-        <MapPosition>-1 -1</MapPosition>
+        <MapPosition>512 704</MapPosition>
+        <Direction>South</Direction>
+      </Item>
+      <Item>
+        <ContentName>sandy</ContentName>
+        <MapPosition>512 704</MapPosition>
         <Direction>South</Direction>
       </Item>
     </QuestNpcEntries>

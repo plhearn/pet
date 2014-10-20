@@ -189,6 +189,29 @@ namespace RolePlaying
             Fonts.DrawCenteredText(spriteBatch, Fonts.PlayerStatisticsFont, "X:" + TileEngine.mapOriginPosition.X + " Y:" + TileEngine.mapOriginPosition.Y + " " + Session.holdButton.ToString(), new Vector2(200,200), Color.White);
 
             /*
+            List<Vector2> pos = Session.npcPositions;
+
+            if(Session.fadebox != null)
+            { 
+                if (pos.Count > 3)
+                {
+                    foreach (Vector2 v in pos)
+                    {
+                        Fonts.DrawCenteredText(spriteBatch, Fonts.PlayerStatisticsFont, "X", v + TileEngine.mapOriginPosition, Color.White);
+
+                        spriteBatch.Draw(Session.fadebox, v + TileEngine.mapOriginPosition, Color.White);
+                    }
+
+                }
+
+                Fonts.DrawCenteredText(spriteBatch, Fonts.PlayerStatisticsFont, "X", TileEngine.PartyLeaderPosition.ScreenPosition, Color.White);
+
+                spriteBatch.Draw(Session.fadebox, TileEngine.PartyLeaderPosition.ScreenPosition, Color.White);
+            }
+            player.MapSprite.Draw(spriteBatch, position,
+                                   1f - (position.Y + player.MapSprite.SourceRectangle.Height) / (float)TileEngine.Viewport.Height);
+                          */
+            /*
             else
             {
                 DrawForNonCombat();

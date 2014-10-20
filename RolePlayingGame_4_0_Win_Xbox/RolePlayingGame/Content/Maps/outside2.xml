@@ -171,6 +171,18 @@
         <DestinationMapContentName>frontyard</DestinationMapContentName>
         <DestinationMapPortalName>P5</DestinationMapPortalName>
       </Item>
+      <Item>
+        <Name>P10</Name>
+        <LandingMapPosition>0 0</LandingMapPosition>
+        <DestinationMapContentName>frontyard</DestinationMapContentName>
+        <DestinationMapPortalName>P5</DestinationMapPortalName>
+      </Item>
+      <Item>
+        <Name>P11</Name>
+        <LandingMapPosition>0 0</LandingMapPosition>
+        <DestinationMapContentName>frontyard</DestinationMapContentName>
+        <DestinationMapPortalName>P5</DestinationMapPortalName>
+      </Item>
     </Portals>
     <PortalEntries>
       <Item>

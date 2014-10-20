@@ -131,7 +131,7 @@ namespace RolePlaying
 
 
         /// <summary>
-        /// Respond to the triggering of the X button (and related key).
+        /// Respond to the Triggering of the X button (and related key).
         /// </summary>
         protected override void ButtonXPressed(Equipment entry)
         {

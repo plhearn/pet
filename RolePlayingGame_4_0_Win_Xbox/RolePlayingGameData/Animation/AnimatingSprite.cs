@@ -297,6 +297,17 @@ namespace RolePlayingGameData
             PlayAnimation(name + direction.ToString());
         }
 
+        public void PlayOtherAnimation(string name)
+        {
+            // check the parameter
+            if (String.IsNullOrEmpty(name))
+            {
+                throw new ArgumentNullException("name");
+            }
+
+            PlayAnimation(name);
+        }
+
 
         /// <summary>
         /// Reset the animation back to its starting position.
