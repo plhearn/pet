@@ -189,6 +189,23 @@ namespace RolePlaying
             Fonts.DrawCenteredText(spriteBatch, Fonts.PlayerStatisticsFont, "X:" + TileEngine.mapOriginPosition.X + " Y:" + TileEngine.mapOriginPosition.Y + " " + Session.holdButton.ToString(), new Vector2(200,200), Color.White);
 
             /*
+            Vector2 playerPosition = new Vector2(
+                TileEngine.PartyLeaderPosition.TilePosition.X * TileEngine.Map.TileSize.X + TileEngine.PartyLeaderPosition.TileOffset.X
+               , TileEngine.PartyLeaderPosition.TilePosition.Y * TileEngine.Map.TileSize.Y + TileEngine.PartyLeaderPosition.TileOffset.Y
+               );
+
+            float deltaX = Session.npcPositions[0].X - playerPosition.X;
+            float deltaY = Session.npcPositions[0].Y - playerPosition.Y;
+
+            float degrees = (float)(Math.Atan2(deltaY, deltaX) * 180 / Math.PI);
+
+
+            Fonts.DrawCenteredText(spriteBatch, Fonts.PlayerStatisticsFont, "d:" + degrees.ToString(), new Vector2(200, 300), Color.White);
+            */
+
+
+
+            /*
             List<Vector2> pos = Session.npcPositions;
 
             if(Session.fadebox != null)

@@ -455,6 +455,35 @@ namespace RolePlaying
             TileEngine.PartyLeaderPosition.TilePosition = new Point(int.Parse(tile[0]), int.Parse(tile[1]));
             TileEngine.PartyLeaderPosition.TileOffset = new Vector2(float.Parse(tile[2]), float.Parse(tile[3]));
         }
+
+        public static Direction facePlayer(Vector2 npcPosition)
+        {
+            Vector2 playerPosition = new Vector2(
+                TileEngine.PartyLeaderPosition.TilePosition.X * TileEngine.Map.TileSize.X + TileEngine.PartyLeaderPosition.TileOffset.X
+               ,TileEngine.PartyLeaderPosition.TilePosition.Y * TileEngine.Map.TileSize.Y + TileEngine.PartyLeaderPosition.TileOffset.Y
+               );
+
+            float deltaX = npcPosition.X - playerPosition.X;
+            float deltaY = npcPosition.Y - playerPosition.Y;
+
+            float degrees = (float)(Math.Atan2(deltaY, deltaX) * 180 / Math.PI);
+
+            Direction dir = Direction.North;
+
+            if (degrees >= 45 && degrees < 135)
+                dir = Direction.North;
+
+            if (degrees <= -45 && degrees > -135)
+                dir = Direction.South;
+
+            if (degrees < 45 || degrees > -45)
+                dir = Direction.West;
+
+            if (degrees > 135 || degrees < -135)
+                dir = Direction.East;
+
+            return dir;
+        }
         
         /// <summary>
         /// Perform any actions associated withe the given tile.
@@ -1904,7 +1933,10 @@ namespace RolePlaying
                     if (frame.frame == currentCutscene.currentFrame && player.Name == frame.actorName.Trim())
                     {
                         if (playerProxyStartPosition == Vector2.Zero)
-                            playerProxyStartPosition = new Vector2(frame.x, frame.y);
+                        {
+                            //playerProxyStartPosition = new Vector2(frame.x, frame.y);
+                            playerProxyStartPosition = TileEngine.GetScreenPosition(TileEngine.PartyLeaderPosition.TilePosition);
+                        }
 
                         if (playerProxyPosition == Vector2.Zero)
                             playerProxyPosition = new Vector2(frame.x, frame.y);
@@ -2002,6 +2034,17 @@ namespace RolePlaying
                         for (int i = 0; i < npcs.Count; i++)
                             if (frame.actorName.Replace("wxy:", "") == npcs[i].Name)
                                 npcPositions[i] = new Vector2(TileEngine.Map.QuestNpcEntries[i].MapPosition.X, TileEngine.Map.QuestNpcEntries[i].MapPosition.Y);
+                    }
+
+
+                    if (frame.frame == currentCutscene.currentFrame && frame.actorName.Contains("fp:"))
+                    {
+                        for (int i = 0; i < npcs.Count; i++)
+                            if (frame.actorName.Replace("fp:", "") == npcs[i].Name)
+                            {
+                                npcs[i].Direction = facePlayer(npcPositions[i]);
+                                npcs[i].ResetAnimation(false);
+                            }
                     }
 
 

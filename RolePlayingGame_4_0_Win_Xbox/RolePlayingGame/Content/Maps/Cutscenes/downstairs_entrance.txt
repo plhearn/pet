@@ -1,0 +1,25 @@
+1;camera;298.05;653.85
+1;jen;510.8;484.7
+1;matt;401.95;341.55
+1;sara;643.35;350.6
+1;sandy;406.7;449.45
+4;fp:matt;0;0
+4;fp:sara;0;0
+4;fp:sandy;0;0
+11;d:Matt: Jen, where are you going?;0;0
+17;d:Jen: I'm going to go look around;0;0
+33;d:Matt: Is this dog going to get into trouble?;0;0
+36;d:Sandy:...;0;0
+40;d:Jen: Hes been pretty quiet since we got here.;0;0
+43;d:Sara: Yea.  I noticed that too.;0;0
+46;d:Sara: We'll keep him with us, Jen.  You go on if you want.;0;0
+50;d:Jen: Ok.;0;0
+-----------------------------------------------
+1; camera; camera
+1; jen; jenU
+1; matt; mattL
+30; matt; mattD
+1; sara; saraR
+1; sandy; sandyR
+30; sandy; sandyU
+1; ; Bitmap 15

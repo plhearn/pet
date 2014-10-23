@@ -1062,8 +1062,10 @@ Content\Maps\TileOverrideTriggers\test2.txt
 Content\Maps\Cutscenes\outside1.txt
 Content\Maps\Cutscenes\frontyard.txt
 Content\Maps\CutsceneTriggers\frontyard_gate.txt
-Content\Maps\CutsceneTriggers\frontyard_porch.txt
+Content\Maps\CutsceneTriggers\downstairs_entrance.txt
 Content\Maps\Cutscenes\frontyard_gate.txt
 Content\Maps\Cutscenes\frontyard_porch.txt
 Content\Maps\TileOverrideTriggers\frontyard.txt
 Content\Maps\Cutscenes\downstairs.txt
+Content\Maps\Cutscenes\downstairs_entrance.txt
+Content\Maps\CutsceneTriggers\frontyard_porch.txt

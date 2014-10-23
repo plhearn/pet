@@ -5604,9 +5604,9 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Maps\CutsceneTriggers\frontyard_porch.txt">
+    <None Include="Maps\CutsceneTriggers\downstairs_entrance.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      <Name>frontyard_porch</Name>
+      <Name>downstairs_entrance</Name>
     </None>
   </ItemGroup>
   <ItemGroup>
@@ -5718,6 +5718,18 @@
     <None Include="Maps\Cutscenes\downstairs.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <Name>downstairs</Name>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Maps\Cutscenes\downstairs_entrance.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>downstairs_entrance</Name>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Maps\CutsceneTriggers\frontyard_porch.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>frontyard_porch</Name>
     </None>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\XNA Game Studio\$(XnaFrameworkVersion)\Microsoft.Xna.GameStudio.ContentPipeline.targets" />
