@@ -1069,3 +1069,5 @@ Content\Maps\TileOverrideTriggers\frontyard.txt
 Content\Maps\Cutscenes\downstairs.txt
 Content\Maps\Cutscenes\downstairs_entrance.txt
 Content\Maps\CutsceneTriggers\frontyard_porch.txt
+Content\Maps\Cutscenes\downstairs_friendsVanish.txt
+Content\Maps\CutsceneTriggers\downstairs_friendsVanish.txt
