@@ -46,6 +46,7 @@ namespace RolePlaying
         public string mapName;
         public string npcName;
         public bool activated;
+        public bool repeat;
         public Cutscene cutscene;
 
         public CutsceneTrigger()

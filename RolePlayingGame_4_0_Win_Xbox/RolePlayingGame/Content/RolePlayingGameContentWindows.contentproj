@@ -5733,9 +5733,9 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Maps\Cutscenes\downstairs_friendsVanish.txt">
+    <None Include="Maps\Cutscenes\frontyard_backgate.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      <Name>downstairs_friendsVanish</Name>
+      <Name>frontyard_backgate</Name>
     </None>
   </ItemGroup>
   <ItemGroup>
@@ -5743,6 +5743,87 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <Name>downstairs_friendsVanish</Name>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Characters\QuestNPCs\lannie.xml">
+      <Name>lannie</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Characters\QuestNPCs\lukePJ.xml">
+      <Name>lukePJ</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Textures\Characters\lannie.png">
+      <Name>lannie</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Textures\Characters\lukePJ.png">
+      <Name>lukePJ</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Maps\CutsceneTriggers\downstairs.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>downstairs</Name>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Maps\Cutscenes\downstairs_friendsVanish.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>downstairs_friendsVanish</Name>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Maps\Cutscenes\downstairs_lannieTalk.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>downstairs_lannieTalk</Name>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Maps\CutsceneTriggers\downstairs_lannieTalk.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>downstairs_lannieTalk</Name>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Maps\CutsceneTriggers\downstairs_lukeAppear.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>downstairs_lukeAppear</Name>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Maps\Cutscenes\downstairs_lukeAppear.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>downstairs_lukeAppear</Name>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Maps\Cutscenes\downstairs_blockUpstairs.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>downstairs_blockUpstairs</Name>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Maps\CutsceneTriggers\downstairs_blockUpstairs.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>downstairs_blockUpstairs</Name>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Textures\Maps\NonCombat\red.png">
+      <Name>red</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\XNA Game Studio\$(XnaFrameworkVersion)\Microsoft.Xna.GameStudio.ContentPipeline.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

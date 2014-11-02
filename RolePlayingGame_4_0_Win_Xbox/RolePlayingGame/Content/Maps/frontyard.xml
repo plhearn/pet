@@ -542,6 +542,12 @@
         <DestinationMapPortalName>frontDoor</DestinationMapPortalName>
       </Item>
       <Item>
+        <Name>backDoor</Name>
+        <LandingMapPosition>0 0</LandingMapPosition>
+        <DestinationMapContentName>downstairs</DestinationMapContentName>
+        <DestinationMapPortalName>backDoor</DestinationMapPortalName>
+      </Item>
+      <Item>
         <Name>leannieroomToFrontyard</Name>
         <LandingMapPosition>0 0</LandingMapPosition>
         <DestinationMapContentName>leannieroom</DestinationMapContentName>
@@ -552,6 +558,10 @@
       <Item>
         <ContentName>frontDoor</ContentName>
         <MapPosition>46 73</MapPosition>
+      </Item>
+      <Item>
+        <ContentName>backDoor</ContentName>
+        <MapPosition>56 44</MapPosition>
       </Item>
       <Item>
         <ContentName>leannieroomToFrontyard</ContentName>

@@ -160,11 +160,16 @@ namespace RolePlaying
 
             SetNPCPositions();
 
-            foreach (Cutscene cutscene in singleton.cutscenes)
-            {
-                if (cutscene.name == TileEngine.Map.Name)
-                    singleton.currentCutscene = cutscene;
-            }
+
+            //check for cutscene
+            foreach (CutsceneTrigger trigger in CutsceneTriggers)
+                if (trigger.mapName == (TileEngine.Map.Name + "START") && trigger.activated == false)
+                        {
+                            singleton.currentCutscene = trigger.cutscene;
+                            
+                            if(!trigger.repeat)
+                                trigger.activated = true;
+                        }
 
 
             /*
@@ -428,7 +433,7 @@ namespace RolePlaying
                     continue;
                 }
 
-                Vector2 position = new Vector2(questNpcEntry.Content.MapPosition.X * TileEngine.Map.TileSize.X, questNpcEntry.Content.MapPosition.Y * TileEngine.Map.TileSize.Y);
+                Vector2 position = new Vector2(questNpcEntry.Content.MapPosition.X, questNpcEntry.Content.MapPosition.Y);
 
                 singleton.npcs.Add(questNpcEntry.Content);
                 npcPositions.Add(position);
@@ -499,7 +504,9 @@ namespace RolePlaying
                         if (p == mapPosition)
                         {
                             singleton.currentCutscene = trigger.cutscene;
-                            trigger.activated = true;
+
+                            if (!trigger.repeat)
+                                trigger.activated = true;
                         }
 
 
@@ -712,7 +719,7 @@ namespace RolePlaying
             }
 
             // add the quest-NPC screen
-            singleton.screenManager.AddScreen(new QuestNpcScreen(questNpcEntry));
+            //singleton.screenManager.AddScreen(new QuestNpcScreen(questNpcEntry));
 
             foreach (Cutscene cutscene in singleton.cutscenes)
             {
@@ -1844,6 +1851,17 @@ namespace RolePlaying
                                     cutsceneTrigger.tiles.Add(new Point(int.Parse(s.Split(',')[0]), int.Parse(s.Split(',')[1])));
                         }
 
+                        if (line.StartsWith("REPEAT"))
+                        {
+                            cutsceneTrigger.repeat = true;
+                        }
+
+                        if (line.StartsWith("DEACTIVATED"))
+                        {
+                            cutsceneTrigger.activated = true;
+                        }
+
+
                         line = reader.ReadLine();
                     }
                 }
@@ -1882,6 +1900,7 @@ namespace RolePlaying
                 if (singleton.fadeTransition)
                     Session.EncounterPortal(null);
 
+                singleton.checkDialogue();
                 singleton.UpdateQuest();
                 TileEngine.Update(gameTime);
 
@@ -1890,11 +1909,51 @@ namespace RolePlaying
             }
         }
 
+        public void checkDialogue()
+        {
+            Vector2 playerPosition = new Vector2(
+                TileEngine.PartyLeaderPosition.TilePosition.X * TileEngine.Map.TileSize.X + TileEngine.PartyLeaderPosition.TileOffset.X
+               , TileEngine.PartyLeaderPosition.TilePosition.Y * TileEngine.Map.TileSize.Y + TileEngine.PartyLeaderPosition.TileOffset.Y
+               );
 
+            float deltaX = 0;
+            float deltaY = 0;
+
+            for (int i = 0; i < singleton.npcs.Count; i++)
+            {
+                deltaX = npcPositions[i].X - playerPosition.X;
+                deltaY = npcPositions[i].Y - playerPosition.Y;
+
+                if (Math.Sqrt(deltaX * deltaX + deltaY * deltaY) < 64)
+                    if ((InputManager.IsActionPressed(InputManager.Action.Ok) || InputManager.IsKeyPressed(Microsoft.Xna.Framework.Input.Keys.Enter)))
+                    {
+                        //check for cutscene
+                        foreach(CutsceneTrigger ct in CutsceneTriggers)
+                            if (ct.npcName == npcs[i].Name &&
+                               ct.mapName == TileEngine.Map.Name && !ct.activated)
+                            {
+                                currentCutscene = ct.cutscene;
+                                
+                                if(!ct.repeat)
+                                    ct.activated = true;
+                            }
+
+                        //normal dialogue
+                        if(currentCutscene == null)
+                            singleton.screenManager.AddScreen(new DialogueScreen("Dialogue Screen", "DUDE"));
+                       
+                    }
+                   
+            }
+
+
+        }
         public void UpdateCutscene()
         {
+            
             if(TileEngine.Map.Name != "downstairs")
                 currentCutscene = null;
+            
 
             if (currentCutscene == null)
                 return;
@@ -1941,7 +2000,7 @@ namespace RolePlaying
                         if (playerProxyPosition == Vector2.Zero)
                             playerProxyPosition = new Vector2(frame.x, frame.y);
 
-                        if (frame.x != 0 && frame.y != 0)
+                        if (frame.x != 0 || frame.y != 0)
                         {
                             Vector2 currentFramePosition = new Vector2(frame.x, frame.y);
                             playerProxyMovement += currentFramePosition - playerProxyPosition;
@@ -1980,7 +2039,7 @@ namespace RolePlaying
                             if(npcOldPositions[i] == Vector2.Zero)
                                 npcOldPositions[i] = currentPosition;
 
-                            if (frame.x != 0 && frame.y != 0)
+                            if (frame.x != 0 || frame.y != 0)
                             {
                                 npcPositions[i] += currentPosition - npcOldPositions[i];
                                 npcOldPositions[i] = currentPosition;
@@ -2083,6 +2142,21 @@ namespace RolePlaying
                         activateTileOverride(frame.actorName.Replace("tileOverride:", ""));
                     }
 
+                    if (frame.frame == currentCutscene.currentFrame && frame.actorName.Contains("act:"))
+                    {
+                        foreach (CutsceneTrigger ct in CutsceneTriggers)
+                            if (ct.cutscene.name == frame.actorName.Replace("act:", ""))
+                                
+                                ct.activated = false;
+                    }
+
+                    if (frame.frame == currentCutscene.currentFrame && frame.actorName.Contains("deact:"))
+                    {
+                        foreach (CutsceneTrigger ct in CutsceneTriggers)
+                            if (ct.cutscene.name == frame.actorName.Replace("deact:", ""))
+                                ct.activated = true;
+                    }
+
                     if (frame.frame == currentCutscene.currentFrame && frame.actorName.Contains("e:"))
                     {
                         string[] list = frame.actorName.Replace("e:", "").Split('_');
@@ -2147,7 +2221,7 @@ namespace RolePlaying
                 
                 //update player position
                 Vector2 playerCustsceneDist = playerProxyStartPosition + playerProxyMovement - TileEngine.PartyLeaderPosition.ScreenPosition;
-                TileEngine.PartyLeaderPosition.Move(playerCustsceneDist, false);
+                //TileEngine.PartyLeaderPosition.Move(playerCustsceneDist, false);
                 
                 // update NPCs positions
                 for (int i = 0; i < singleton.npcs.Count; i++)

@@ -1046,6 +1046,11 @@ Content\Maps\mattroom.xnb
 Content\Maps\leannieroom.xnb
 Content\Maps\lukeroom.xnb
 Content\Maps\downstairs.xnb
+Content\Characters\QuestNPCs\lukePJ.xnb
+Content\Textures\Characters\lukePJ.xnb
+Content\Characters\QuestNPCs\lannie.xnb
+Content\Textures\Characters\lannie.xnb
+Content\Textures\Maps\NonCombat\red.xnb
 Content\Audio\rain.wma
 Content\Audio\SEdream1.wma
 Content\Audio\RPGAudio.xgs
@@ -1069,5 +1074,13 @@ Content\Maps\TileOverrideTriggers\frontyard.txt
 Content\Maps\Cutscenes\downstairs.txt
 Content\Maps\Cutscenes\downstairs_entrance.txt
 Content\Maps\CutsceneTriggers\frontyard_porch.txt
-Content\Maps\Cutscenes\downstairs_friendsVanish.txt
+Content\Maps\Cutscenes\frontyard_backgate.txt
 Content\Maps\CutsceneTriggers\downstairs_friendsVanish.txt
+Content\Maps\CutsceneTriggers\downstairs.txt
+Content\Maps\Cutscenes\downstairs_friendsVanish.txt
+Content\Maps\Cutscenes\downstairs_lannieTalk.txt
+Content\Maps\CutsceneTriggers\downstairs_lannieTalk.txt
+Content\Maps\CutsceneTriggers\downstairs_lukeAppear.txt
+Content\Maps\Cutscenes\downstairs_lukeAppear.txt
+Content\Maps\Cutscenes\downstairs_blockUpstairs.txt
+Content\Maps\CutsceneTriggers\downstairs_blockUpstairs.txt

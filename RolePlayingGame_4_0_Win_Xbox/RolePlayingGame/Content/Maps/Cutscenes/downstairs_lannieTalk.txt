@@ -1,0 +1,22 @@
+1;d:Jen: Um, hi.;0;0
+100;d:Jen: Do you live here?;0;0
+101;d:Lannie: This place is very old and worn, Jen.  Its not a fit place for snooping around.;0;0
+102;d:Jen: Sorry about that.;0;0
+103;d:Lannie: I'd have been with you presently if you had stayed put.;0;0
+104;d:Lannie: I wish to make one thing clear.  This house belongs to me and you are a stranger.;0;0
+105;d:Lannie: You may sleep in one of the spare suites upstairs.  Remain in your room the entire night.  Do you go running around after dark.;0;0
+106;d:Lannie: And leave tomorrow as early as you are able.  Is that clear?;0;0
+107;d:Jen: Wait a minute...  We just wanted to use your phone.  We weren't planning on staying overnight.;0;0
+108;d:Lannie: I'm afraid there are no telephone lines connected to this house.  I told you it was old.;0;0
+109;d:Jen: But still...  We didn't want to stay the night.;0;0
+110;d:Lannie: It was your friend's decision.  Feel free to leave if you don't agree with them.  They've already gone upstairs.;0;0
+111;d:Lannie: And listen.  Stay out of the south suite.  My son is sleeping there and hes very sick.  He mustn't be disturbed.  Do you understand?;0;0
+112;d:Jen: Ok.;0;0
+113;d:Lannie: And keep your animal under guard.;0;0
+114;d:Jen: You mean Sandy?;0;0
+115;d:Lannie: Yes.  He.. may not find it comfortable here.;0;0
+116;d:Jen: (Her voice is different.  This isn't the person from the gate.);0;0
+117;act:downstairs_lukeAppear;526.7;989.45
+118;deact:downstairs_blockUpstairs;526.7;989.45
+-----------------------------------------------
+1; ; Bitmap 15

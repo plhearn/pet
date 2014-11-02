@@ -1,0 +1,3 @@
+MAP:downstairs
+TILES:58,16;59,16;
+REPEAT

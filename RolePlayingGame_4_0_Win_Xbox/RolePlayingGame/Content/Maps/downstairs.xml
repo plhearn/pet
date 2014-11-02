@@ -426,6 +426,12 @@
         <DestinationMapPortalName>frontDoor</DestinationMapPortalName>
       </Item>
       <Item>
+        <Name>backDoor</Name>
+        <LandingMapPosition>0 0</LandingMapPosition>
+        <DestinationMapContentName>frontyard</DestinationMapContentName>
+        <DestinationMapPortalName>backDoor</DestinationMapPortalName>
+      </Item>
+      <Item>
         <Name>downstairsToUpstairs1</Name>
         <LandingMapPosition>0 0</LandingMapPosition>
         <DestinationMapContentName>upstairs</DestinationMapContentName>
@@ -442,6 +448,10 @@
       <Item>
         <ContentName>frontDoor</ContentName>
         <MapPosition>43 58</MapPosition>
+      </Item>
+      <Item>
+        <ContentName>backDoor</ContentName>
+        <MapPosition>34 9</MapPosition>
       </Item>
       <Item>
         <ContentName>downstairsToUpstairs1</ContentName>
@@ -481,6 +491,14 @@
       <Item>
         <ContentName>sandy</ContentName>
         <MapPosition>2746 3886</MapPosition>
+      </Item>
+      <Item>
+        <ContentName>lannie</ContentName>
+        <MapPosition>2646 750</MapPosition>
+      </Item>
+      <Item>
+        <ContentName>lukePJ</ContentName>
+        <MapPosition>3758 422</MapPosition>
       </Item>
     </QuestNpcEntries>
     <PlayerNpcEntries />
