@@ -1084,3 +1084,7 @@ Content\Maps\CutsceneTriggers\downstairs_lukeAppear.txt
 Content\Maps\Cutscenes\downstairs_lukeAppear.txt
 Content\Maps\Cutscenes\downstairs_blockUpstairs.txt
 Content\Maps\CutsceneTriggers\downstairs_blockUpstairs.txt
+Content\Maps\Cutscenes\upstairs_matt.txt
+Content\Maps\CutsceneTriggers\upstairs_matt.txt
+Content\Maps\Cutscenes\jenroom_sleep.txt
+Content\Maps\CutsceneTriggers\jenroom_sleep.txt

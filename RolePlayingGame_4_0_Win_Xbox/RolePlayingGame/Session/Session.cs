@@ -1950,10 +1950,10 @@ namespace RolePlaying
         }
         public void UpdateCutscene()
         {
-            
+            /*
             if(TileEngine.Map.Name != "downstairs")
                 currentCutscene = null;
-            
+            */
 
             if (currentCutscene == null)
                 return;
@@ -2142,10 +2142,10 @@ namespace RolePlaying
                         activateTileOverride(frame.actorName.Replace("tileOverride:", ""));
                     }
 
-                    if (frame.frame == currentCutscene.currentFrame && frame.actorName.Contains("act:"))
+                    if (frame.frame == currentCutscene.currentFrame && frame.actorName.Contains("react:"))
                     {
                         foreach (CutsceneTrigger ct in CutsceneTriggers)
-                            if (ct.cutscene.name == frame.actorName.Replace("act:", ""))
+                            if (ct.cutscene.name == frame.actorName.Replace("react:", ""))
                                 
                                 ct.activated = false;
                     }
@@ -2157,10 +2157,16 @@ namespace RolePlaying
                                 ct.activated = true;
                     }
 
+                    if (frame.frame == currentCutscene.currentFrame && frame.actorName.Contains("cm:"))
+                    {
+                        ChangeMap(frame.actorName.Replace("cm:", ""), null);
+                    }
+
+
                     if (frame.frame == currentCutscene.currentFrame && frame.actorName.Contains("e:"))
                     {
                         string[] list = frame.actorName.Replace("e:", "").Split('_');
-                        
+
                         foreach (string item in list)
                         {
                             if (item == "rain")
@@ -2203,7 +2209,7 @@ namespace RolePlaying
                                 loadBlue();
                             }
 
-                            if(item.StartsWith("cf:"))
+                            if (item.StartsWith("cf:"))
                             {
                                 string[] param = item.Replace("cf:", "").Split(',');
                                 loadColorFade(int.Parse(param[0]), float.Parse(param[1]), float.Parse(param[2]), param[3]);

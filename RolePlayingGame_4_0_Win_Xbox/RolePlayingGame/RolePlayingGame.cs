@@ -43,7 +43,7 @@ namespace RolePlaying
             graphics.PreferredBackBufferWidth = 1024;
             graphics.PreferredBackBufferHeight = 768;
 
-            graphics.IsFullScreen = true;
+            graphics.IsFullScreen = false;
 
             // configure the content manager
             Content.RootDirectory = "Content";
