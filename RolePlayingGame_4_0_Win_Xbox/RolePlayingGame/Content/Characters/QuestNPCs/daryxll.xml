@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <Asset Type="RolePlayingGameData.QuestNpc">
+      <Name>daryxll</Name>
+      <MapSprite>
+        <TextureName>Characters\daryxll</TextureName>
+        <FrameDimensions>100 128</FrameDimensions>
+        <FramesPerRow>8</FramesPerRow>
+        <SourceOffset>50 64</SourceOffset>
+        <Animations />
+      </MapSprite>
+      <MapIdleAnimationInterval>150</MapIdleAnimationInterval>
+      <IntroductionDialogue>Welcome to Apple Village!  Unfortunately, we're not in the best of shape right now because of these monstrosities.  But enjoy your stay anyway!  What choice is there, after all?</IntroductionDialogue>
+  </Asset>
+</XnaContent>

@@ -345,6 +345,21 @@ namespace RolePlaying
             mapOverlays.Add(blue);
         }
 
+        public static void loadRed()
+        {
+            Texture2D redTex = singleton.screenManager.Game.Content.Load<Texture2D>(@"Textures\Maps\NonCombat\red");
+
+            float speed = 0.0f;
+
+            Vector2 drift = new Vector2(speed, 0);
+            float opacity = 0.5f;
+
+            MapOverlay red = new MapOverlay(drift, opacity, redTex, ScreenManager.GraphicsDevice.Viewport.Width, ScreenManager.GraphicsDevice.Viewport.Height);
+            red.name = "red";
+            mapOverlays.Add(red);
+        }
+
+
 
         public static void loadLightening()
         {
@@ -1622,6 +1637,7 @@ namespace RolePlaying
             int width;
             List<string> lines;
             string line;
+            string name;
 
             List<int> frames = new List<int>();
             List<string> actorNames = new List<string>();
@@ -1631,7 +1647,15 @@ namespace RolePlaying
 
             foreach (FileInfo fi in rgFiles)
             {
-                Cutscene cutscene = new Cutscene(fi.Name.Replace(".txt", ""));
+                name = fi.Name.Replace(".txt", "");
+
+                Cutscene cutscene = new Cutscene(name);
+                
+                if(name.Contains("_ai"))
+                {
+                    cutscene.name = name.Replace("_ai", "");
+                    cutscene.allowInput = true;
+                }
 
                 bool cutoff = false;
                 lines = new List<string>();
@@ -2007,7 +2031,7 @@ namespace RolePlaying
                             playerProxyPosition = currentFramePosition;
                         }
 
-                        if (frame.animationName != "")
+                        if (frame.animationName != "" && !currentCutscene.allowInput)
                         {
                             player.MapSprite.PlayAnimationByName(getCutsceneAnimation(frame.animationName));
 
@@ -2032,9 +2056,13 @@ namespace RolePlaying
             {
                     foreach (CutsceneFrame frame in currentCutscene.frames)
                     {
+                        if (npcs[i].Name == "daryxll" && currentCutscene.currentFrame == 200 && frame.frame == 200)
+                            npcs[i].Name = npcs[i].Name;
+
                         if (frame.frame == currentCutscene.currentFrame && npcs[i].Name == frame.actorName.Trim())
                         {
                             Vector2 currentPosition = new Vector2(frame.x, frame.y);
+
 
                             if(npcOldPositions[i] == Vector2.Zero)
                                 npcOldPositions[i] = currentPosition;
@@ -2057,10 +2085,16 @@ namespace RolePlaying
                 //actions/events
                 foreach (CutsceneFrame frame in currentCutscene.frames)
                 {
-                    if (frame.frame == currentCutscene.currentFrame && frame.actorName.Contains("d:"))
+                    if (frame.frame == currentCutscene.currentFrame && frame.actorName.StartsWith("d:"))
                         singleton.screenManager.AddScreen(new DialogueScreen("Dialogue Screen", frame.actorName.Replace("d:", "")));
 
-                    if (frame.frame == currentCutscene.currentFrame && frame.actorName.Contains("f:"))
+                    if (frame.frame == currentCutscene.currentFrame && frame.actorName.StartsWith("ts:"))
+                    {
+                        string[] param = frame.actorName.Replace("ts:", "").Split('_');
+                        singleton.screenManager.AddScreen(new TextScreen(int.Parse(param[0]), param[1]));
+                    }
+
+                    if (frame.frame == currentCutscene.currentFrame && frame.actorName.StartsWith("f:"))
                     {
                         foreach (MapEntry<FixedCombat> fight in TileEngine.Map.FixedCombatEntries)
                         {
@@ -2069,7 +2103,7 @@ namespace RolePlaying
                         }
                     }
 
-                    if (frame.frame == currentCutscene.currentFrame && frame.actorName.Contains("w:"))
+                    if (frame.frame == currentCutscene.currentFrame && frame.actorName.StartsWith("w:"))
                     {
                         if (frame.actorName.Replace("w:", "") == party.Players[0].Name)
                             playerProxyStartPosition = new Vector2(frame.x, frame.y);
@@ -2080,7 +2114,7 @@ namespace RolePlaying
                     }
 
 
-                    if (frame.frame == currentCutscene.currentFrame && frame.actorName.Contains("wmap:"))
+                    if (frame.frame == currentCutscene.currentFrame && frame.actorName.StartsWith("wmap:"))
                     {
                         for (int i = 0; i < npcs.Count; i++)
                             if (frame.actorName.Replace("wmap:", "") == npcs[i].Name)
@@ -2088,15 +2122,24 @@ namespace RolePlaying
                     }
 
 
-                    if (frame.frame == currentCutscene.currentFrame && frame.actorName.Contains("wxy:"))
+                    if (frame.frame == currentCutscene.currentFrame && frame.actorName.StartsWith("wxy:"))
                     {
                         for (int i = 0; i < npcs.Count; i++)
                             if (frame.actorName.Replace("wxy:", "") == npcs[i].Name)
                                 npcPositions[i] = new Vector2(TileEngine.Map.QuestNpcEntries[i].MapPosition.X, TileEngine.Map.QuestNpcEntries[i].MapPosition.Y);
                     }
 
+                    if (frame.frame == currentCutscene.currentFrame && frame.actorName.StartsWith("c:"))
+                    {
+                        foreach(Cutscene c in cutscenes)
+                            if (c.name == frame.actorName.Replace("c:", ""))
+                            {
+                                currentCutscene.currentFrame = 0;
+                                currentCutscene = c;
+                            }
+                    }
 
-                    if (frame.frame == currentCutscene.currentFrame && frame.actorName.Contains("fp:"))
+                    if (frame.frame == currentCutscene.currentFrame && frame.actorName.StartsWith("fp:"))
                     {
                         for (int i = 0; i < npcs.Count; i++)
                             if (frame.actorName.Replace("fp:", "") == npcs[i].Name)
@@ -2107,63 +2150,63 @@ namespace RolePlaying
                     }
 
 
-                    if (frame.frame == currentCutscene.currentFrame && frame.actorName.Contains("s:"))
+                    if (frame.frame == currentCutscene.currentFrame && frame.actorName.StartsWith("s:"))
                     {
                         loadSong(frame.actorName.Replace("s:", ""));
                     }
 
-                    if (frame.frame == currentCutscene.currentFrame && frame.actorName.Contains("se:"))
+                    if (frame.frame == currentCutscene.currentFrame && frame.actorName.StartsWith("se:"))
                     {
                         loadSoundEffect(frame.actorName.Replace("se:", ""));
                     }
 
-                    if (frame.frame == currentCutscene.currentFrame && frame.actorName.Contains("r:"))
+                    if (frame.frame == currentCutscene.currentFrame && frame.actorName.StartsWith("r:"))
                     {
                         removeOverlay(frame.actorName.Replace("r:", ""));
                     }
 
-                    if (frame.frame == currentCutscene.currentFrame && frame.actorName.Contains("moveToTile:"))
+                    if (frame.frame == currentCutscene.currentFrame && frame.actorName.StartsWith("moveToTile:"))
                     {
                         moveToTile(frame.actorName.Replace("moveToTile:", ""));
                     }
 
-                    if (frame.frame == currentCutscene.currentFrame && frame.actorName.Contains("goTo:"))
+                    if (frame.frame == currentCutscene.currentFrame && frame.actorName.StartsWith("goTo:"))
                     {
                         currentCutscene.currentFrame = int.Parse(frame.actorName.Replace("goTo:", ""));
                     }
 
-                    if (frame.frame == currentCutscene.currentFrame && frame.actorName.Contains("setCam:"))
+                    if (frame.frame == currentCutscene.currentFrame && frame.actorName.StartsWith("setCam:"))
                     {
                         setCamera(frame.actorName.Replace("setCam:", ""));
                     }
 
-                    if (frame.frame == currentCutscene.currentFrame && frame.actorName.Contains("tileOverride:"))
+                    if (frame.frame == currentCutscene.currentFrame && frame.actorName.StartsWith("tileOverride:"))
                     {
                         activateTileOverride(frame.actorName.Replace("tileOverride:", ""));
                     }
 
-                    if (frame.frame == currentCutscene.currentFrame && frame.actorName.Contains("react:"))
+                    if (frame.frame == currentCutscene.currentFrame && frame.actorName.StartsWith("act:"))
                     {
                         foreach (CutsceneTrigger ct in CutsceneTriggers)
-                            if (ct.cutscene.name == frame.actorName.Replace("react:", ""))
+                            if (ct.cutscene.name == frame.actorName.Replace("act:", ""))
                                 
                                 ct.activated = false;
                     }
 
-                    if (frame.frame == currentCutscene.currentFrame && frame.actorName.Contains("deact:"))
+                    if (frame.frame == currentCutscene.currentFrame && frame.actorName.StartsWith("deact:"))
                     {
                         foreach (CutsceneTrigger ct in CutsceneTriggers)
                             if (ct.cutscene.name == frame.actorName.Replace("deact:", ""))
                                 ct.activated = true;
                     }
 
-                    if (frame.frame == currentCutscene.currentFrame && frame.actorName.Contains("cm:"))
+                    if (frame.frame == currentCutscene.currentFrame && frame.actorName.StartsWith("cm:"))
                     {
                         ChangeMap(frame.actorName.Replace("cm:", ""), null);
                     }
 
 
-                    if (frame.frame == currentCutscene.currentFrame && frame.actorName.Contains("e:"))
+                    if (frame.frame == currentCutscene.currentFrame && frame.actorName.StartsWith("e:"))
                     {
                         string[] list = frame.actorName.Replace("e:", "").Split('_');
 
@@ -2202,6 +2245,11 @@ namespace RolePlaying
                             if (item == "mist")
                             {
                                 loadMist();
+                            }
+
+                            if (item == "red")
+                            {
+                                loadRed();
                             }
 
                             if (item == "blue")
@@ -2432,7 +2480,7 @@ namespace RolePlaying
                 player.Direction = TileEngine.PartyLeaderPosition.Direction;
 
                 // apply cutscene position
-                if (currentCutscene != null)
+                if (currentCutscene != null && !currentCutscene.allowInput)
                 {
                     player.MapSprite.UpdateAnimation(elapsedSeconds);
                     player.MapSprite.Draw(spriteBatch, playerProxyStartPosition + playerProxyMovement, 1f - (playerProxyStartPosition.Y + playerProxyMovement.Y) / (float)TileEngine.Viewport.Height);   
@@ -2724,6 +2772,13 @@ namespace RolePlaying
         private Animation getCutsceneAnimation(string animationName)
         {
             Animation result = new Animation();
+
+            if (animationName.Contains("daryxll"))
+                result = result;
+
+            if (animationName == "daryxllScream")
+                result = new Animation("darxyllScream", 1, 8, 160, true);
+
 
             if (animationName.Substring(animationName.Length - 2, 2) == "Dw")
                 result = new Animation("WalkSouth", 1, 4, 160, true);

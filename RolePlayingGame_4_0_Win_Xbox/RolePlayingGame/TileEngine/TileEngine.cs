@@ -249,7 +249,7 @@ namespace RolePlaying
         {
             Vector2 desiredMovement = Vector2.Zero;
 
-            if (Session.CurrentCutscene == null)
+            if (Session.CurrentCutscene == null || Session.CurrentCutscene.allowInput)
             {
                 // accumulate the desired direction from user input
                 if (InputManager.IsActionPressed(InputManager.Action.MoveCharacterUp))
@@ -608,7 +608,7 @@ namespace RolePlaying
             Point oldPartyLeaderTilePosition = partyLeaderPosition.TilePosition;
 
             //if(Session.holdButton == false)
-            partyLeaderPosition.Move(autoMovement + userMovement, Session.CurrentCutscene == null);
+            partyLeaderPosition.Move(autoMovement + userMovement, (Session.CurrentCutscene == null || Session.CurrentCutscene.allowInput));
 
             if(userMovement == Vector2.Zero)
                 Session.holdButton = false;

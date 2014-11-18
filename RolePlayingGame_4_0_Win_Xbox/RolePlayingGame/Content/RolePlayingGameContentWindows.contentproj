@@ -5849,6 +5849,69 @@
       <Name>jenroom_sleep</Name>
     </None>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Maps\Cutscenes\frontyard_dreamHearMe.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>frontyard_dreamHearMe</Name>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Maps\CutsceneTriggers\frontyard_dreamHearMe.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>frontyard_dreamHearMe</Name>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Maps\CutsceneTriggers\frontyard_dreamBackGate.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>frontyard_dreamBackGate</Name>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Maps\CutsceneTriggers\frontyard_dreamFrontGate.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>frontyard_dreamFrontGate</Name>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Maps\Cutscenes\frontyard_dreamBackGate.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>frontyard_dreamBackGate</Name>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Maps\Cutscenes\frontyard_dreamFrontGate.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>frontyard_dreamFrontGate</Name>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Maps\Cutscenes\frontyard_dreamListen_ai.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>frontyard_dreamListen_ai</Name>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Maps\Cutscenes\frontyard_dreamJumpScare_ai.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>frontyard_dreamJumpScare_ai</Name>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Characters\QuestNPCs\daryxll.xml">
+      <SubType>Designer</SubType>
+      <Name>daryxll</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Textures\Characters\daryxll.png">
+      <Name>daryxll</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\XNA Game Studio\$(XnaFrameworkVersion)\Microsoft.Xna.GameStudio.ContentPipeline.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

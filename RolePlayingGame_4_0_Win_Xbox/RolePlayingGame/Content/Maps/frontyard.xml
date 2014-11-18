@@ -614,6 +614,10 @@
         <ContentName>rgate2</ContentName>
         <MapPosition>2992 6666</MapPosition>
       </Item>
+      <Item>
+        <ContentName>daryxll</ContentName>
+        <MapPosition>0 0</MapPosition>
+      </Item>
     </QuestNpcEntries>
     <PlayerNpcEntries />
     <InnEntries />

@@ -35,6 +35,7 @@ namespace RolePlayingGameData
         public List<CutsceneFrame> frames = new List<CutsceneFrame>();
         public int currentFrame = 0;
         public int maxFrame = 0;
+        public bool allowInput;
 
         /// <summary>
         /// The Cutscene in the Cutscene, along with quantities.
